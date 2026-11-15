@@ -1,0 +1,32 @@
+Kairos Studio
+Copyright 2026 ZNTOff
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+This repository also contains third-party material under its own licenses:
+
+- Fonts in assets/fonts/: SIL Open Font License 1.1 (Inter, Anton, Bebas Neue,
+  Archivo Black, Poppins, Bangers, Titan One, Bungee, Russo One, Press Start 2P,
+  Pacifico) and Apache License 2.0 (Luckiest Guy, Permanent Marker).
+  Details and sources: assets/fonts/LICENSES.md.
+
+- Sound effects in assets/sfx/: most are synthesized by scripts/make_sfx.py and
+  are part of this project. Three accents (record_scratch_cc0, rimshot_cc0,
+  airhorn_cc0) come from Freesound under CC0 1.0. Details: assets/sfx/THIRD_PARTY.md.
+
+Kairos Studio interface fonts in clipper/web/static/brand/fonts/: Inter, Instrument Serif and
+JetBrains Mono, SIL Open Font License 1.1. Full license texts are included beside the fonts.
+Brand assets follow the identity guide supplied by the project owner.
+
+Tools that are NOT included in this repository and are downloaded at setup time:
+
+- FFmpeg (https://ffmpeg.org). The desktop scripts download the GPL build by
+  BtbN (https://github.com/BtbN/FFmpeg-Builds); the Docker image installs the
+  Debian package. FFmpeg is licensed under the LGPL/GPL. If you redistribute a
+  desktop package that bundles ffmpeg.exe, you must comply with its license
+  (include its license text and offer its source).
+- yt-dlp (https://github.com/yt-dlp/yt-dlp), Unlicense.
+- whisper.cpp (https://github.com/ggml-org/whisper.cpp), MIT, and the Whisper
+  model weights (OpenAI, MIT).
+- faster-whisper (https://github.com/SYSTRAN/faster-whisper), MIT, installed
+  through pip in the Docker image.

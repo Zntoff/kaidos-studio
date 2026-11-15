@@ -1,0 +1,257 @@
+[
+  {
+    "id": "whoosh_01",
+    "file": "whoosh_01.wav",
+    "kind": "sfx",
+    "description": "Whoosh: quick air sweep, for the hook or a fast transition",
+    "duration": 0.6,
+    "gain": 0.55,
+    "license": "Synthesized with FFmpeg by this project's scripts/make_sfx.py; no third-party material."
+  },
+  {
+    "id": "swoosh_01",
+    "file": "swoosh_01.wav",
+    "kind": "sfx",
+    "description": "Swoosh: short bright sweep, for text sliding in",
+    "duration": 0.35,
+    "gain": 0.5,
+    "license": "Synthesized with FFmpeg by this project's scripts/make_sfx.py; no third-party material."
+  },
+  {
+    "id": "pop_01",
+    "file": "pop_01.wav",
+    "kind": "sfx",
+    "description": "Pop: short soft click, for a text note appearing",
+    "duration": 0.14,
+    "gain": 0.6,
+    "license": "Synthesized with FFmpeg by this project's scripts/make_sfx.py; no third-party material."
+  },
+  {
+    "id": "click_01",
+    "file": "click_01.wav",
+    "kind": "sfx",
+    "description": "Click: tiny tick, for small UI-like accents",
+    "duration": 0.06,
+    "gain": 0.6,
+    "license": "Synthesized with FFmpeg by this project's scripts/make_sfx.py; no third-party material."
+  },
+  {
+    "id": "tick_01",
+    "file": "tick_01.wav",
+    "kind": "sfx",
+    "description": "Tick: clock tick, for countdowns",
+    "duration": 0.05,
+    "gain": 0.6,
+    "license": "Synthesized with FFmpeg by this project's scripts/make_sfx.py; no third-party material."
+  },
+  {
+    "id": "ding_01",
+    "file": "ding_01.wav",
+    "kind": "sfx",
+    "description": "Ding: bright bell, for a fact, a win or a correct call",
+    "duration": 0.9,
+    "gain": 0.45,
+    "license": "Synthesized with FFmpeg by this project's scripts/make_sfx.py; no third-party material."
+  },
+  {
+    "id": "notify_01",
+    "file": "notify_01.wav",
+    "kind": "sfx",
+    "description": "Notify: two-tone chime, for a tip or a reveal",
+    "duration": 0.7,
+    "gain": 0.45,
+    "license": "Synthesized with FFmpeg by this project's scripts/make_sfx.py; no third-party material."
+  },
+  {
+    "id": "coin_01",
+    "file": "coin_01.wav",
+    "kind": "sfx",
+    "description": "Coin: retro pickup, for points, loot or money",
+    "duration": 0.6,
+    "gain": 0.4,
+    "license": "Synthesized with FFmpeg by this project's scripts/make_sfx.py; no third-party material."
+  },
+  {
+    "id": "levelup_01",
+    "file": "levelup_01.wav",
+    "kind": "sfx",
+    "description": "Level up: rising arpeggio, for a win or an upgrade",
+    "duration": 0.9,
+    "gain": 0.4,
+    "license": "Synthesized with FFmpeg by this project's scripts/make_sfx.py; no third-party material."
+  },
+  {
+    "id": "error_01",
+    "file": "error_01.wav",
+    "kind": "sfx",
+    "description": "Error: double buzz, for a fail or a wrong call",
+    "duration": 0.42,
+    "gain": 0.4,
+    "license": "Synthesized with FFmpeg by this project's scripts/make_sfx.py; no third-party material."
+  },
+  {
+    "id": "boing_01",
+    "file": "boing_01.wav",
+    "kind": "sfx",
+    "description": "Boing: springy bounce, for a funny moment",
+    "duration": 0.7,
+    "gain": 0.5,
+    "license": "Synthesized with FFmpeg by this project's scripts/make_sfx.py; no third-party material."
+  },
+  {
+    "id": "laser_01",
+    "file": "laser_01.wav",
+    "kind": "sfx",
+    "description": "Laser: falling zap, for a shot or a quick cut",
+    "duration": 0.35,
+    "gain": 0.4,
+    "license": "Synthesized with FFmpeg by this project's scripts/make_sfx.py; no third-party material."
+  },
+  {
+    "id": "glitch_01",
+    "file": "glitch_01.wav",
+    "kind": "sfx",
+    "description": "Glitch: digital stutter, to go with the glitch effect",
+    "duration": 0.45,
+    "gain": 0.45,
+    "license": "Synthesized with FFmpeg by this project's scripts/make_sfx.py; no third-party material."
+  },
+  {
+    "id": "shutter_01",
+    "file": "shutter_01.wav",
+    "kind": "sfx",
+    "description": "Shutter: camera click, to go with a flash",
+    "duration": 0.2,
+    "gain": 0.55,
+    "license": "Synthesized with FFmpeg by this project's scripts/make_sfx.py; no third-party material."
+  },
+  {
+    "id": "impact_01",
+    "file": "impact_01.wav",
+    "kind": "sfx",
+    "description": "Impact: low thud, for a crash, a hit or a punch-in zoom",
+    "duration": 0.8,
+    "gain": 0.7,
+    "license": "Synthesized with FFmpeg by this project's scripts/make_sfx.py; no third-party material."
+  },
+  {
+    "id": "bassdrop_01",
+    "file": "bassdrop_01.wav",
+    "kind": "sfx",
+    "description": "Bass drop: deep falling boom, for the payoff",
+    "duration": 1.4,
+    "gain": 0.7,
+    "license": "Synthesized with FFmpeg by this project's scripts/make_sfx.py; no third-party material."
+  },
+  {
+    "id": "heartbeat_01",
+    "file": "heartbeat_01.wav",
+    "kind": "sfx",
+    "description": "Heartbeat: two low thumps, for tension",
+    "duration": 0.8,
+    "gain": 0.7,
+    "license": "Synthesized with FFmpeg by this project's scripts/make_sfx.py; no third-party material."
+  },
+  {
+    "id": "riser_01",
+    "file": "riser_01.wav",
+    "kind": "sfx",
+    "description": "Riser: rising tone, to build tension before the key moment",
+    "duration": 1.2,
+    "gain": 0.4,
+    "license": "Synthesized with FFmpeg by this project's scripts/make_sfx.py; no third-party material."
+  },
+  {
+    "id": "suspense_01",
+    "file": "suspense_01.wav",
+    "kind": "sfx",
+    "description": "Suspense: dark drone, under a tense stretch",
+    "duration": 3.0,
+    "gain": 0.5,
+    "license": "Synthesized with FFmpeg by this project's scripts/make_sfx.py; no third-party material."
+  },
+  {
+    "id": "music_chill_01",
+    "file": "music_chill_01.wav",
+    "kind": "music",
+    "description": "Chill: slow lo-fi bed with a soft kick (80 BPM)",
+    "duration": 12.0,
+    "gain": 0.24,
+    "license": "Synthesized with FFmpeg by this project's scripts/make_sfx.py; no third-party material."
+  },
+  {
+    "id": "music_energy_01",
+    "file": "music_energy_01.wav",
+    "kind": "music",
+    "description": "Energy: driving electronic bed (128 BPM)",
+    "duration": 7.5,
+    "gain": 0.2,
+    "license": "Synthesized with FFmpeg by this project's scripts/make_sfx.py; no third-party material."
+  },
+  {
+    "id": "music_ambient_01",
+    "file": "music_ambient_01.wav",
+    "kind": "music",
+    "description": "Ambient: calm pad without drums",
+    "duration": 16.0,
+    "gain": 0.3,
+    "license": "Synthesized with FFmpeg by this project's scripts/make_sfx.py; no third-party material."
+  },
+  {
+    "id": "record_scratch_cc0",
+    "file": "record_scratch_cc0.wav",
+    "kind": "sfx",
+    "description": "Record scratch clásico: giro inesperado o interrupción cómica; no usar sobre cada frase.",
+    "duration": 1.421,
+    "gain": 0.45,
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "author": "musicvision31",
+    "source_url": "https://freesound.org/people/musicvision31/sounds/431774/",
+    "download_url": "https://cdn.freesound.org/previews/431/431774_817038-hq.mp3",
+    "source_format": "Public HQ MP3 preview",
+    "license_checked_on": "2026-11-15",
+    "changes": "Leading silence removed; shortened with a fade; peak limited; converted to 48 kHz stereo PCM WAV.",
+    "source_page_sha256": "f680ffb7d9112f11bbdd0ef912e298dd60b2a14ff72c49bc5d1c8a08766ea8d1",
+    "download_sha256": "2323c588fdb0d22a483bb9622ba36bac5587cbcfa4dd5cf9e0832a3ad5a1bd8a",
+    "file_sha256": "0d8f9532fcf0f52cc8e97c17079880037cd12bb68f4d90d2533c4e02d7895b97"
+  },
+  {
+    "id": "rimshot_cc0",
+    "file": "rimshot_cc0.wav",
+    "kind": "sfx",
+    "description": "Ba-dum-tss / rimshot: remate de un chiste real. Primer acento del conjunto de percusión.",
+    "duration": 3.2,
+    "gain": 0.4,
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "author": "OverlookHotelRecords",
+    "source_url": "https://freesound.org/people/OverlookHotelRecords/sounds/271208/",
+    "download_url": "https://cdn.freesound.org/previews/271/271208_4709749-hq.mp3",
+    "source_format": "Public HQ MP3 preview",
+    "license_checked_on": "2026-11-15",
+    "changes": "Leading silence removed; shortened with a fade; peak limited; converted to 48 kHz stereo PCM WAV.",
+    "source_page_sha256": "af6720441090bb9681b68ee023bcb65b5f3ec12ec0d97632d8c3fc24708077c8",
+    "download_sha256": "a4ac6942a2e3a166685bb020a55eb222b9ee810ba1ba83190cb1f6249a334f87",
+    "file_sha256": "f7690d349538dd81c83865dd79c6ddc001eeb73a2d1b6e3bf44613c9c77f9e5a"
+  },
+  {
+    "id": "airhorn_cc0",
+    "file": "airhorn_cc0.wav",
+    "kind": "sfx",
+    "description": "Air horn: celebración o logro exagerado; usar brevemente y a volumen bajo.",
+    "duration": 1.5,
+    "gain": 0.22,
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "author": "guitarguy1985",
+    "source_url": "https://freesound.org/people/guitarguy1985/sounds/64476/",
+    "download_url": "https://cdn.freesound.org/previews/64/64476_533680-hq.mp3",
+    "source_format": "Public HQ MP3 preview",
+    "license_checked_on": "2026-11-15",
+    "changes": "Leading silence removed; shortened with a fade; peak limited; converted to 48 kHz stereo PCM WAV.",
+    "source_page_sha256": "beb945b59f73a938559cec6a7bef043d6e30ae5ce166e2f7c27eb396032e00f6",
+    "download_sha256": "46cca30e51cf848058f2b42753f7b9aa43b6963d07ae5bf4077d23a8409ea65f",
+    "file_sha256": "723e74ec8407a23c1e7299062028e8d8ef03dd8f4b279148b0d2b2fa14628284"
+  }
+]
