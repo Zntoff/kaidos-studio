@@ -11,7 +11,9 @@ the prompts and the style catalog, and always carry the same version number.
   development and `main` for production.
 - Continuous integration on `dev`, `main` and pull requests: version check, Python tests and desktop tests.
 - Releases only from tags on `main`, with the matching changelog section as release notes.
-- Documentation, comments and repository information in English.
+- Documentation, comments, CLI text and offline-mode placeholders in English.
+- New README in the Kairos identity, with theme-aware graphics and screenshots of the app built from synthetic
+  footage. The graphics are regenerated from `docs/readme/source.html` with `node docs/readme/render.mjs`.
 
 ## [0.10.0]
 
