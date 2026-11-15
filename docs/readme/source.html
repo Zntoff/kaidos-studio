@@ -1,0 +1,190 @@
+<!doctype html>
+<!--
+  Source of the README graphics. Each view renders one image in the Kairos identity:
+  official fonts, monochrome tokens and logo. Open with a hash such as #banner/dark, or run
+  `node docs/readme/render.mjs` to regenerate every PNG in this folder.
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Kairos README graphics</title>
+<style>
+@font-face{font-family:Inter;src:url(../../clipper/web/static/brand/fonts/Inter-Variable.ttf);font-weight:100 900}
+@font-face{font-family:'Instrument Serif';src:url(../../clipper/web/static/brand/fonts/InstrumentSerif-Regular.ttf)}
+@font-face{font-family:'Instrument Serif';src:url(../../clipper/web/static/brand/fonts/InstrumentSerif-Italic.ttf);font-style:italic}
+@font-face{font-family:'JetBrains Mono';src:url(../../clipper/web/static/brand/fonts/JetBrainsMono-Variable.ttf);font-weight:100 800}
+:root{--bg:#000;--panel:#0A0A0A;--panel2:#101010;--panel3:#171717;--line:#1C1C1C;--line2:#2A2A2A;--tx:#FAFAFA;--mut:#8C8C8C;--dim:#5A5A5A;--ok:#7DDBA3;--glow:#ffffff14}
+.light{--bg:#FFF;--panel:#FAFAFA;--panel2:#F4F4F4;--panel3:#EBEBEB;--line:#E8E8E8;--line2:#D4D4D4;--tx:#0A0A0A;--mut:#5C5C5C;--dim:#8F8F8F;--ok:#17703F;--glow:#00000008}
+*{box-sizing:border-box;margin:0}
+html,body{background:transparent}
+body{font-family:Inter,system-ui,sans-serif;color:var(--tx);-webkit-font-smoothing:antialiased}
+.view{display:none}
+.view.on{display:block}
+.serif{font-family:'Instrument Serif',Georgia,serif;font-weight:400;letter-spacing:-.02em}
+.mono{font-family:'JetBrains Mono',Consolas,monospace;font-variant-numeric:tabular-nums}
+.logo{display:block;height:40px;width:auto;align-self:flex-start}
+.light .logo-w,.dark .logo-b{display:none}
+.card{background:var(--bg);border:1px solid var(--line2);border-radius:20px;overflow:hidden;position:relative}
+
+/* ---------- banner ---------- */
+#banner{width:1200px;height:560px}
+#banner .card{height:100%;display:grid;grid-template-columns:1fr 330px;padding:48px 56px 44px;gap:40px;
+ background:radial-gradient(800px 380px at 82% 0%,var(--glow),transparent 70%),var(--bg)}
+#banner .grid{position:absolute;inset:0;background-image:linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px);background-size:48px 48px;opacity:.45;mask-image:linear-gradient(90deg,transparent,#000 70%)}
+#banner .left{position:relative;display:flex;flex-direction:column}
+#banner h1{font-size:96px;line-height:.95;margin-top:40px}
+#banner h1 em{font-style:italic}
+#banner p{font-size:20px;line-height:1.5;color:var(--mut);margin-top:22px;max-width:560px}
+#banner p b{color:var(--tx);font-weight:500}
+.chips{display:flex;gap:10px;margin-top:auto;padding-top:24px;flex-wrap:wrap}
+.chip{border:1px solid var(--line2);border-radius:999px;padding:7px 14px;font-size:13px;color:var(--mut);background:var(--panel)}
+.chip b{color:var(--tx);font-weight:500}
+.right{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px}
+.phone{width:184px;height:326px;border-radius:28px;border:1px solid var(--line2);background:var(--panel2);position:relative;overflow:hidden;box-shadow:0 30px 80px #0006}
+.light .phone{box-shadow:0 30px 60px #0001}
+.phone .shot{position:absolute;inset:88px 0 96px;background:linear-gradient(160deg,#2a2a2a,#0d0d0d 55%,#3a3a3a);overflow:hidden}
+.phone .shot::after{content:"";position:absolute;left:-30%;right:-30%;top:46%;height:16px;background:linear-gradient(90deg,transparent,#d0d0d0,transparent);transform:rotate(-14deg);filter:blur(4px);opacity:.75}
+.phone .top,.phone .bot{position:absolute;left:0;right:0;background:#0b0b0b}
+.phone .top{top:0;height:88px}.phone .bot{bottom:0;height:96px}
+.light .phone .top,.light .phone .bot{background:#111}
+.hook{position:absolute;top:34px;left:14px;right:14px;text-align:center;font:800 13px/1.2 Inter;text-transform:uppercase;color:#0A0A0A}
+.hook span{background:#FAFAFA;padding:2px 6px;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.cap{position:absolute;bottom:38px;left:0;right:0;text-align:center;font:900 19px/1 Inter;text-transform:uppercase;color:#FAFAFA;letter-spacing:.01em;text-shadow:0 2px 0 #000}
+.cap i{font-style:normal;color:#FFE14D}
+.badge{position:absolute;top:10px;right:10px;font:500 10px/1 'JetBrains Mono';color:#FAFAFA;background:#0009;border:1px solid #fff3;border-radius:6px;padding:4px 6px}
+.timeline{width:330px;border:1px solid var(--line2);border-radius:14px;background:var(--panel);padding:12px 14px 12px}
+.tl-head{display:flex;justify-content:space-between;font-size:11px;color:var(--mut)}
+.bars{display:flex;align-items:center;gap:2px;height:38px;margin:10px 0 8px;position:relative}
+.bars i{flex:1;background:var(--dim);border-radius:1px;opacity:.7}
+.bars i.hot{background:var(--tx);opacity:1}
+.marks{position:relative;height:18px}
+.mk{position:absolute;top:0;transform:translateX(-50%);font:600 10px/1 'JetBrains Mono';padding:3px 5px;border-radius:5px;background:var(--tx);color:var(--bg)}
+
+/* ---------- steps ---------- */
+#steps{width:1200px;height:316px}
+#steps .row{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;height:100%}
+#steps .card{padding:22px 22px 20px;display:flex;flex-direction:column;background:var(--bg)}
+.num{font-size:12px;color:var(--mut)}
+#steps h3{font-size:34px;line-height:1;margin-top:8px}
+#steps p{font-size:14px;line-height:1.45;color:var(--mut);margin-top:8px}
+.ill{margin-top:auto;height:92px;border:1px solid var(--line);border-radius:12px;background:var(--panel);position:relative;overflow:hidden;padding:12px}
+.ill .bars{height:44px;margin:4px 0 0}
+.score{position:absolute;right:10px;top:9px;font:600 11px/1 'JetBrains Mono';color:var(--tx)}
+.frame{position:absolute;top:10px;bottom:10px;left:50%;width:36px;transform:translateX(-50%);border:2px solid var(--tx);border-radius:4px}
+.wide{position:absolute;top:22px;bottom:22px;left:14px;right:14px;background:linear-gradient(160deg,var(--line2),var(--panel3));border-radius:4px}
+.fxs{position:absolute;right:10px;top:10px;display:flex;flex-direction:column;gap:4px}
+.fxs span{font:500 10px/1 'JetBrains Mono';border:1px solid var(--line2);padding:3px 5px;border-radius:4px;color:var(--mut)}
+.words{display:flex;gap:6px;flex-wrap:wrap;font:600 13px/1 Inter}
+.words span{padding:5px 7px;border-radius:5px;background:var(--panel3);color:var(--mut)}
+.words span.k{background:var(--tx);color:var(--bg)}
+.sfx{display:flex;gap:6px;margin-top:10px;font:500 10px/1 'JetBrains Mono';color:var(--mut)}
+.sfx span{border:1px dashed var(--line2);border-radius:4px;padding:3px 5px}
+.q{display:flex;flex-direction:column;gap:6px}
+.q div{display:flex;align-items:center;gap:8px;font-size:12px;color:var(--mut);border:1px solid var(--line);border-radius:7px;padding:5px 8px;background:var(--bg)}
+.q div b{margin-left:auto;font:600 10px/1 'JetBrains Mono';padding:3px 6px;border-radius:4px}
+.q .y b{background:var(--tx);color:var(--bg)}.q .n b{border:1px solid var(--line2);color:var(--mut)}
+
+/* ---------- install cards ---------- */
+.inst{width:380px;height:232px}
+.inst .card{height:100%;padding:24px 26px;display:flex;flex-direction:column;background:var(--bg)}
+.inst .ico{width:40px;height:40px;border-radius:10px;border:1px solid var(--line2);display:grid;place-items:center;background:var(--panel)}
+.inst .ico svg{width:20px;height:20px;stroke:var(--tx);fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.inst h3{font-size:34px;line-height:1;margin-top:18px}
+.inst p{font-size:14px;color:var(--mut);margin-top:6px}
+.inst .file{margin-top:auto;font-size:11.5px;color:var(--mut);border-top:1px solid var(--line);padding-top:12px;display:flex;justify-content:space-between}
+.inst .file b{color:var(--tx);font-weight:500}
+
+/* ---------- framed screenshot ---------- */
+.shotframe{padding:0}
+.shotframe .win{border:1px solid var(--line2);border-radius:16px;overflow:hidden;background:#000}
+.shotframe .bar{height:38px;display:flex;align-items:center;gap:8px;padding:0 16px;background:#0A0A0A;border-bottom:1px solid #1C1C1C}
+.shotframe .bar i{width:10px;height:10px;border-radius:50%;background:#2A2A2A}
+.shotframe .bar span{margin-left:12px;font:500 12px/1 'JetBrains Mono';color:#8C8C8C}
+.shotframe img{display:block;width:100%}
+</style>
+</head>
+<body>
+
+<section class="view" id="banner"><div class="card">
+  <div class="grid"></div>
+  <div class="left">
+    <img class="logo logo-w" src="../../clipper/web/static/brand/logo-white.svg" alt="">
+    <img class="logo logo-b" src="../../clipper/web/static/brand/logo-black.svg" alt="">
+    <h1 class="serif">The <em>exact</em><br>moment.</h1>
+    <p>Turn any long video into vertical shorts. The AI finds the moments, <b>edits, captions and adds sound</b>, and you approve every clip.</p>
+    <div class="chips">
+      <span class="chip"><b>Open source</b> · Apache 2.0</span>
+      <span class="chip"><b>Windows</b> · Docker</span>
+      <span class="chip"><b>Claude</b> · OpenAI · Gemini · Ollama</span>
+    </div>
+  </div>
+  <div class="right">
+    <div class="phone">
+      <div class="top"></div><div class="shot"></div><div class="bot"></div>
+      <div class="badge">9:16 · 0:27</div>
+      <div class="hook"><span>We landed on the roof of the train</span></div>
+      <div class="cap">On the <i>roof!</i></div>
+    </div>
+    <div class="timeline">
+      <div class="tl-head"><span class="mono">Stunt jump stream.mp4</span><span class="mono">72:14</span></div>
+      <div class="bars" data-bars="58" data-hot="9-13,30-33,47-50"></div>
+      <div class="marks"><span class="mk" style="left:19%">94</span><span class="mk" style="left:54%">88</span><span class="mk" style="left:83%">81</span></div>
+    </div>
+  </div>
+</div></section>
+
+<section class="view" id="steps"><div class="row">
+  <div class="card"><span class="num mono">01</span><h3 class="serif">Finds the moments</h3><p>Reads the transcript, the voice, the loudness and the cuts, and scores every candidate.</p>
+    <div class="ill"><span class="score">94</span><div class="bars" data-bars="34" data-hot="12-17"></div></div></div>
+  <div class="card"><span class="num mono">02</span><h3 class="serif">Edits each clip</h3><p>Hook, your commentary, framing, zooms and color looks for 1080×1920.</p>
+    <div class="ill"><div class="wide"></div><div class="frame"></div><div class="fxs"><span>punch-in</span><span>zoom</span></div></div></div>
+  <div class="card"><span class="num mono">03</span><h3 class="serif">Captions &amp; sound</h3><p>Word-by-word captions, key words highlighted, sound on the beat and music ducked.</p>
+    <div class="ill"><div class="words"><span>on</span><span>the</span><span class="k">roof!</span></div><div class="sfx"><span>whoosh</span><span>impact</span><span>−14 LUFS</span></div></div></div>
+  <div class="card"><span class="num mono">04</span><h3 class="serif">You approve</h3><p>Every clip waits in a queue with titles and hashtags. Nothing posts on its own.</p>
+    <div class="ill"><div class="q"><div class="y">Roof landing <b>APPROVE</b></div><div class="n">Boost fail <b>REJECT</b></div></div></div></div>
+</div></section>
+
+<section class="view inst" id="installer"><div class="card">
+  <span class="ico"><svg viewBox="0 0 24 24"><path d="M12 3v12m0 0-4-4m4 4 4-4M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/></svg></span>
+  <h3 class="serif">Windows installer</h3><p>Install once, update in place. Start menu and uninstaller.</p>
+  <div class="file mono"><b>Setup-win-x64.exe</b><span>Windows 11</span></div>
+</div></section>
+
+<section class="view inst" id="portable"><div class="card">
+  <span class="ico"><svg viewBox="0 0 24 24"><path d="M4 7h16v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V7Zm0 0 2-4h12l2 4M10 11h4"/></svg></span>
+  <h3 class="serif">Portable ZIP</h3><p>Extract and run. Keeps its data in its own folder.</p>
+  <div class="file mono"><b>Portable-win-x64.zip</b><span>Windows 11</span></div>
+</div></section>
+
+<section class="view inst" id="docker"><div class="card">
+  <span class="ico"><svg viewBox="0 0 24 24"><path d="M3 12h15a3 3 0 0 0 3-3M3 12a8 8 0 0 0 8 8h1a8 8 0 0 0 7.5-5.3M5 12V8h3v4m0-4h3v4m0-4h3v4M8 8V5h3v3"/></svg></span>
+  <h3 class="serif">Docker</h3><p>The same app in your browser, on any computer or server.</p>
+  <div class="file mono"><b>docker compose up</b><span>Linux · macOS · Windows</span></div>
+</div></section>
+
+<section class="view shotframe" id="shot" style="width:1200px"><div class="win">
+  <div class="bar"><i></i><i></i><i></i><span id="shotTitle">Kairos Studio</span></div>
+  <img id="shotImg" alt="">
+</div></section>
+
+<script>
+// Deterministic waveform so every render is identical.
+let seed = 7; const rnd = () => (seed = (seed * 16807) % 2147483647) / 2147483647;
+document.querySelectorAll('[data-bars]').forEach(el => {
+  const n = +el.dataset.bars, hot = (el.dataset.hot || '').split(',').filter(Boolean).map(r => r.split('-').map(Number));
+  for (let i = 0; i < n; i++) {
+    const h = hot.some(([a, b]) => i >= a && i <= b);
+    const b = document.createElement('i');
+    b.style.height = (h ? 62 + rnd() * 38 : 14 + rnd() * 42) + '%';
+    if (h) b.className = 'hot';
+    el.append(b);
+  }
+});
+// #view/theme[/image/title] selects what to render.
+const [view, theme, img, title] = location.hash.slice(1).split('/').map(decodeURIComponent);
+document.body.className = theme === 'light' ? 'light' : 'dark';
+document.getElementById(view || 'banner').classList.add('on');
+if (img) { document.getElementById('shotImg').src = img; document.getElementById('shotTitle').textContent = title || 'Kairos Studio'; }
+</script>
+</body>
+</html>

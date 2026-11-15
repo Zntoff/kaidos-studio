@@ -1,139 +1,161 @@
-<p align="center">
+<a href="https://github.com/Zntoff/kairos-studio/releases/latest">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="clipper/web/static/brand/mark.svg">
-    <img src="clipper/web/static/brand/mark-black.svg" width="88" alt="Kairos Studio">
+    <source media="(prefers-color-scheme: dark)" srcset="docs/readme/banner-dark.png">
+    <img src="docs/readme/banner-light.png" width="100%" alt="Kairos Studio. The exact moment. Turn any long video into vertical shorts: the AI finds the moments, edits, captions and adds sound, and you approve every clip.">
   </picture>
-</p>
-
-<h1 align="center">Kairos Studio</h1>
-
-<p align="center"><em>The exact moment.</em></p>
+</a>
 
 <p align="center">
-  An AI clipping tool that turns any long video into vertical shorts ready to post.
-  The AI picks the best moments, then edits, captions and translates them, and you approve every clip.
-  Works with Claude, OpenAI, Gemini, OpenRouter, local models and more.
-</p>
-
-<p align="center">Created by <a href="https://github.com/Zntoff"><b>ZNTOff</b></a></p>
-
-<p align="center">
-  <a href="https://github.com/Zntoff/kairos-studio/actions/workflows/ci.yml"><img src="https://github.com/Zntoff/kairos-studio/actions/workflows/ci.yml/badge.svg?branch=main" alt="CI"></a>
-  <a href="https://github.com/Zntoff/kairos-studio/releases/latest"><img src="https://img.shields.io/github/v/release/Zntoff/kairos-studio?color=black&label=release" alt="Latest release"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-Apache%202.0-black" alt="Apache 2.0 license"></a>
-  <img src="https://img.shields.io/badge/Docker-web-black" alt="Docker">
-  <img src="https://img.shields.io/badge/Windows%2011-desktop-black" alt="Windows 11">
+  <a href="https://github.com/Zntoff/kairos-studio/releases/latest"><img src="https://img.shields.io/github/v/release/Zntoff/kairos-studio?style=flat-square&color=0A0A0A&label=release" alt="Latest release"></a>
+  <a href="https://github.com/Zntoff/kairos-studio/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/Zntoff/kairos-studio/ci.yml?branch=main&style=flat-square&label=CI" alt="CI"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-Apache%202.0-0A0A0A?style=flat-square" alt="Apache 2.0 license"></a>
+  <img src="https://img.shields.io/badge/Windows%2011-desktop-0A0A0A?style=flat-square" alt="Windows 11 desktop">
+  <img src="https://img.shields.io/badge/Docker-web-0A0A0A?style=flat-square" alt="Docker web">
 </p>
 
 <p align="center">
-  <a href="https://ko-fi.com/K7D12AP6M0"><img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="Support the project on Ko-fi"></a>
+  <a href="#install"><b>Install</b></a> ·
+  <a href="#what-it-does"><b>What it does</b></a> ·
+  <a href="#works-with-your-ai"><b>AI providers</b></a> ·
+  <a href="docs/architecture.md"><b>Architecture</b></a> ·
+  <a href="CONTRIBUTING.md"><b>Contributing</b></a>
 </p>
 
----
+<br>
 
 ## What it does
 
-Kairos Studio works with any long-form content: streams, podcasts, interviews, classes, talks, tutorials, vlogs
-or gameplay. It is built for creators who want to get more out of their videos, editors who clip a channel, and
-teams that post on several platforms and in several languages.
+Kairos Studio turns streams, podcasts, interviews, classes, talks, tutorials, vlogs and gameplay into vertical
+shorts for **YouTube Shorts, TikTok and Instagram Reels**. You add a video (a file, or a YouTube, Twitch or Kick
+link), the AI proposes the moments worth a clip, and every short comes out at 1080×1920, ready to post.
 
-You add a video (a file, or a YouTube, Twitch or Kick link). Kairos Studio transcribes it and the AI proposes the
-moments worth a clip, each with a score and a reason. You choose which ones to generate, and with which model,
-framing, caption style and languages. Every clip comes out at 1080×1920 with:
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/readme/steps-dark.png">
+  <img src="docs/readme/steps-light.png" width="100%" alt="Four steps: finds the moments, edits each clip, captions and sound, you approve.">
+</picture>
 
-- **a hook and your own commentary** on screen, so the clip adds something instead of being a plain cut;
-- **word-by-word captions** in 8 styles, with translation (English and Spanish);
-- **effects, zooms, color looks, animated titles, sounds and music**, with loudness normalized to −14 LUFS;
-- **a title, description and hashtags** per platform (YouTube Shorts, TikTok, Instagram Reels) and per language.
+- **Finds the moments.** It transcribes the video and reads the voice, the loudness and the scene cuts. Every
+  proposal comes with a score and a reason, and you choose which ones to generate.
+- **Edits each clip.** A hook and your own commentary on screen, so the clip adds something instead of being a plain
+  cut, plus framing, zooms, color looks and animated titles.
+- **Captions and sound.** Word-by-word captions in 8 styles with key words highlighted and translation (English and
+  Spanish), sound effects on the beat and music ducked under the voice, normalized to −14 LUFS.
+- **Writes the post.** Title, description and hashtags per platform and per language.
+- **You stay in control.** A timeline editor with a live preview lets you fine-tune everything, and no clip posts on
+  its own: each one waits in an **approval queue** until a person decides.
+- **Private by design.** Your videos, transcripts and clips never leave your computer. No servers of ours and no
+  telemetry.
 
-You can then fine-tune everything in a **timeline editor** with a live preview. No clip posts on its own: every
-one goes through an **approval queue** where a person decides.
+<img src="docs/readme/app-editor.png" width="100%" alt="The Kairos Studio timeline editor with caption styles, a 9:16 live preview and tracks for titles, hook, captions, video, effects and audio.">
 
-## Two versions, one app
+<table>
+  <tr>
+    <td width="50%"><img src="docs/readme/app-select.png" alt="Choose the moments: AI-proposed moments with scores and the generation options for framing, caption style and languages."></td>
+    <td width="50%"><img src="docs/readme/app-clips.png" alt="The clips view with vertical shorts, their hooks and captions, waiting for review."></td>
+  </tr>
+  <tr>
+    <td align="center"><sub><b>Choose the moments</b> · scores, framing, caption style and languages</sub></td>
+    <td align="center"><sub><b>Clips</b> · every short waits for your approval</sub></td>
+  </tr>
+</table>
+
+<sub>Screenshots use synthetic footage and the app's offline mode, which runs the whole pipeline without an AI
+provider.</sub>
+
+## Works with your AI
+
+Everyone uses their own API key and pays their provider directly. Claude is set up by default; for other
+providers, the app loads the provider's model list and you choose a model for each tier (fast, standard, superior)
+in **Settings → AI provider**.
+
+| Provider | Where to get a key | Notes |
+|---|---|---|
+| **Anthropic · Claude** (default) | [console.anthropic.com](https://console.anthropic.com/settings/keys) | Haiku, Sonnet and Opus already configured |
+| **OpenAI** | [platform.openai.com](https://platform.openai.com/api-keys) | |
+| **Google Gemini** | [aistudio.google.com](https://aistudio.google.com/apikey) | |
+| **OpenRouter** | [openrouter.ai](https://openrouter.ai/keys) | One key for models from many providers |
+| **Mistral · DeepSeek · Groq** | Each provider's console | Check that the model accepts images |
+| **Ollama · LM Studio · vLLM** | No key needed | Free and private on your own GPU; lower quality than cloud models |
+
+The prompts were written and tested with Claude, so analysis and editing quality may vary with other models.
+**Settings** also shows what you have spent and how much is left of the budget you set.
+
+> [!IMPORTANT]
+> **Rights come first.** Before processing, Kairos asks for the rights status of each video (`own`,
+> `written_permission`, `official_press` or `cc_licensed`) and some evidence. Downloading a video does not give you
+> the right to publish it.
+
+<br>
+
+## Install
+
+Two versions with the same interface: a **desktop app for Windows 11** and a **Docker app** that runs in your
+browser on Linux, macOS, Windows or a server.
+
+<p align="center">
+  <a href="#windows-installer"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/installer-dark.png"><img src="docs/readme/installer-light.png" width="32%" alt="Windows installer"></picture></a>
+  <a href="#portable-zip"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/portable-dark.png"><img src="docs/readme/portable-light.png" width="32%" alt="Portable ZIP"></picture></a>
+  <a href="#docker"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/docker-dark.png"><img src="docs/readme/docker-light.png" width="32%" alt="Docker"></picture></a>
+</p>
 
 |  | **Desktop** (Windows) | **Docker** (web) |
 |---|---|---|
-| For | Windows 11, nothing else to install | Linux, macOS, Windows or your own server |
+| Runs on | Windows 11, nothing else to install | Linux, macOS, Windows or your own server |
 | Used from | A regular Windows window | The browser, at `http://localhost:8000` |
 | Render | NVIDIA (NVENC), AMD (AMF), Intel (Quick Sync) or CPU | CPU, or NVIDIA when the host exposes it |
-| Extras | One-click tool installer; installer or portable ZIP | Command line, AI reviewer, Postgres |
+| Extras | One-click tool installer | Command line, AI reviewer, Postgres |
 
-Both share the interface, the subagents, the styles, the fonts and the sounds.
+### Windows installer
 
-## Before you start
+1. Download **`KairosStudio-<version>-Setup-win-x64.exe`** from the
+   [latest release](https://github.com/Zntoff/kairos-studio/releases/latest).
+2. Run it. It installs for your user only (no administrator rights), adds a Start menu entry and installs WebView2
+   if it's missing.
+3. Open **Kairos Studio** from the Start menu.
 
-- **An AI provider with your own API key.** Everyone uses their own key and pays that provider for usage:
+Updates install over the same version and keep your library. .NET, FFmpeg and the fonts are included.
 
-  | Provider | Where to create the key | Notes |
-  |---|---|---|
-  | Anthropic · Claude (default) | [console.anthropic.com](https://console.anthropic.com/settings/keys) | Models already set up: Haiku, Sonnet and Opus |
-  | OpenAI | [platform.openai.com](https://platform.openai.com/api-keys) | |
-  | Google Gemini | [aistudio.google.com](https://aistudio.google.com/apikey) | |
-  | OpenRouter | [openrouter.ai](https://openrouter.ai/keys) | One key for models from many providers |
-  | Mistral, DeepSeek, Groq | In each provider's console | Check that the model accepts images |
-  | Ollama, LM Studio, vLLM | No key | Free and private; needs a capable GPU. Lower quality than cloud models |
+### Portable ZIP
 
-  For providers other than Claude, choose which model each tier uses (fast, standard, superior) in
-  **Settings → AI provider**: the app loads the provider's own model list. The prompts were written and tested with
-  Claude, so analysis and editing quality may vary with other models. **Settings** also shows how much you have
-  spent and how much is left of the budget you set.
-- **Rights to the video.** Before processing, the app asks for the rights status (`own`,
-  `written_permission`, `official_press` or `cc_licensed`) and some evidence. Downloading a video does not give
-  you the right to publish it.
+1. Download **`KairosStudio-<version>-Portable-win-x64.zip`** from the
+   [latest release](https://github.com/Zntoff/kairos-studio/releases/latest).
+2. Extract the **whole** ZIP to a folder you can write to, outside Program Files.
+3. Open **`KairosStudio.exe`**.
 
----
+This copy keeps its library and settings in a `data` folder beside the executable. To update it, replace the app
+files and keep `data` and `portable.flag`.
 
-## Desktop app (Windows)
+> [!NOTE]
+> Compare the downloads with `SHA256SUMS.txt` from the release. Until the builds are code-signed, Windows
+> SmartScreen may warn about an unknown publisher; see [SECURITY.md](SECURITY.md#windows-signing-and-distribution).
 
-### Install
+#### First run on Windows
 
-Download one of these from the [latest release](https://github.com/Zntoff/kairos-studio/releases/latest):
-
-- **`KairosStudio-<version>-Setup-win-x64.exe`**: per-user installer with a Start menu entry and an uninstaller.
-  Updates keep your library.
-- **`KairosStudio-<version>-Portable-win-x64.zip`**: extract the whole ZIP to a writable folder and open
-  `KairosStudio.exe`. This copy keeps its data in a `data` folder beside the executable.
-
-Neither needs .NET, Python or FFmpeg installed: everything is included. Compare the downloads with
-`SHA256SUMS.txt`. If Windows SmartScreen warns about an unknown publisher, the build is unsigned; see
-[SECURITY.md](SECURITY.md#windows-signing-and-distribution).
-
-### First run
-
-1. The **first-run setup** asks for the folder where generated videos go, your AI provider and your API key.
-   You can skip both and do them later in **Settings**.
+1. The **first-run setup** asks for the folder where generated videos go, your AI provider and your API key. You
+   can skip both and set them later in **Settings**.
 2. In **Settings → Tools**, install **transcription** (whisper.cpp and a multilingual model of about 200 MB).
-   If FFmpeg is missing, install it from the same panel.
-3. Click **Create clip**, or register a video with its rights, click **Process** and follow the same steps as in
-   the Docker version: choose moments, generate and approve.
-4. Each clip has buttons to open it in the editor or **open its folder**.
+3. Click **Create clip**, or add a video with its rights and click **Process**. Choose the moments, generate them
+   and approve them in the queue.
 
-Without an API key the app still works as a manual editor: you can create, edit and render clips.
+Without an API key the app still works as a manual editor. **Settings → Performance and hardware** chooses between
+automatic, CPU or a detected GPU; every encoder is tested before it's offered, and a failed GPU render retries on
+the CPU. Your library lives in `%LOCALAPPDATA%\ClipperStudio` and API keys are encrypted for your Windows user
+(DPAPI). Uninstalling keeps your data.
 
-### Hardware
-
-**Settings → Performance and hardware** lets you choose automatic, CPU or a detected GPU, 30/60 fps and quality.
-Every encoder is tested with a real encode before it is offered: NVIDIA uses NVENC, AMD uses AMF and Intel uses
-Quick Sync. If a GPU rejects a render, the app retries on the CPU and says so in the log.
-
-### Where your data lives
-
-- Generated videos go to the folder you chose.
-- The library, jobs, cache and downloaded tools live in `%LOCALAPPDATA%\ClipperStudio` (the portable copy uses
-  its own `data` folder).
-- API keys are stored **encrypted for your Windows user** (DPAPI). Uninstalling keeps your data; delete that
-  folder to remove it.
-
----
-
-## Docker (web)
+### Docker
 
 You need [Docker Desktop](https://www.docker.com/products/docker-desktop/) (Windows, macOS) or Docker Engine
-(Linux). You do not need Python, FFmpeg or fonts.
+(Linux). Python, FFmpeg and fonts are included in the image.
 
-The easiest way is `KairosStudio-<version>-Docker.zip` from the
-[latest release](https://github.com/Zntoff/kairos-studio/releases/latest): extract it and follow its `README.txt`.
-To run it from source:
+**From a release.** Download **`KairosStudio-<version>-Docker.zip`** from the
+[latest release](https://github.com/Zntoff/kairos-studio/releases/latest), extract it and run the start script
+(`Start-Kairos.ps1` on Windows, `start-kairos.sh` on Linux and macOS), or:
+
+```bash
+docker compose -f compose.yaml up -d --build
+```
+
+**From source.**
 
 ```bash
 git clone https://github.com/Zntoff/kairos-studio.git
@@ -142,21 +164,15 @@ cp .env.example .env          # Windows (PowerShell): Copy-Item .env.example .en
 docker compose up --build
 ```
 
-Open **http://localhost:8000**. The first build takes a few minutes.
+Open **http://localhost:8000**; the first build takes a few minutes.
 
-1. Go to **Settings → AI provider**, choose the provider, paste your API key and, if it isn't Claude, choose
-   the models. You can also use the variables in `.env` (`ANTHROPIC_API_KEY`, `OPENAI_API_KEY`,
-   `CLIPPER_AI_PROVIDER`…). For Ollama on your computer, use `http://host.docker.internal:11434/v1`.
-2. In **Videos**, upload a video (or pick one from the `./input` folder, better for large files) and fill in its
-   rights.
-3. Click **Process** and the AI proposes the moments.
-4. In **Jobs → Choose the moments**, select the ones you want and choose model, framing, captions and languages.
-5. Review the clips in the **approval queue**, open them in the editor if you want to adjust them, and approve or
-   reject them.
+1. In **Settings → AI provider**, choose the provider and paste your API key (or use the variables in `.env`, such
+   as `ANTHROPIC_API_KEY` or `CLIPPER_AI_PROVIDER`). For Ollama on your computer, use
+   `http://host.docker.internal:11434/v1`.
+2. In **Videos**, upload a video (or put large files in `./input` and pick them there) and fill in its rights.
+3. Click **Process**, choose the moments in **Jobs**, then review the clips in the **approval queue**.
 
 Results are saved in `./data/out/`: for each clip and language, `clip.mp4`, `captions.srt` and `metadata.json`.
-
-**Useful commands**
 
 ```bash
 docker compose up -d                       # run in the background
@@ -168,13 +184,12 @@ docker compose run --rm app --help         # command line
 
 To render with an NVIDIA GPU on a host with Docker GPU support:
 `docker compose -f docker-compose.yml -f docker-compose.gpu.yml up -d --build`.
+Every other option (languages, number of clips, durations, Whisper model, Postgres) is documented in
+[`.env.example`](.env.example).
 
 > [!WARNING]
-> The panel has no login. `docker-compose.yml` publishes it only on your computer (`127.0.0.1`). Do not expose
-> it to the internet or a shared network without a reverse proxy with authentication.
-
-The first transcription downloads the Whisper model (needs internet). Every other option is documented in
-[`.env.example`](.env.example): languages, maximum clips, duration, Whisper model, Postgres…
+> The panel has no login. `docker-compose.yml` publishes it only on your computer (`127.0.0.1`). Don't expose it to
+> the internet or a shared network without a reverse proxy with authentication.
 
 <details>
 <summary><b>Without Docker (Python)</b></summary>
@@ -184,7 +199,7 @@ You need Python 3.11 or later and FFmpeg with libass on the PATH.
 ```bash
 python -m venv .venv && source .venv/bin/activate     # Windows: .venv\Scripts\activate
 pip install -e .                                      # add [postgres] to use Postgres
-cp .env.example .env                                  # then set your ANTHROPIC_API_KEY
+cp .env.example .env                                  # then set your API key
 clipper web                                           # panel at http://localhost:8000
 ```
 </details>
@@ -205,13 +220,27 @@ clipper run src_xxxx --offline        # the whole pipeline without AI, for testi
 In Docker, prefix with `docker compose run --rm app` (for example, `docker compose run --rm app queue`).
 </details>
 
----
+<details>
+<summary><b>Desktop app from source</b></summary>
+
+You need the [.NET 10 SDK](https://dotnet.microsoft.com/download/dotnet/10.0).
+
+```powershell
+git clone https://github.com/Zntoff/kairos-studio.git
+cd kairos-studio
+powershell -ExecutionPolicy Bypass -File desktop\setup.ps1     # download FFmpeg and yt-dlp
+dotnet run --project desktop\ClipperStudio                     # open the app
+```
+
+More in the [desktop development guide](desktop/README.md).
+</details>
+
+<br>
 
 ## Privacy
 
-The project has no servers of its own and no telemetry. It only connects to the AI provider you choose, with your
-key, and, when you ask, to the sites you download videos from. Your videos, transcripts and clips stay on your
-computer. More details in [SECURITY.md](SECURITY.md).
+Kairos Studio has no servers of its own and no telemetry. It only connects to the AI provider you choose, with your
+key, and, when you ask, to the sites you download videos from. More details in [SECURITY.md](SECURITY.md).
 
 ## Development
 
@@ -220,22 +249,17 @@ computer. More details in [SECURITY.md](SECURITY.md).
 | `dev` | Development | Day-to-day work and integration. Changes land here first. |
 | `main` | Production | Only receives tested changes from `dev`. Every release is tagged here. |
 
-Releases follow [semantic versioning](https://semver.org) with tags like `v0.10.0`. Pushing a tag on `main`
-builds the installer, the portable ZIP and the Docker bundle, runs the tests and prepares a draft GitHub
-Release. The full process is in [CONTRIBUTING.md](CONTRIBUTING.md#releases).
+Releases follow [semantic versioning](https://semver.org) with tags like `v0.10.0`. A tag on `main` builds the
+installer, the portable ZIP and the Docker bundle, runs the tests and prepares a draft release; see
+[CONTRIBUTING.md](CONTRIBUTING.md#releases). No test calls a real AI provider.
 
 ```bash
 pip install -e ".[dev]" && pytest                                  # Python app (renders real video)
-powershell -ExecutionPolicy Bypass -File desktop\setup.ps1          # desktop: download FFmpeg and yt-dlp
-dotnet run --project desktop\ClipperStudio                          # desktop: open the app
-dotnet run --project desktop\ClipperStudio.Tests                    # desktop: integration tests
+dotnet run --project desktop\ClipperStudio.Tests                    # desktop integration tests
 ```
 
-No test calls a real API: they use scripted responses, including for the OpenAI-compatible mode.
-How it works inside (subagents, contracts, EDL, output package): [docs/architecture.md](docs/architecture.md).
-Desktop details: [desktop/README.md](desktop/README.md).
-
-### Project structure
+<details>
+<summary><b>Project structure</b></summary>
 
 ```
 clipper/            web app and CLI (Python): subagents, render, panel
@@ -247,34 +271,43 @@ desktop/            desktop app (C#, .NET 10, WPF + WebView2)
   ClipperStudio/    the app: Ai/, Engine/, Server/
   ClipperStudio.Tests/
   installer/        Inno Setup installer
-assets/             fonts, sounds, style catalog and brand (shared)
+assets/             fonts, sounds, style catalog (shared)
 config/             AI providers and spoiler terms
 distribution/       release guide, release notes and the Docker download bundle
-docs/               architecture
-scripts/            utilities: versioning, packaging, sounds, icon, demo video
+docs/               architecture and the README graphics
+scripts/            utilities: versioning, packaging, sounds, brand, demo video
 tests/              Python app tests
 release.ps1         builds the three release formats
 ```
 
+How it works inside (subagents, contracts, EDL, output package): [docs/architecture.md](docs/architecture.md).
+</details>
+
 ## Contributing
 
 Contributions are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md) and, for security issues,
-[SECURITY.md](SECURITY.md). The changes in each version are in [CHANGELOG.md](CHANGELOG.md).
+[SECURITY.md](SECURITY.md). Every version's changes are in [CHANGELOG.md](CHANGELOG.md).
 
 ## Support the project
 
-Kairos Studio is free and open source. If it saves you time and you want it to keep growing, you can leave a tip
-on Ko-fi:
+Kairos Studio is free and open source. If it saves you time and you want it to keep growing, you can leave a tip:
 
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/K7D12AP6M0)
+<a href="https://ko-fi.com/K7D12AP6M0"><img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="Support Kairos Studio on Ko-fi"></a>
 
 ## License
 
 Copyright 2026 [ZNTOff](https://github.com/Zntoff). Released under the [Apache License 2.0](LICENSE): you can use,
 modify and redistribute it, including commercially, as long as you keep the license notice and the
-[NOTICE](NOTICE) file. The fonts, some sounds and the downloaded tools (FFmpeg, yt-dlp, whisper.cpp) have their
-own licenses, also listed in [NOTICE](NOTICE).
+[NOTICE](NOTICE) file. The fonts, some sounds and the downloaded tools (FFmpeg, yt-dlp, whisper.cpp) have their own
+licenses, also listed in [NOTICE](NOTICE).
 
 Kairos Studio is not affiliated with Anthropic, OpenAI, Google, YouTube, TikTok, Instagram or the owners of the
-content you clip. Publishing a clip is still your responsibility: check the rights and the editorial value before
-you do.
+content you clip. Publishing a clip is still your responsibility: check the rights and the editorial value first.
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="clipper/web/static/brand/mark-white.svg">
+    <img src="clipper/web/static/brand/mark-black.svg" width="28" alt="Kairos">
+  </picture>
+  <br><sub><i>The exact moment.</i></sub>
+</p>
