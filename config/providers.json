@@ -1,0 +1,26 @@
+{
+  "_comment": "AI providers Kairos Studio can use. Shared by the Docker app (clipper/ai_settings.py) and the desktop app (Engine/AiSettings.cs). kind: 'anthropic' = Messages API; 'openai' = OpenAI-compatible Chat Completions with tools. Models of non-Anthropic providers are chosen by the person from the provider's own /models list, so no model name is assumed here. dialect 'gemini' strips JSON Schema keywords Gemini rejects.",
+  "providers": [
+    {"id": "anthropic", "name": "Anthropic · Claude", "kind": "anthropic", "base_url": "https://api.anthropic.com", "env": "ANTHROPIC_API_KEY",
+     "needs_key": true, "key_prefix": "sk-ant-", "key_url": "https://console.anthropic.com/settings/keys",
+     "tier_names": {"fast": "Haiku", "standard": "Sonnet", "superior": "Opus"},
+     "models": {"fast": "claude-haiku-5-5", "standard": "claude-sonnet-5-5", "superior": "claude-opus-5-5"},
+     "prices": {"fast": [0.10, 0.50], "standard": [2.0, 10.0], "superior": [4.0, 20.0]}},
+    {"id": "openai", "name": "OpenAI", "kind": "openai", "base_url": "https://api.openai.com/v1", "env": "OPENAI_API_KEY",
+     "needs_key": true, "key_url": "https://platform.openai.com/api-keys", "max_tokens_field": "max_completion_tokens"},
+    {"id": "gemini", "name": "Google Gemini", "kind": "openai", "base_url": "https://generativelanguage.googleapis.com/v1beta/openai", "env": "GEMINI_API_KEY",
+     "needs_key": true, "key_url": "https://aistudio.google.com/apikey", "dialect": "gemini"},
+    {"id": "openrouter", "name": "OpenRouter", "kind": "openai", "base_url": "https://openrouter.ai/api/v1", "env": "OPENROUTER_API_KEY",
+     "needs_key": true, "key_url": "https://openrouter.ai/keys", "note": "Una sola key para modelos de muchos proveedores."},
+    {"id": "mistral", "name": "Mistral", "kind": "openai", "base_url": "https://api.mistral.ai/v1", "env": "MISTRAL_API_KEY",
+     "needs_key": true, "key_url": "https://console.mistral.ai/api-keys"},
+    {"id": "deepseek", "name": "DeepSeek", "kind": "openai", "base_url": "https://api.deepseek.com/v1", "env": "DEEPSEEK_API_KEY",
+     "needs_key": true, "key_url": "https://platform.deepseek.com/api_keys", "note": "Comprueba que el modelo acepte imágenes: la edición envía fotogramas."},
+    {"id": "groq", "name": "Groq", "kind": "openai", "base_url": "https://api.groq.com/openai/v1", "env": "GROQ_API_KEY",
+     "needs_key": true, "key_url": "https://console.groq.com/keys"},
+    {"id": "ollama", "name": "Ollama · local", "kind": "openai", "base_url": "http://localhost:11434/v1",
+     "needs_key": false, "editable_url": true, "note": "Modelos en tu propio equipo: gratis y privados, pueden usar CPU o GPU según el modelo y el equipo. Desde Docker usa http://host.docker.internal:11434/v1."},
+    {"id": "custom", "name": "Otro compatible con OpenAI", "kind": "openai", "base_url": "",
+     "needs_key": false, "editable_url": true, "note": "LM Studio, vLLM o cualquier servidor con la API de OpenAI."}
+  ]
+}

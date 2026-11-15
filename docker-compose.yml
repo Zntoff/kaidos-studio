@@ -1,0 +1,19 @@
+# Web panel at http://localhost:8000
+#   cp .env.example .env     (set your ANTHROPIC_API_KEY, or choose a provider in Settings)
+#   docker compose up --build
+# Videos and results are kept in ./data. To process large files without uploading them
+# through the browser, put them in ./input and pick them in the panel.
+# The CLI is still available:  docker compose run --rm app status
+services:
+  app:
+    build: .
+    env_file: .env
+    environment:
+      CLIPPER_DATA_DIR: /data
+      CLIPPER_HOST: 0.0.0.0
+    ports:
+      - "127.0.0.1:8000:8000"   # this computer only; the panel has no login
+    volumes:
+      - ./data:/data
+      - ./input:/input:ro
+    restart: unless-stopped

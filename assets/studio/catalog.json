@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "color_params": ["brightness", "contrast", "saturation", "temperature", "tint", "fade", "sepia", "vignette"],
+  "looks": [
+    {"id": "none", "label": "Original", "p": {}},
+    {"id": "vivid", "label": "Vívido", "p": {"saturation": 0.4, "contrast": 0.15}},
+    {"id": "cinema", "label": "Cine", "p": {"contrast": 0.2, "saturation": -0.12, "temperature": 0.12, "fade": 0.25, "vignette": 0.45}},
+    {"id": "warm", "label": "Cálido", "p": {"temperature": 0.45, "saturation": 0.12, "brightness": 0.04}},
+    {"id": "cool", "label": "Frío", "p": {"temperature": -0.45, "contrast": 0.08}},
+    {"id": "neon", "label": "Neón", "p": {"saturation": 0.7, "contrast": 0.25, "tint": 0.3}},
+    {"id": "drama", "label": "Drama", "p": {"contrast": 0.4, "saturation": -0.25, "brightness": -0.08, "vignette": 0.6}},
+    {"id": "matte", "label": "Mate", "p": {"fade": 0.6, "contrast": -0.12, "saturation": -0.18}},
+    {"id": "vintage", "label": "Vintage", "p": {"sepia": 0.55, "fade": 0.4, "contrast": -0.05, "vignette": 0.5}},
+    {"id": "bw", "label": "B y N", "p": {"saturation": -1, "contrast": 0.2}}
+  ],
+  "effects": [
+    {"id": "punch_in", "label": "Zoom golpe", "desc": "Acerca la imagen de golpe y la suelta.", "d": 0.8, "min": 0.2, "max": 3},
+    {"id": "zoom_slow", "label": "Zoom lento", "desc": "Se acerca poco a poco durante el tramo.", "d": 3, "min": 0.5, "max": 20},
+    {"id": "shake", "label": "Temblor", "desc": "Sacude la cámara: golpes, sustos, explosiones.", "d": 0.5, "min": 0.2, "max": 3},
+    {"id": "flash", "label": "Destello", "desc": "Fogonazo blanco que se apaga.", "d": 0.35, "min": 0.1, "max": 1.5},
+    {"id": "glitch", "label": "Glitch", "desc": "Separa los colores rojo y azul.", "d": 0.4, "min": 0.1, "max": 3},
+    {"id": "blur", "label": "Desenfoque", "desc": "Desenfoca la imagen mientras dura.", "d": 0.6, "min": 0.2, "max": 6},
+    {"id": "bw", "label": "Blanco y negro", "desc": "Quita el color mientras dura.", "d": 2, "min": 0.3, "max": 60}
+  ],
+  "fx": {"zoom": 0.12, "ramp": 0.12, "slow": 0.18, "shake_px": 16, "shake_zoom": 0.04, "shake_hz": 11, "flash": 0.85, "glitch_px": 14, "blur_sigma": 16},
+  "caption_styles": {
+    "bold": {"label": "Negrita", "font": "caption", "upper": true, "size": 84, "outline": 7, "color": "#FFFFFF", "outline_color": "#000000", "active": "#FFE500", "keyword": "#3DFF7A", "pop": false, "glow": 0},
+    "bounce": {"label": "Rebote", "font": "caption", "upper": true, "size": 84, "outline": 7, "color": "#FFFFFF", "outline_color": "#000000", "active": "#FFE500", "keyword": "#3DFF7A", "pop": true, "glow": 0},
+    "clean": {"label": "Limpio", "font": "text", "upper": false, "size": 68, "outline": 4, "color": "#FFFFFF", "outline_color": "#000000", "active": "#4DD8FF", "keyword": "#FFE500", "pop": false, "glow": 0},
+    "impact": {"label": "Impacto", "font": "anton", "upper": true, "size": 124, "outline": 7, "color": "#FFFFFF", "outline_color": "#000000", "active": "#FF4040", "keyword": "#FFE500", "pop": true, "glow": 0},
+    "comic": {"label": "Cómic", "font": "bangers", "upper": true, "size": 132, "outline": 8, "color": "#FFFFFF", "outline_color": "#141414", "active": "#FFD400", "keyword": "#5CE1FF", "pop": true, "glow": 0},
+    "neon": {"label": "Neón", "font": "russo", "upper": true, "size": 76, "outline": 5, "color": "#FFFFFF", "outline_color": "#FF2BD6", "active": "#5CF2FF", "keyword": "#FFE500", "pop": false, "glow": 5},
+    "pixel": {"label": "Pixel", "font": "pixel", "upper": true, "size": 56, "outline": 6, "color": "#FFFFFF", "outline_color": "#000000", "active": "#3DFF7A", "keyword": "#FFE500", "pop": false, "glow": 0},
+    "soft": {"label": "Suave", "font": "poppins", "upper": false, "size": 104, "outline": 5, "color": "#FFFFFF", "outline_color": "#1B1035", "active": "#FF8AD8", "keyword": "#8AF5FF", "pop": true, "glow": 0}
+  },
+  "text_presets": [
+    {"id": "title", "label": "Título", "sample": "TÍTULO", "font": "anton", "size": 110, "color": "#FFFFFF", "stroke": "#000000", "stroke_w": 8, "box": "", "box_opacity": 1, "upper": true, "anim_in": "pop", "anim_out": "fade", "y": 0.3},
+    {"id": "sub", "label": "Subtítulo", "sample": "Subtítulo", "font": "poppins", "size": 56, "color": "#FFFFFF", "stroke": "#000000", "stroke_w": 5, "box": "", "box_opacity": 1, "upper": false, "anim_in": "fade", "anim_out": "fade", "y": 0.38},
+    {"id": "label", "label": "Etiqueta", "sample": "ETIQUETA", "font": "caption", "size": 50, "color": "#000000", "stroke": "#000000", "stroke_w": 0, "box": "#FFE500", "box_opacity": 1, "upper": true, "anim_in": "slide_up", "anim_out": "fade", "y": 0.2},
+    {"id": "dark", "label": "Caja oscura", "sample": "Dato clave", "font": "text", "size": 44, "color": "#FFFFFF", "stroke": "#000000", "stroke_w": 0, "box": "#101014", "box_opacity": 0.8, "upper": false, "anim_in": "fade", "anim_out": "fade", "y": 0.24},
+    {"id": "comic", "label": "Cómic", "sample": "¡BOOM!", "font": "bangers", "size": 130, "color": "#FFD400", "stroke": "#141414", "stroke_w": 10, "box": "", "box_opacity": 1, "upper": true, "anim_in": "zoom", "anim_out": "shrink", "y": 0.3, "rotate": -6},
+    {"id": "neon", "label": "Neón", "sample": "NEÓN", "font": "russo", "size": 84, "color": "#FFFFFF", "stroke": "#FF2BD6", "stroke_w": 5, "box": "", "box_opacity": 1, "upper": true, "anim_in": "fade", "anim_out": "fade", "y": 0.3, "glow": 6},
+    {"id": "pixel", "label": "Arcade", "sample": "GAME OVER", "font": "pixel", "size": 44, "color": "#3DFF7A", "stroke": "#000000", "stroke_w": 6, "box": "", "box_opacity": 1, "upper": true, "anim_in": "pop", "anim_out": "none", "y": 0.3},
+    {"id": "hand", "label": "Rotulador", "sample": "mira esto", "font": "marker", "size": 76, "color": "#FFFFFF", "stroke": "#000000", "stroke_w": 6, "box": "", "box_opacity": 1, "upper": false, "anim_in": "slide_left", "anim_out": "fade", "y": 0.3, "rotate": -4},
+    {"id": "script", "label": "Cursiva", "sample": "Momentazo", "font": "pacifico", "size": 84, "color": "#FF8AD8", "stroke": "#1B1035", "stroke_w": 6, "box": "", "box_opacity": 1, "upper": false, "anim_in": "zoom", "anim_out": "fade", "y": 0.3},
+    {"id": "handle", "label": "Tu @canal", "sample": "@tucanal", "font": "poppins", "size": 36, "color": "#FFFFFF", "stroke": "#000000", "stroke_w": 3, "box": "", "box_opacity": 1, "upper": false, "anim_in": "none", "anim_out": "none", "y": 0.155, "whole": true, "opacity": 0.8}
+  ],
+  "anim_in": [["none", "Sin animación"], ["fade", "Aparecer"], ["pop", "Pop"], ["zoom", "Zoom"], ["slide_up", "Subir"], ["slide_down", "Bajar"], ["slide_left", "Desde la derecha"], ["slide_right", "Desde la izquierda"]],
+  "anim_out": [["none", "Sin animación"], ["fade", "Desvanecer"], ["shrink", "Encoger"]],
+  "anim": {"fade": 0.2, "pop_a": 0.18, "pop_b": 0.28, "zoom": 0.25, "slide": 0.3, "slide_px": 140, "shrink": 0.2},
+  "transitions": {"intro": [["none", "Corte"], ["fade", "Desde negro"], ["flash", "Destello"]], "outro": [["none", "Corte"], ["fade", "A negro"]]}
+}
