@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kairos Studio</title>
+<meta name="theme-color" content="#000000">
+<meta name="kairos-csrf" content="{{csrf}}">
+<meta name="application-name" content="Kairos Studio">
+<script src="/static/i18n.js?v={{v}}"></script>
+<script src="/static/brand/theme.js?v={{v}}"></script>
+<link rel="icon" type="image/svg+xml" href="/static/brand/favicon.svg">
+<link rel="stylesheet" href="/static/app.css?v={{v}}">
+<link rel="stylesheet" href="/static/theme.css?v={{v}}">
+<link rel="stylesheet" href="/static/responsive.css?v={{v}}">
+<link rel="stylesheet" href="/static/brand/kairos.css?v={{v}}">
+<link rel="stylesheet" href="/static/workspace.css?v={{v}}">
+<link rel="stylesheet" href="/static/studio-ui.css?v={{v}}">
+<link rel="preload" href="/static/brand/fonts/Inter-Variable.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="preload" href="/static/brand/fonts/InstrumentSerif-Regular.ttf" as="font" type="font/ttf" crossorigin>
+<style>
+@font-face{font-family:ClipCaption;src:url(/api/fonts/caption);font-weight:100 900;font-display:swap}
+@font-face{font-family:ClipText;src:url(/api/fonts/text);font-weight:100 900;font-display:swap}
+</style>
+</head>
+<body>
+<header id="mobileBar"><button class="b g ic" id="mobileMenu" aria-label="Abrir navegación" aria-controls="sidebar" aria-expanded="false"></button><a href="#/dashboard" class="mobile-brand" aria-label="Kairos Studio · Inicio"><img class="brand-dark" src="/static/brand/logo-white.svg" alt="Kairos Studio"><img class="brand-light" src="/static/brand/logo-black.svg" alt="Kairos Studio"></a><button class="b g sm" id="mobileProject" aria-label="Cambiar proyecto"></button></header>
+<button id="navBackdrop" aria-label="Cerrar navegación" hidden></button>
+<div id="app">
+  <aside id="sidebar" aria-label="Espacio de trabajo">
+    <header class="sidebar-brand"><a class="brand" href="#/dashboard" aria-label="Kairos Studio · Inicio"><img class="brand-lockup brand-dark" src="/static/brand/logo-white.svg" alt="Kairos Studio"><img class="brand-lockup brand-light" src="/static/brand/logo-black.svg" alt="Kairos Studio"><img class="brand-symbol brand-dark" src="/static/brand/mark-white.svg" alt=""><img class="brand-symbol brand-light" src="/static/brand/mark-black.svg" alt=""></a><button class="b g ic" id="sidebarToggle" aria-label="Contraer navegación"></button></header>
+    <section class="sidebar-project" aria-label="Proyecto actual"><div id="projectNav"></div></section>
+    <div class="sidebar-scroll"><nav id="nav" aria-label="Navegación principal"></nav></div>
+    <footer class="sidebar-footer"><nav id="utilityNav" aria-label="Preferencias"></nav><div id="cfg"></div></footer>
+  </aside>
+  <main id="main"></main>
+</div>
+<div id="modal"></div>
+<div id="editor"></div>
+<div id="toasts"></div>
+<script src="/static/safe-area.js?v={{v}}"></script>
+<script src="/static/projects.js?v={{v}}"></script>
+<script src="/static/workspace.js?v={{v}}"></script>
+<script src="/static/app.js?v={{v}}"></script>
+<script src="/static/editor.js?v={{v}}"></script>
+<script src="/static/settings.js?v={{v}}"></script>
+<script src="/static/library.js?v={{v}}"></script>
+<script src="/static/studio-ui.js?v={{v}}"></script>
+</body>
+</html>

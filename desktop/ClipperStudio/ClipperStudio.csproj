@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>KairosStudio</AssemblyName>
+    <RootNamespace>ClipperStudio</RootNamespace>
+    <Version>0.10.0</Version>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <Product>Kairos Studio</Product>
+    <Title>Kairos Studio</Title>
+    <Authors>ZNTOff</Authors>
+    <Copyright>Copyright 2026 ZNTOff. Apache License 2.0.</Copyright>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/Zntoff/kairos-studio</RepositoryUrl>
+    <SatelliteResourceLanguages>es</SatelliteResourceLanguages>
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.2903.40" />
+    <PackageReference Include="System.Security.Cryptography.ProtectedData" Version="10.0.0" />
+  </ItemGroup>
+
+  <!-- The interface, the studio catalog, fonts and sounds are the same files the container app uses. -->
+  <ItemGroup>
+    <Content Include="..\..\clipper\web\static\**" Link="web\%(RecursiveDir)%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="..\..\assets\**" Link="assets\%(RecursiveDir)%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="..\..\clipper\prompts\*.md" Link="prompts\%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="..\..\config\spoilers.txt" Link="config\spoilers.txt" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="..\..\config\providers.json" Link="config\providers.json" CopyToOutputDirectory="PreserveNewest" />
+    <!-- Executables stay loose next to the app: bundling them into the single file would hide them from the engine. -->
+    <Content Include="..\tools\**" Link="tools\%(RecursiveDir)%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
+  </ItemGroup>
+
+</Project>

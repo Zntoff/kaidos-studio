@@ -1,0 +1,15 @@
+name: kairos-studio
+services:
+  app:
+    image: kairos-studio:@VERSION@
+    build: .
+    environment:
+      CLIPPER_DATA_DIR: /data
+      CLIPPER_HOST: 0.0.0.0
+      CLIPPER_INPUT_DIR: /input
+    ports:
+      - "127.0.0.1:8000:8000"
+    volumes:
+      - ./data:/data
+      - ./input:/input:ro
+    restart: unless-stopped

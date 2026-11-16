@@ -1,0 +1,25 @@
+.git
+.github
+.vscode
+.env
+.env.*
+!.env.example
+.venv
+.venv-test
+__pycache__
+*.pyc
+.pytest_cache
+data
+input
+demo
+# The desktop app isn't part of the image (and desktop/tools weighs hundreds of MB)
+desktop
+releases
+artifacts
+
+# Private signing material is never committed or included in build contexts.
+*.pfx
+*.p12
+*.key
+*.pem
+**/signing-metadata.json

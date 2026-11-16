@@ -1,0 +1,6 @@
+{
+  "Endpoint": "https://YOUR-REGION.codesigning.azure.net/",
+  "CodeSigningAccountName": "YOUR-ACCOUNT",
+  "CertificateProfileName": "YOUR-PUBLIC-TRUST-PROFILE",
+  "ExcludeCredentials": ["ManagedIdentityCredential", "WorkloadIdentityCredential", "InteractiveBrowserCredential"]
+}
