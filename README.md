@@ -5,6 +5,14 @@
   </picture>
 </a>
 
+<!-- downloads:start -->
+<p align="center">
+  <a href="https://github.com/Zntoff/kairos-studio/releases/download/v0.10.0/KairosStudio-0.10.0-Setup-win-x64.exe"><b>Download Windows installer (EXE)</b></a> ·
+  <a href="https://github.com/Zntoff/kairos-studio/releases/download/v0.10.0/KairosStudio-0.10.0-Portable-win-x64.zip"><b>Download portable ZIP</b></a> ·
+  <a href="https://github.com/Zntoff/kairos-studio/releases/download/v0.10.0/KairosStudio-0.10.0-Docker.zip"><b>Download Docker bundle</b></a>
+</p>
+<!-- downloads:end -->
+
 <p align="center">
   <a href="https://github.com/Zntoff/kairos-studio/releases/latest"><img src="https://img.shields.io/github/v/release/Zntoff/kairos-studio?style=flat-square&color=0A0A0A&label=release" alt="Latest release"></a>
   <a href="https://github.com/Zntoff/kairos-studio/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/Zntoff/kairos-studio/ci.yml?branch=main&style=flat-square&label=CI" alt="CI"></a>
