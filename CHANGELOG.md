@@ -7,6 +7,9 @@ the prompts and the style catalog, and always carry the same version number.
 
 ## [Unreleased]
 
+- Prominent direct downloads for all three formats on the repository homepage, with version-synchronized links.
+- Disable automatic AI co-author and pull request attribution in the project settings.
+
 ## [0.10.0]
 
 First public release, from the project's new home at

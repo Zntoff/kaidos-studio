@@ -71,6 +71,7 @@ change one, test both apps. The Python render (`clipper/media/`) and the C# rend
 - **No private data:** no keys, videos, transcripts or paths from your computer.
 - **Style:** follow the style of the file you touch. Comments explain why, not what.
 - **Commits:** short imperative subject (`Add Gemini schema fallback`), with details in the body if needed.
+- **Attribution:** credit human contributors. Do not add AI assistants as commit co-authors or append assistant/session attribution to pull requests.
 
 ## Versioning
 

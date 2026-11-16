@@ -143,4 +143,4 @@ jobs:
           cp artifacts/windows-release/*.exe artifacts/windows-release/*.zip artifacts/docker-release/*.zip combined/
           (cd combined && sha256sum * > SHA256SUMS.txt)
           gh release create "$GITHUB_REF_NAME" combined/* --verify-tag --draft \
-            --title "Kairos Studio $GITHUB_REF_NAME" --notes "$(cat notes.md)" --generate-notes
+            --title "EXE / ZIP / Docker · $GITHUB_REF_NAME" --notes-file notes.md --generate-notes
