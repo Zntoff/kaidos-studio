@@ -66,6 +66,9 @@ try {
         $scratch=Join-Path $env:TEMP ('KairosPortable-'+[guid]::NewGuid().ToString('N'))
         $portable=Join-Path $scratch "KairosStudio-$version-Portable"
         New-Item -ItemType Directory -Path $portable -Force|Out-Null
+        # TEMP can be an 8.3 short path (CI runners) while enumerated files report the long one; use the long form
+        # so the relative paths in SHA256SUMS.txt are cut correctly.
+        $portable=(Get-ChildItem -LiteralPath $scratch -Directory|Where-Object Name -eq "KairosStudio-$version-Portable").FullName
         Get-ChildItem -LiteralPath $application|Copy-Item -Destination $portable -Recurse
         'Kairos Studio portable mode. Keep this file beside KairosStudio.exe.'|Set-Content -LiteralPath (Join-Path $portable 'portable.flag') -Encoding ASCII
         $hashes=Get-ChildItem -LiteralPath $portable -File -Recurse|Where-Object {$_.Name -ne 'SHA256SUMS.txt'}|Sort-Object FullName|ForEach-Object {((Get-FileHash -LiteralPath $_.FullName -Algorithm SHA256).Hash.ToLower()+'  '+$_.FullName.Substring($portable.Length+1).Replace('\','/'))}
