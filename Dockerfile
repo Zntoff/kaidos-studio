@@ -1,5 +1,11 @@
 FROM python:3.12-slim
 
+# Links the published image (ghcr.io/zntoff/kairos-studio) to this repository.
+LABEL org.opencontainers.image.title="Kairos Studio" \
+      org.opencontainers.image.description="AI clipping that turns long videos into vertical shorts. Web panel on port 8000." \
+      org.opencontainers.image.source="https://github.com/Zntoff/kairos-studio" \
+      org.opencontainers.image.licenses="Apache-2.0"
+
 RUN apt-get update \
     && apt-get install -y --no-install-recommends ffmpeg fontconfig fonts-inter \
     && rm -rf /var/lib/apt/lists/*

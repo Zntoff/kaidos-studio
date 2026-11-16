@@ -76,9 +76,13 @@ jobs:
 
   docker:
     name: Docker image and bundle
-    needs: guard
+    # After Windows, so a tag whose desktop build fails never publishes an image.
+    needs: [guard, windows]
     runs-on: ubuntu-latest
     timeout-minutes: 45
+    permissions:
+      contents: read
+      packages: write
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -91,6 +95,18 @@ jobs:
           ./release.ps1 -Target Docker -ExpectedVersion $expected -OutputDirectory artifacts/docker
       - name: Container regression checks
         run: docker run --rm --entrypoint sh "kairos-studio:${{ needs.guard.outputs.version }}" -c 'pip install --quiet pytest && pytest -q'
+      - name: Publish the image to GitHub Packages
+        if: github.ref_type == 'tag'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          VERSION: ${{ needs.guard.outputs.version }}
+        run: |
+          image="ghcr.io/$(echo "$GITHUB_REPOSITORY_OWNER" | tr '[:upper:]' '[:lower:]')/kairos-studio"
+          echo "$GH_TOKEN" | docker login ghcr.io -u "$GITHUB_ACTOR" --password-stdin
+          for tag in "$VERSION" latest; do
+            docker tag "kairos-studio:$VERSION" "$image:$tag"
+            docker push "$image:$tag"
+          done
       - uses: actions/upload-artifact@v4
         with:
           name: docker-release
