@@ -1,0 +1,13 @@
+# Optional NVIDIA passthrough. The default compose file remains usable on CPU-only hosts.
+# docker compose -f docker-compose.yml -f docker-compose.gpu.yml up -d --build
+services:
+  app:
+    environment:
+      NVIDIA_DRIVER_CAPABILITIES: compute,utility,video
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]

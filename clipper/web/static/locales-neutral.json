@@ -1,0 +1,9 @@
+{
+  "description": "Language-independent product names, file formats, font/style names and keyboard keys. Never add application sentences or user content here.",
+  "terms": [
+    "API", "AI", "CPU", "GPU", "FFmpeg", "yt-dlp", "whisper.cpp", "Whisper", "LUFS", "USD", "BPM", "MB", "GB", "KB", "ms", "px", "fps", "mp4", "json", "pdf", "txt", "md", "wav", "mp3",
+    "Anthropic · Claude", "OpenAI", "Google Gemini", "OpenRouter", "Mistral", "DeepSeek", "Groq", "Ollama", "LM Studio", "Haiku", "Sonnet", "Opus", "Kairos Studio", "YouTube Shorts", "Instagram Reels", "TikTok", "YouTube / Twitch", "Shorts",
+    "Original", "Arcade", "Auto", "Drama", "Vintage", "Glitch", "Pixel", "Pop", "Zoom", "Whoosh", "Swoosh", "Click", "Tick", "Ding", "Notify", "Coin", "Level up", "Error", "Boing", "Laser", "Shutter", "Impact", "Bass drop", "Heartbeat", "Riser", "Suspense", "Chill", "Energy", "Ambient", "Air horn", "Ba-dum-tss / rimshot",
+    "Alt", "Ctrl+Y", "Ctrl+Z", "I", "O", "S", "T", "N", "Z", "en", "es", "pt", "fr", "de", "EN", "ES", "PT", "FR", "DE", "English", "Español", "Português", "Français", "Deutsch"
+  ]
+}

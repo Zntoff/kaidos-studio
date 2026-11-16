@@ -1,0 +1,16 @@
+[
+  {"id": "caption", "label": "Inter Black", "family": "Inter Black", "file": "Inter-Black.otf", "bold": false},
+  {"id": "text", "label": "Inter Bold", "family": "Inter", "file": "Inter-Bold.otf", "bold": true},
+  {"id": "anton", "label": "Anton", "family": "Anton", "file": "Anton-Regular.ttf", "bold": false},
+  {"id": "bebas", "label": "Bebas Neue", "family": "Bebas Neue", "file": "BebasNeue-Regular.ttf", "bold": false},
+  {"id": "archivo", "label": "Archivo Black", "family": "Archivo Black", "file": "ArchivoBlack-Regular.ttf", "bold": false},
+  {"id": "poppins", "label": "Poppins Bold", "family": "Poppins", "file": "Poppins-Bold.ttf", "bold": true},
+  {"id": "bangers", "label": "Bangers", "family": "Bangers", "file": "Bangers-Regular.ttf", "bold": false},
+  {"id": "lucky", "label": "Luckiest Guy", "family": "Luckiest Guy", "file": "LuckiestGuy-Regular.ttf", "bold": false},
+  {"id": "titan", "label": "Titan One", "family": "Titan One", "file": "TitanOne-Regular.ttf", "bold": false},
+  {"id": "bungee", "label": "Bungee", "family": "Bungee", "file": "Bungee-Regular.ttf", "bold": false},
+  {"id": "russo", "label": "Russo One", "family": "Russo One", "file": "RussoOne-Regular.ttf", "bold": false},
+  {"id": "pixel", "label": "Press Start 2P", "family": "Press Start 2P", "file": "PressStart2P-Regular.ttf", "bold": false},
+  {"id": "marker", "label": "Permanent Marker", "family": "Permanent Marker", "file": "PermanentMarker-Regular.ttf", "bold": false},
+  {"id": "pacifico", "label": "Pacifico", "family": "Pacifico", "file": "Pacifico-Regular.ttf", "bold": false}
+]

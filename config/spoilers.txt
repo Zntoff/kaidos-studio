@@ -1,0 +1,34 @@
+# Spoiler terms. One entry per line; case is ignored.
+# A match does NOT reject the clip: it sends it to human review.
+# Add the terms that reveal the story of the content you clip: endings, twists,
+# key characters of series, movies or games. This starter list is generic.
+# Spanish terms are included on purpose: they match Spanish transcripts.
+ending
+final mission
+last mission
+final boss
+post-credits
+credits scene
+plot twist
+death of
+betrays
+betrayal
+cutscene
+all cutscenes
+full movie
+leak
+leaked
+pre-release
+misión final
+última misión
+jefe final
+poscréditos
+giro de trama
+muerte de
+traiciona
+traición
+cinemática
+todas las cinemáticas
+película completa
+filtrado
+filtración

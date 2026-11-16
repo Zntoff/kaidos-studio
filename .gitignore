@@ -1,0 +1,42 @@
+# Secrets and local data: never committed
+.env
+.env.*
+!.env.example
+data/
+input/
+demo/
+*.db
+settings.ai.json
+usage.jsonl
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.venv-test/
+venv/
+.pytest_cache/
+
+# Desktop app (.NET): build output and downloaded tools
+desktop/**/bin/
+desktop/**/obj/
+desktop/tools/
+desktop/dist/
+releases/
+artifacts/
+*.user
+
+# Editor and OS
+.vscode/
+.idea/
+.vs/
+.DS_Store
+Thumbs.db
+
+# Private signing material is never committed or included in build contexts.
+*.pfx
+*.p12
+*.key
+*.pem
+**/signing-metadata.json

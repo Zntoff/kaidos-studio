@@ -1,0 +1,924 @@
+Inicio	Home	Início	Accueil	Start
+Proyectos	Projects	Projetos	Projets	Projekte
+Videos	Videos	Vídeos	Vidéos	Videos
+Recursos	Resources	Recursos	Ressources	Ressourcen
+Trabajos	Jobs	Tarefas	Tâches	Aufträge
+Clips	Clips	Clipes	Clips	Clips
+Cola de aprobación	Approval queue	Fila de aprovação	File d’approbation	Freigabewarteschlange
+Ajustes	Settings	Configurações	Paramètres	Einstellungen
+APIs y modelos	APIs and models	APIs e modelos	API et modèles	APIs und Modelle
+Espacio de trabajo	Workspace	Espaço de trabalho	Espace de travail	Arbeitsbereich
+Contenido del proyecto	Project content	Conteúdo do projeto	Contenu du projet	Projektinhalte
+Proyecto actual	Current project	Projeto atual	Projet actuel	Aktuelles Projekt
+Nuevo proyecto	New project	Novo projeto	Nouveau projet	Neues Projekt
+Cambiar proyecto	Switch project	Trocar projeto	Changer de projet	Projekt wechseln
+Cambiar IA	Switch AI	Trocar IA	Changer d’IA	KI wechseln
+Cambiar proveedor	Switch provider	Trocar provedor	Changer de fournisseur	Anbieter wechseln
+Cambiar proveedor de IA	Switch AI provider	Trocar provedor de IA	Changer de fournisseur d’IA	KI-Anbieter wechseln
+Idioma de la interfaz	Interface language	Idioma da interface	Langue de l’interface	Sprache der Oberfläche
+Solo cambia la interfaz; el idioma de los videos se configura por separado.	Only changes the interface; video languages are configured separately.	Altera apenas a interface; os idiomas dos vídeos são configurados separadamente.	Modifie uniquement l’interface ; les langues des vidéos se règlent séparément.	Ändert nur die Oberfläche; Videosprachen werden separat eingestellt.
+¿Qué quieres hacer hoy?	What would you like to do today?	O que você quer fazer hoje?	Que souhaitez-vous faire aujourd’hui ?	Was möchtest du heute tun?
+El momento exacto.	The right moment.	O momento certo.	Le bon moment.	Der richtige Moment.
+Kairos Studio · El momento exacto.	Kairos Studio · The right moment.	Kairos Studio · O momento certo.	Kairos Studio · Le bon moment.	Kairos Studio · Der richtige Moment.
+Definir un proyecto	Create a project	Criar um projeto	Créer un projet	Projekt erstellen
+Añadir un nuevo video	Add a new video	Adicionar um novo vídeo	Ajouter une vidéo	Neues Video hinzufügen
+Generar un short	Generate a short	Gerar um short	Générer un short	Short erstellen
+Buscar proyectos o contenido del proyecto actual	Search projects or content in the current project	Buscar projetos ou conteúdo do projeto atual	Rechercher des projets ou le contenu du projet actuel	Projekte oder Inhalte des aktuellen Projekts suchen
+Organiza una nueva idea y sus recursos.	Organize a new idea and its resources.	Organize uma nova ideia e seus recursos.	Organisez une nouvelle idée et ses ressources.	Organisiere eine neue Idee und ihre Ressourcen.
+Sube un archivo o pega un enlace.	Upload a file or paste a link.	Envie um arquivo ou cole um link.	Importez un fichier ou collez un lien.	Lade eine Datei hoch oder füge einen Link ein.
+Elige un video de este proyecto.	Choose a video from this project.	Escolha um vídeo deste projeto.	Choisissez une vidéo de ce projet.	Wähle ein Video aus diesem Projekt.
+Cada proyecto mantiene sus videos, recursos y generaciones.	Each project keeps its own videos, resources and generations.	Cada projeto mantém seus vídeos, recursos e gerações.	Chaque projet conserve ses vidéos, ressources et générations.	Jedes Projekt verwaltet seine eigenen Videos, Ressourcen und Generierungen.
+Los videos y sus generaciones se organizan juntos.	Videos and their generations stay together.	Os vídeos e suas gerações ficam juntos.	Les vidéos et leurs générations restent ensemble.	Videos und ihre Generierungen bleiben zusammen.
+Videos del proyecto	Project videos	Vídeos do projeto	Vidéos du projet	Projektvideos
+Videos registrados	Registered videos	Vídeos registrados	Vidéos enregistrées	Registrierte Videos
+Generaciones	Generations	Gerações	Générations	Generierungen
+generaciones	generations	gerações	générations	Generierungen
+recursos	resources	recursos	ressources	Ressourcen
+videos	videos	vídeos	vidéos	Videos
+Abrir proyecto	Open project	Abrir projeto	Ouvrir le projet	Projekt öffnen
+Abrir clip	Open clip	Abrir clipe	Ouvrir le clip	Clip öffnen
+Editar	Edit	Editar	Modifier	Bearbeiten
+Nombre	Name	Nome	Nom	Name
+Descripción	Description	Descrição	Description	Beschreibung
+Descripción (opcional)	Description (optional)	Descrição (opcional)	Description (facultative)	Beschreibung (optional)
+Guardar proyecto	Save project	Salvar projeto	Enregistrer le projet	Projekt speichern
+Cancelar	Cancel	Cancelar	Annuler	Abbrechen
+Guardar	Save	Salvar	Enregistrer	Speichern
+Guardar cambios	Save changes	Salvar alterações	Enregistrer les modifications	Änderungen speichern
+Guardar preferencias	Save preferences	Salvar preferências	Enregistrer les préférences	Einstellungen speichern
+Guardar rendimiento	Save performance settings	Salvar desempenho	Enregistrer les performances	Leistungseinstellungen speichern
+Volver	Back	Voltar	Retour	Zurück
+Cerrar	Close	Fechar	Fermer	Schließen
+Reintentar	Retry	Tentar novamente	Réessayer	Erneut versuchen
+No se pudo cargar esta vista	Could not load this view	Não foi possível carregar esta tela	Impossible de charger cette vue	Diese Ansicht konnte nicht geladen werden
+Tu contenido se conserva.	Your content is preserved.	Seu conteúdo foi preservado.	Votre contenu est conservé.	Deine Inhalte bleiben erhalten.
+Cargando el proyecto…	Loading project…	Carregando projeto…	Chargement du projet…	Projekt wird geladen…
+Cargando…	Loading…	Carregando…	Chargement…	Wird geladen…
+Guardando…	Saving…	Salvando…	Enregistrement…	Wird gespeichert…
+Guardado	Saved	Salvo	Enregistré	Gespeichert
+Enviando…	Uploading…	Enviando…	Envoi…	Wird hochgeladen…
+Todos	All	Todos	Tous	Alle
+Ninguno	None	Nenhum	Aucun	Keine
+Actual	Current	Atual	Actuel	Aktuell
+Ver todos	View all	Ver todos	Tout voir	Alle anzeigen
+Ver todas	View all	Ver todas	Tout voir	Alle anzeigen
+Ver	View	Ver	Voir	Anzeigen
+Añadir recursos	Add resources	Adicionar recursos	Ajouter des ressources	Ressourcen hinzufügen
+Archivo (hasta 100 MB)	File (up to 100 MB)	Arquivo (até 100 MB)	Fichier (jusqu’à 100 Mo)	Datei (bis zu 100 MB)
+Descargar	Download	Baixar	Télécharger	Herunterladen
+Eliminar	Delete	Excluir	Supprimer	Löschen
+Quitar	Remove	Remover	Retirer	Entfernen
+Añadir un video	Add a video	Adicionar um vídeo	Ajouter une vidéo	Video hinzufügen
+Añade un video para empezar a crear shorts en este proyecto.	Add a video to start creating shorts in this project.	Adicione um vídeo para começar a criar shorts neste projeto.	Ajoutez une vidéo pour créer des shorts dans ce projet.	Füge ein Video hinzu, um Shorts in diesem Projekt zu erstellen.
+Este proyecto aún no tiene videos.	This project has no videos yet.	Este projeto ainda não tem vídeos.	Ce projet n’a pas encore de vidéos.	Dieses Projekt hat noch keine Videos.
+Las generaciones de este proyecto aparecerán aquí.	This project's generations will appear here.	As gerações deste projeto aparecerão aqui.	Les générations de ce projet apparaîtront ici.	Die Generierungen dieses Projekts erscheinen hier.
+Cada video entra con su estado de derechos y la evidencia. Sin eso no se procesa.	Each video requires a rights status and evidence before processing.	Cada vídeo exige um status de direitos e evidências antes do processamento.	Chaque vidéo nécessite un statut de droits et une preuve avant traitement.	Jedes Video benötigt vor der Verarbeitung einen Rechtestatus und einen Nachweis.
+Registra un video largo; de ahí salen los clips.	Add a long video to create clips from it.	Adicione um vídeo longo para criar clipes.	Ajoutez une vidéo longue pour en créer des clips.	Füge ein langes Video hinzu, um daraus Clips zu erstellen.
+Enlace	Link	Link	Lien	Link
+Archivo	File	Arquivo	Fichier	Datei
+Carpeta de entrada	Input folder	Pasta de entrada	Dossier d’entrée	Eingabeordner
+Enlace de YouTube, Twitch o Kick	YouTube, Twitch or Kick link	Link do YouTube, Twitch ou Kick	Lien YouTube, Twitch ou Kick	YouTube-, Twitch- oder Kick-Link
+Archivo de video	Video file	Arquivo de vídeo	Fichier vidéo	Videodatei
+Archivo de la carpeta de entrada	File from input folder	Arquivo da pasta de entrada	Fichier du dossier d’entrée	Datei aus dem Eingabeordner
+Derechos	Rights	Direitos	Droits	Rechte
+Evidencia (enlace al permiso o descripción)	Evidence (permission link or description)	Evidência (link da permissão ou descrição)	Preuve (lien d’autorisation ou description)	Nachweis (Link zur Genehmigung oder Beschreibung)
+Crédito (opcional)	Credit (optional)	Crédito (opcional)	Crédit (facultatif)	Quellenangabe (optional)
+Idioma hablado	Spoken language	Idioma falado	Langue parlée	Gesprochene Sprache
+Detectar	Detect	Detectar	Détecter	Erkennen
+Inglés	English	Inglês	Anglais	Englisch
+Español	Spanish	Espanhol	Espagnol	Spanisch
+Portugués	Portuguese	Português	Portugais	Portugiesisch
+Francés	French	Francês	Français	Französisch
+Alemán	German	Alemão	Allemand	Deutsch
+Analizar momentos	Analyze moments	Analisar momentos	Analyser les moments	Momente analysieren
+Crear manualmente	Create manually	Criar manualmente	Créer manuellement	Manuell erstellen
+Crear un clip	Create a clip	Criar um clipe	Créer un clip	Clip erstellen
+Mover video	Move video	Mover vídeo	Déplacer la vidéo	Video verschieben
+Mover video y generaciones	Move video and generations	Mover vídeo e gerações	Déplacer la vidéo et ses générations	Video und Generierungen verschieben
+Proyecto de destino	Destination project	Projeto de destino	Projet de destination	Zielprojekt
+También se moverán sus generaciones y clips. Espera a que terminen los trabajos activos antes de moverlo.	Its generations and clips will move too. Wait for active jobs to finish first.	As gerações e clipes também serão movidos. Aguarde o fim das tarefas ativas.	Ses générations et clips seront aussi déplacés. Attendez la fin des tâches actives.	Die Generierungen und Clips werden ebenfalls verschoben. Warte zunächst auf das Ende laufender Aufträge.
+Buscar un trabajo	Search jobs	Buscar tarefas	Rechercher une tâche	Aufträge suchen
+Video, proyecto o identificador	Video, project or ID	Vídeo, projeto ou identificador	Vidéo, projet ou identifiant	Video, Projekt oder Kennung
+Proyecto	Project	Projeto	Projet	Projekt
+Estado	Status	Status	État	Status
+Todos los proyectos	All projects	Todos os projetos	Tous les projets	Alle Projekte
+Todos los estados	All statuses	Todos os estados	Tous les états	Alle Status
+En curso y por elegir	Active and awaiting selection	Em andamento e aguardando seleção	En cours et en attente de sélection	Aktiv und zur Auswahl
+Terminados	Completed	Concluídos	Terminées	Abgeschlossen
+Con errores	With errors	Com erros	En erreur	Mit Fehlern
+Ver trabajo	View job	Ver tarefa	Voir la tâche	Auftrag ansehen
+Ver el error	View error	Ver erro	Voir l’erreur	Fehler anzeigen
+Retomar	Resume	Retomar	Reprendre	Fortsetzen
+Generar más	Generate more	Gerar mais	Générer davantage	Weitere erstellen
+Elegir momentos	Choose moments	Escolher momentos	Choisir les moments	Momente auswählen
+Elige los momentos	Choose the moments	Escolha os momentos	Choisissez les moments	Wähle die Momente
+Marcar los 3 mejores	Select top 3	Selecionar os 3 melhores	Sélectionner les 3 meilleurs	Die 3 besten auswählen
+Por puntaje	By score	Por pontuação	Par score	Nach Bewertung
+Por tiempo	By time	Por tempo	Par date	Nach Zeit
+Cómo generarlos	Generation options	Opções de geração	Options de génération	Generierungsoptionen
+Idiomas de salida	Output languages	Idiomas de saída	Langues de sortie	Ausgabesprachen
+Encuadre	Framing	Enquadramento	Cadrage	Bildausschnitt
+Que decida la IA	Let AI decide	Deixar a IA decidir	Laisser l’IA décider	KI entscheiden lassen
+Completo + fondo	Fit + background	Completo + fundo	Entier + fond	Vollbild + Hintergrund
+Recorte vertical	Vertical crop	Recorte vertical	Recadrage vertical	Vertikaler Zuschnitt
+Completo + fondo: conservar todo el video	Fit + background: keep the whole video	Completo + fundo: manter o vídeo inteiro	Entier + fond : conserver toute la vidéo	Vollbild + Hintergrund: gesamtes Video erhalten
+Recorte vertical: puede excluir contenido lateral	Vertical crop: may exclude side content	Recorte vertical: pode excluir conteúdo lateral	Recadrage vertical : peut exclure les côtés	Vertikaler Zuschnitt: seitliche Inhalte können entfallen
+Automático: conservar el contexto y centrar el sujeto	Automatic: preserve context and center the subject	Automático: preservar contexto e centralizar o sujeito	Automatique : conserver le contexte et centrer le sujet	Automatisch: Kontext erhalten und Motiv zentrieren
+Estilo de subtítulos	Caption style	Estilo de legendas	Style des sous-titres	Untertitelstil
+Lista para aprobar	Ready for approval	Pronto para aprovação	Prêt à approuver	Bereit zur Freigabe
+Revisar	Needs review	Revisar	À vérifier	Prüfen
+Aprobado	Approved	Aprovado	Approuvé	Freigegeben
+Rechazado por la IA	Rejected by AI	Rejeitado pela IA	Rejeté par l’IA	Von KI abgelehnt
+Rechazado	Rejected	Rejeitado	Rejeté	Abgelehnt
+Falló un subagente	An agent failed	Um agente falhou	Un agent a échoué	Ein Agent ist fehlgeschlagen
+En proceso	Processing	Processando	Traitement en cours	In Verarbeitung
+Terminado	Completed	Concluído	Terminé	Abgeschlossen
+En curso	Running	Em andamento	En cours	Läuft
+Falló	Failed	Falhou	Échec	Fehlgeschlagen
+Interrumpido	Interrupted	Interrompido	Interrompu	Unterbrochen
+En cola	Queued	Na fila	En attente	In Warteschlange
+Pasos de los subagentes	Agent steps	Etapas dos agentes	Étapes des agents	Agentenschritte
+Agente	Agent	Agente	Agent	Agent
+Intentos	Attempts	Tentativas	Tentatives	Versuche
+Modelo	Model	Modelo	Modèle	Modell
+Segundos	Seconds	Segundos	Secondes	Sekunden
+Sin clips.	No clips.	Sem clipes.	Aucun clip.	Keine Clips.
+Todavía no hay trabajos en este proyecto.	No jobs in this project yet.	Ainda não há tarefas neste projeto.	Aucune tâche dans ce projet pour le moment.	Noch keine Aufträge in diesem Projekt.
+No hay trabajos con estos filtros.	No jobs match these filters.	Nenhuma tarefa corresponde a estes filtros.	Aucune tâche ne correspond à ces filtres.	Keine Aufträge entsprechen diesen Filtern.
+Encuentra cada generación por su video, estado y proyecto.	Find each generation by video, status and project.	Encontre cada geração por vídeo, status e projeto.	Retrouvez chaque génération par vidéo, état et projet.	Finde jede Generierung nach Video, Status und Projekt.
+Abrir en el editor	Open in editor	Abrir no editor	Ouvrir dans l’éditeur	Im Editor öffnen
+Nueva edición con IA	New AI edit	Nova edição com IA	Nouvelle édition avec l’IA	Neue KI-Bearbeitung
+Crear nueva versión	Create new version	Criar nova versão	Créer une nouvelle version	Neue Version erstellen
+Reintentar render del borrador	Retry draft render	Tentar renderizar rascunho novamente	Relancer le rendu du brouillon	Entwurf erneut rendern
+Sin video	No video	Sem vídeo	Aucune vidéo	Kein Video
+Intención de la edición	Editorial intent	Intenção da edição	Intention du montage	Bearbeitungsabsicht
+Revisión	Review	Revisão	Vérification	Prüfung
+Revisar:	Review:	Revisar:	À vérifier :	Prüfen:
+Revisión:	Review:	Revisão:	Vérification :	Prüfung:
+Tu decisión	Your decision	Sua decisão	Votre décision	Deine Entscheidung
+Quién decide	Reviewer	Responsável	Responsable	Prüfer
+Nota (opcional)	Note (optional)	Nota (opcional)	Note (facultative)	Notiz (optional)
+Aprobar	Approve	Aprovar	Approuver	Freigeben
+Rechazar	Reject	Rejeitar	Rejeter	Ablehnen
+Indica quién decide.	Enter the reviewer's name.	Informe o nome do responsável.	Indiquez le nom du responsable.	Gib den Namen des Prüfers ein.
+Listo para publicar	Ready to publish	Pronto para publicar	Prêt à publier	Bereit zur Veröffentlichung
+Copia el contenido de cada plataforma.	Copy the content for each platform.	Copie o conteúdo de cada plataforma.	Copiez le contenu pour chaque plateforme.	Kopiere die Inhalte für jede Plattform.
+Idioma de las sugerencias	Suggestion language	Idioma das sugestões	Langue des suggestions	Sprache der Vorschläge
+Título	Title	Título	Titre	Titel
+Hashtags	Hashtags	Hashtags	Hashtags	Hashtags
+Copiar	Copy	Copiar	Copier	Kopieren
+Copiar todo	Copy all	Copiar tudo	Tout copier	Alles kopieren
+Sin sugerencia generada	No suggestion generated	Nenhuma sugestão gerada	Aucune suggestion générée	Kein Vorschlag erstellt
+Copiado al portapapeles	Copied to clipboard	Copiado para a área de transferência	Copié dans le presse-papiers	In die Zwischenablage kopiert
+No se pudo copiar. Selecciona el texto y cópialo manualmente.	Could not copy. Select the text and copy it manually.	Não foi possível copiar. Selecione o texto e copie manualmente.	Impossible de copier. Sélectionnez le texte et copiez-le manuellement.	Kopieren fehlgeschlagen. Markiere den Text und kopiere ihn manuell.
+Abrir carpeta	Open folder	Abrir pasta	Ouvrir le dossier	Ordner öffnen
+Paquete:	Package:	Pacote:	Paquet :	Paket:
+Hay un borrador del editor sin renderizar: el video de aquí no incluye esos cambios.	There is an unrendered editor draft: this video does not include those changes.	Há um rascunho não renderizado: este vídeo não inclui essas alterações.	Un brouillon n’a pas été rendu : cette vidéo n’inclut pas ces modifications.	Ein Editorentwurf wurde noch nicht gerendert: Dieses Video enthält diese Änderungen nicht.
+Este video tiene mejoras de encuadre o zonas seguras pendientes. Ábrelo en el editor y vuelve a renderizarlo para aplicarlas.	This video has pending framing or safe-area improvements. Open it in the editor and render again to apply them.	Este vídeo tem melhorias pendentes de enquadramento ou área segura. Abra-o no editor e renderize novamente.	Des améliorations de cadrage ou de zone de sécurité sont en attente. Ouvrez la vidéo dans l’éditeur et relancez le rendu.	Für dieses Video stehen Verbesserungen am Bildausschnitt oder Sicherheitsbereich aus. Öffne es im Editor und rendere es erneut.
+Las ampliaciones de caras se basan en fotogramas y deben revisarse. Los efectos no garantizan originalidad ni monetización.	Face zooms are based on frames and need review. Effects do not guarantee originality or monetization.	As ampliações de rostos se baseiam em quadros e precisam de revisão. Efeitos não garantem originalidade ou monetização.	Les zooms sur les visages reposent sur des images et doivent être vérifiés. Les effets ne garantissent ni originalité ni monétisation.	Gesichtsvergrößerungen basieren auf Einzelbildern und müssen geprüft werden. Effekte garantieren weder Originalität noch Monetarisierung.
+La publicación automática no está activa: sube el paquete a mano.	Automatic publishing is not enabled: upload the package manually.	A publicação automática não está ativa: envie o pacote manualmente.	La publication automatique n’est pas activée : importez le paquet manuellement.	Automatische Veröffentlichung ist nicht aktiv: Lade das Paket manuell hoch.
+Apariencia	Appearance	Aparência	Apparence	Darstellung
+Tema de la interfaz	Interface theme	Tema da interface	Thème de l’interface	Oberflächendesign
+Oscuro	Dark	Escuro	Sombre	Dunkel
+Claro	Light	Claro	Clair	Hell
+Seguir al sistema	Use system setting	Seguir o sistema	Suivre le système	Systemeinstellung verwenden
+Escritorio	Desktop	Desktop	Bureau	Desktop
+Contenedor	Container	Contêiner	Conteneur	Container
+Rendimiento y hardware	Performance and hardware	Desempenho e hardware	Performances et matériel	Leistung und Hardware
+Dispositivo	Device	Dispositivo	Appareil	Gerät
+Automático	Automatic	Automático	Automatique	Automatisch
+Procesador · CPU	Processor · CPU	Processador · CPU	Processeur · CPU	Prozessor · CPU
+Fotogramas por segundo	Frames per second	Quadros por segundo	Images par seconde	Bilder pro Sekunde
+Calidad (14–30, menor = mejor)	Quality (14–30, lower is better)	Qualidade (14–30, menor é melhor)	Qualité (14–30, plus bas = mieux)	Qualität (14–30, niedriger ist besser)
+Decodificación por GPU en modo automático, si es compatible	GPU decoding in automatic mode, if supported	Decodificação por GPU no modo automático, se compatível	Décodage GPU en mode automatique, si compatible	GPU-Decodierung im Automatikmodus, falls unterstützt
+Elige el dispositivo para los nuevos renders. CPU reduce la dependencia de memoria gráfica; 30 fps requiere menos trabajo que 60 fps. Los renders que ya están en curso conservan sus opciones.	Choose the device for new renders. CPU reduces graphics-memory requirements; 30 fps takes less work than 60 fps. Running renders keep their settings.	Escolha o dispositivo para novos renders. A CPU reduz a dependência de memória gráfica; 30 fps exige menos que 60 fps. Os renders em andamento mantêm suas opções.	Choisissez l’appareil pour les nouveaux rendus. Le CPU réduit les besoins en mémoire graphique ; 30 ips demande moins de travail que 60. Les rendus en cours gardent leurs réglages.	Wähle das Gerät für neue Renderings. Die CPU benötigt weniger Grafikspeicher; 30 fps erfordern weniger Rechenleistung als 60 fps. Laufende Renderings behalten ihre Einstellungen.
+Hardware detectado	Detected hardware	Hardware detectado	Matériel détecté	Erkannte Hardware
+Codificador actual:	Current encoder:	Codificador atual:	Encodeur actuel :	Aktueller Encoder:
+Carpeta de salida	Output folder	Pasta de saída	Dossier de sortie	Ausgabeordner
+Elegir carpeta	Choose folder	Escolher pasta	Choisir un dossier	Ordner auswählen
+Carpeta para los nuevos videos generados. Los clips anteriores conservan su ubicación.	Folder for newly generated videos. Existing clips keep their location.	Pasta para os novos vídeos gerados. Os clipes anteriores mantêm sua localização.	Dossier des nouvelles vidéos générées. Les clips existants conservent leur emplacement.	Ordner für neu erstellte Videos. Vorhandene Clips behalten ihren Speicherort.
+Transcripción	Transcription	Transcrição	Transcription	Transkription
+Rápida — una alternativa por palabra	Fast — one alternative per word	Rápida — uma alternativa por palavra	Rapide — une alternative par mot	Schnell — eine Alternative pro Wort
+Precisa — varias alternativas, tarda más	Accurate — multiple alternatives, takes longer	Precisa — várias alternativas, demora mais	Précise — plusieurs alternatives, plus longue	Genau — mehrere Alternativen, dauert länger
+El modo rápido puede perder algo de precisión. Las transcripciones ya terminadas se reutilizan.	Fast mode may lose some accuracy. Completed transcriptions are reused.	O modo rápido pode perder precisão. As transcrições concluídas são reutilizadas.	Le mode rapide peut être moins précis. Les transcriptions terminées sont réutilisées.	Der schnelle Modus kann etwas ungenauer sein. Fertige Transkriptionen werden wiederverwendet.
+Herramientas	Tools	Ferramentas	Outils	Werkzeuge
+Consumo	Usage	Consumo	Consommation	Verbrauch
+Consumo no disponible	Usage unavailable	Consumo indisponível	Consommation indisponible	Verbrauch nicht verfügbar
+Crédito cargado (USD)	Credit added (USD)	Crédito adicionado (USD)	Crédit ajouté (USD)	Aufgeladenes Guthaben (USD)
+Indica cuánto crédito cargaste para ver cuánto te queda.	Enter the credit you added to estimate the remaining amount.	Informe o crédito adicionado para estimar o saldo restante.	Indiquez le crédit ajouté pour estimer le solde restant.	Gib dein aufgeladenes Guthaben ein, um den Restbetrag zu schätzen.
+Se cuenta el gasto desde que lo fijas. Hazlo cada vez que recargues.	Spending is counted from when you set it. Update it whenever you top up.	O gasto é contado a partir da definição. Atualize sempre que recarregar.	Les dépenses sont comptées à partir du réglage. Actualisez après chaque recharge.	Ausgaben werden ab diesem Zeitpunkt gezählt. Aktualisiere den Betrag nach jeder Aufladung.
+Gasto por día	Daily spending	Gasto por dia	Dépenses par jour	Tägliche Ausgaben
+Por modelo	By model	Por modelo	Par modèle	Nach Modell
+Llamadas	Calls	Chamadas	Appels	Aufrufe
+Costo	Cost	Custo	Coût	Kosten
+Entrada	Input	Entrada	Entrée	Eingabe
+Salida	Output	Saída	Sortie	Ausgabe
+Todavía no hay llamadas en este periodo.	No calls in this period yet.	Ainda não há chamadas neste período.	Aucun appel sur cette période pour le moment.	Noch keine Aufrufe in diesem Zeitraum.
+Administrar APIs y modelos	Manage APIs and models	Gerenciar APIs e modelos	Gérer les API et modèles	APIs und Modelle verwalten
+Proveedor de IA	AI provider	Provedor de IA	Fournisseur d’IA	KI-Anbieter
+Proveedor	Provider	Provedor	Fournisseur	Anbieter
+En uso · listo	Active · ready	Em uso · pronto	Actif · prêt	Aktiv · bereit
+En uso · incompleto	Active · incomplete	Em uso · incompleto	Actif · incomplet	Aktiv · unvollständig
+No está en uso	Not active	Não está em uso	Inactif	Nicht aktiv
+Guardada	Saved	Salva	Enregistrée	Gespeichert
+Sin key	No key	Sem chave	Sans clé	Kein Schlüssel
+Guardar y probar	Save and test	Salvar e testar	Enregistrer et tester	Speichern und testen
+Probar conexión	Test connection	Testar conexão	Tester la connexion	Verbindung testen
+Probando…	Testing…	Testando…	Test en cours…	Wird getestet…
+Dirección del servidor	Server address	Endereço do servidor	Adresse du serveur	Serveradresse
+Modelos y precios	Models and pricing	Modelos e preços	Modèles et tarifs	Modelle und Preise
+Elige qué modelo usa cada nivel. Pueden ser el mismo. Los precios (USD por millón de tokens) solo sirven para calcular tu consumo.	Choose a model for each tier. You can use the same model for several tiers. Prices (USD per million tokens) are used only to estimate usage costs.	Escolha um modelo por nível. Pode usar o mesmo em vários níveis. Os preços (USD por milhão de tokens) servem apenas para estimar o consumo.	Choisissez un modèle par niveau. Un même modèle peut servir à plusieurs niveaux. Les tarifs (USD par million de jetons) servent uniquement à estimer les coûts.	Wähle ein Modell pro Stufe. Dasselbe Modell kann mehreren Stufen zugeordnet werden. Preise (USD pro Million Tokens) dienen nur zur Kostenschätzung.
+Nombre del modelo	Model name	Nome do modelo	Nom du modèle	Modellname
+Buscar modelo	Search models	Buscar modelo	Rechercher un modèle	Modell suchen
+Pega tu key	Paste your key	Cole sua chave	Collez votre clé	Schlüssel einfügen
+Pega otra key para reemplazarla	Paste another key to replace it	Cole outra chave para substituí-la	Collez une autre clé pour la remplacer	Zum Ersetzen einen anderen Schlüssel einfügen
+Guardar y usar este proveedor	Save and use this provider	Salvar e usar este provedor	Enregistrer et utiliser ce fournisseur	Speichern und diesen Anbieter nutzen
+El proveedor no devolvió modelos. Escribe el nombre a mano.	The provider returned no models. Enter a model name manually.	O provedor não retornou modelos. Digite o nome manualmente.	Le fournisseur n’a renvoyé aucun modèle. Saisissez le nom manuellement.	Der Anbieter hat keine Modelle zurückgegeben. Gib den Modellnamen manuell ein.
+Mostrando 100 resultados. Busca para encontrar los demás.	Showing 100 results. Search to find more.	Mostrando 100 resultados. Busque para encontrar os demais.	Affichage de 100 résultats. Recherchez pour en trouver d’autres.	100 Ergebnisse werden angezeigt. Suche nach weiteren.
+Se aplica a las próximas generaciones. Los trabajos en curso conservan su configuración.	Applies to future generations. Running jobs keep their configuration.	Aplica-se às próximas gerações. As tarefas em andamento mantêm suas configurações.	S’applique aux prochaines générations. Les tâches en cours conservent leurs réglages.	Gilt für zukünftige Generierungen. Laufende Aufträge behalten ihre Konfiguration.
+Modelo asignado. Guarda los cambios para aplicarlo.	Model assigned. Save changes to apply it.	Modelo atribuído. Salve as alterações para aplicá-lo.	Modèle attribué. Enregistrez pour l’appliquer.	Modell zugewiesen. Speichere die Änderungen, um es zu verwenden.
+Configurar	Configure	Configurar	Configurer	Einrichten
+Por configurar	Needs setup	A configurar	À configurer	Einrichtung nötig
+Listo para usar	Ready to use	Pronto para usar	Prêt à l’emploi	Einsatzbereit
+Usar proveedor	Use provider	Usar provedor	Utiliser ce fournisseur	Anbieter verwenden
+Rápido	Fast	Rápido	Rapide	Schnell
+Estándar	Standard	Padrão	Standard	Standard
+Superior	Advanced	Avançado	Avancé	Erweitert
+Editor	Editor	Editor	Éditeur	Editor
+Abriendo el editor…	Opening editor…	Abrindo editor…	Ouverture de l’éditeur…	Editor wird geöffnet…
+Subtítulos	Captions	Legendas	Sous-titres	Untertitel
+Texto	Text	Texto	Texte	Text
+Efectos	Effects	Efeitos	Effets	Effekte
+Color	Color	Cor	Couleur	Farbe
+Audio	Audio	Áudio	Audio	Audio
+Formato	Format	Formato	Format	Format
+Gancho	Hook	Gancho	Accroche	Aufhänger
+Nota	Note	Nota	Note	Notiz
+Subtítulo	Caption	Legenda	Sous-titre	Untertitel
+Sonido	Sound	Som	Son	Ton
+Efecto	Effect	Efeito	Effet	Effekt
+Renderizar	Render	Renderizar	Lancer le rendu	Rendern
+Render final	Final render	Render final	Rendu final	Endgültiges Rendering
+En vivo	Live	Ao vivo	En direct	Live
+Zona segura	Safe area	Área segura	Zone de sécurité	Sicherheitsbereich
+Vista previa	Preview	Prévia	Aperçu	Vorschau
+Reproducir / pausar	Play / pause	Reproduzir / pausar	Lecture / pause	Wiedergabe / Pause
+Deshacer	Undo	Desfazer	Annuler	Rückgängig
+Rehacer	Redo	Refazer	Rétablir	Wiederholen
+Descartar	Discard	Descartar	Abandonner	Verwerfen
+Guardado · borrador	Saved · draft	Salvo · rascunho	Enregistré · brouillon	Gespeichert · Entwurf
+borrador sin renderizar	unrendered draft	rascunho não renderizado	brouillon non rendu	nicht gerenderter Entwurf
+Este render no incluye tus últimos cambios	This render does not include your latest changes	Este render não inclui suas últimas alterações	Ce rendu n’inclut pas vos dernières modifications	Dieses Rendering enthält deine letzten Änderungen nicht
+Renderizando el clip	Rendering clip	Renderizando clipe	Rendu du clip	Clip wird gerendert
+Preparando una vista previa ligera…	Preparing a lightweight preview…	Preparando uma prévia leve…	Préparation d’un aperçu léger…	Leichte Vorschau wird vorbereitet…
+El navegador no puede reproducir este archivo directamente.	The browser cannot play this file directly.	O navegador não consegue reproduzir este arquivo diretamente.	Le navigateur ne peut pas lire ce fichier directement.	Der Browser kann diese Datei nicht direkt wiedergeben.
+El realce se aplica en el render, no en la vista en vivo.	Enhancement is applied in the render, not in the live preview.	O realce é aplicado no render, não na prévia ao vivo.	L’amélioration est appliquée au rendu, pas à l’aperçu en direct.	Die Verbesserung wird beim Rendern angewendet, nicht in der Live-Vorschau.
+Altura	Height	Altura	Hauteur	Höhe
+Horizontal	Horizontal	Horizontal	Horizontal	Horizontal
+Vertical	Vertical	Vertical	Vertical	Vertikal
+Tamaño	Size	Tamanho	Taille	Größe
+Duración	Duration	Duração	Durée	Dauer
+Duración (segundos)	Duration (seconds)	Duração (segundos)	Durée (secondes)	Dauer (Sekunden)
+Dura (s)	Duration (s)	Duração (s)	Durée (s)	Dauer (s)
+Empieza (s)	Start (s)	Início (s)	Début (s)	Start (s)
+Empieza en (min:seg)	Start at (min:sec)	Começar em (min:seg)	Début à (min:s)	Start bei (Min:Sek)
+Inicio en fuente	Source start	Início na fonte	Début dans la source	Start in der Quelle
+Inicio en la fuente (s)	Source start (s)	Início na fonte (s)	Début dans la source (s)	Start in der Quelle (s)
+Final en la fuente (s)	Source end (s)	Fim na fonte (s)	Fin dans la source (s)	Ende in der Quelle (s)
+Rango del clip	Clip range	Intervalo do clipe	Plage du clip	Clipbereich
+Todo el clip	Entire clip	Clipe inteiro	Clip entier	Gesamter Clip
+En el clip	In clip	No clipe	Dans le clip	Im Clip
+Fuente	Source	Fonte	Source	Quelle
+Estilo	Style	Estilo	Style	Stil
+Notas	Notes	Notas	Notes	Notizen
+Notas de comentario	Commentary notes	Notas de comentário	Notes de commentaire	Kommentarnotizen
+Nota nueva	New note	Nova nota	Nouvelle note	Neue Notiz
+Texto nuevo	New text	Novo texto	Nouveau texte	Neuer Text
+Añadir texto	Add text	Adicionar texto	Ajouter du texte	Text hinzufügen
+Textos del clip	Clip text layers	Textos do clipe	Textes du clip	Textebenen des Clips
+Todavía no hay textos.	No text layers yet.	Ainda não há textos.	Aucun texte pour le moment.	Noch keine Textebenen.
+Sin notas. Tu comentario propio es lo que diferencia el clip del original.	No notes. Your own commentary sets the clip apart from the original.	Sem notas. Seu comentário diferencia o clipe do original.	Aucune note. Votre commentaire distingue le clip de l’original.	Keine Notizen. Dein eigener Kommentar unterscheidet den Clip vom Original.
+Las notas salen en un recuadro arriba. Que no coincidan con el gancho.	Notes appear in a box. Keep them clear of the hook.	As notas aparecem em uma caixa. Evite sobreposição com o gancho.	Les notes apparaissent dans un encadré. Évitez de masquer l’accroche.	Notizen erscheinen in einem Kasten. Vermeide Überschneidungen mit dem Aufhänger.
+Texto grande que aparece al empezar. Con duración 0 no se muestra.	Large text shown at the beginning. Set duration to 0 to hide it.	Texto grande exibido no início. Defina a duração como 0 para ocultá-lo.	Grand texte affiché au début. Une durée de 0 le masque.	Großer Text am Anfang. Mit Dauer 0 wird er ausgeblendet.
+Selecciona un elemento en la línea de tiempo o en la vista previa para editarlo aquí.	Select an item in the timeline or preview to edit it here.	Selecione um item na linha do tempo ou na prévia para editá-lo aqui.	Sélectionnez un élément dans la chronologie ou l’aperçu pour le modifier ici.	Wähle ein Element in der Zeitleiste oder Vorschau aus, um es hier zu bearbeiten.
+Edita el texto aquí. Arrastra los bloques en la línea de tiempo para moverlos o estirarlos.	Edit text here. Drag timeline blocks to move or resize them.	Edite o texto aqui. Arraste os blocos na linha do tempo para movê-los ou redimensioná-los.	Modifiez le texte ici. Faites glisser les blocs pour les déplacer ou les redimensionner.	Bearbeite den Text hier. Ziehe Zeitleistenblöcke, um sie zu verschieben oder ihre Länge zu ändern.
+Toca un estilo para añadirlo en el cursor. Después arrástralo en la vista previa y cámbialo en el panel derecho.	Choose a style to add it at the playhead. Drag it in the preview and edit it in the right panel.	Escolha um estilo para adicioná-lo no cursor. Arraste-o na prévia e edite no painel direito.	Choisissez un style pour l’ajouter au curseur. Déplacez-le dans l’aperçu et modifiez-le à droite.	Wähle einen Stil, um ihn am Abspielkopf einzufügen. Ziehe ihn in der Vorschau und bearbeite ihn rechts.
+Efectos del clip	Clip effects	Efeitos do clipe	Effets du clip	Clip-Effekte
+Añadir efecto	Add effect	Adicionar efeito	Ajouter un effet	Effekt hinzufügen
+Sin efectos.	No effects.	Sem efeitos.	Aucun effet.	Keine Effekte.
+Tipo	Type	Tipo	Type	Typ
+Intensidad	Intensity	Intensidade	Intensité	Intensität
+Fuerza	Strength	Força	Force	Stärke
+Se añade en el cursor. Estíralo en la línea de tiempo y ajusta su fuerza en el panel derecho.	Added at the playhead. Resize it in the timeline and adjust its strength in the right panel.	Adicionado no cursor. Redimensione na linha do tempo e ajuste a força no painel direito.	Ajouté au curseur. Redimensionnez-le dans la chronologie et réglez sa force à droite.	Wird am Abspielkopf eingefügt. Ändere die Länge in der Zeitleiste und die Stärke rechts.
+Región en el video original. Ajusta el recuadro si la cara se mueve; no hay seguimiento automático.	Region in the source video. Adjust the box if the face moves; there is no automatic tracking.	Região no vídeo original. Ajuste a caixa se o rosto se mover; não há rastreamento automático.	Zone dans la vidéo originale. Ajustez le cadre si le visage bouge ; pas de suivi automatique.	Bereich im Originalvideo. Passe den Rahmen an, wenn sich das Gesicht bewegt; keine automatische Verfolgung.
+Filtros	Filters	Filtros	Filtres	Filter
+Mezcla	Blend	Mistura	Mélange	Mischung
+Brillo	Brightness	Brilho	Luminosité	Helligkeit
+Contraste	Contrast	Contraste	Contraste	Kontrast
+Saturación	Saturation	Saturação	Saturation	Sättigung
+Temperatura	Temperature	Temperatura	Température	Temperatur
+Matiz	Tint	Matiz	Teinte	Farbton
+Velado	Fade	Desvanecimento	Fondu	Verblassen
+Viñeta	Vignette	Vinheta	Vignette	Vignette
+Efectos de sonido	Sound effects	Efeitos sonoros	Effets sonores	Soundeffekte
+Ningún sonido colocado.	No sounds placed.	Nenhum som inserido.	Aucun son placé.	Keine Sounds platziert.
+La biblioteca de sonidos está vacía.	The sound library is empty.	A biblioteca de sons está vazia.	La bibliothèque de sons est vide.	Die Soundbibliothek ist leer.
+Música	Music	Música	Musique	Musik
+Sin música	No music	Sem música	Sans musique	Keine Musik
+Volumen	Volume	Volume	Volume	Lautstärke
+Volumen final	Final volume	Volume final	Volume final	Endlautstärke
+Voz	Voice	Voz	Voix	Stimme
+Realzar la voz (quita graves y nivela)	Enhance voice (reduce bass and level)	Realçar voz (reduzir graves e nivelar)	Améliorer la voix (réduire les graves et égaliser)	Stimme verbessern (Bässe reduzieren und ausgleichen)
+Bajar la música cuando alguien habla	Lower music during speech	Baixar a música durante a fala	Baisser la musique pendant la parole	Musik während Sprache absenken
+Barra de progreso	Progress bar	Barra de progresso	Barre de progression	Fortschrittsbalken
+Mostrar una barra que se llena con el clip	Show a bar that fills as the clip plays	Mostrar uma barra que avança com o clipe	Afficher une barre qui progresse avec le clip	Eine Leiste anzeigen, die sich während des Clips füllt
+Posición	Position	Posição	Position	Position
+Arriba	Top	Acima	En haut	Oben
+Abajo	Bottom	Abaixo	En bas	Unten
+Grosor	Thickness	Espessura	Épaisseur	Stärke
+Transiciones	Transitions	Transições	Transitions	Übergänge
+Animación	Animation	Animação	Animation	Animation
+Caja	Box	Caixa	Encadré	Kasten
+Fondo	Background	Fundo	Fond	Hintergrund
+MAYÚSCULAS	UPPERCASE	MAIÚSCULAS	MAJUSCULES	GROSSBUCHSTABEN
+Centrar	Center	Centralizar	Centrer	Zentrieren
+Propiedades	Properties	Propriedades	Propriétés	Eigenschaften
+Objetivo	Target	Alvo	Cible	Ziel
+Atajos	Shortcuts	Atalhos	Raccourcis	Tastenkürzel
+Espacio	Space	Espaço	Espace	Leertaste
+Supr	Delete	Excluir	Suppr	Entf
+Un fotograma (Mayús: 1 s)	One frame (Shift: 1 s)	Um quadro (Shift: 1 s)	Une image (Maj : 1 s)	Ein Bild (Umschalt: 1 s)
+Arrastrar sin imán	Drag without snapping	Arrastar sem encaixe	Déplacer sans aimantation	Ohne Einrasten ziehen
+Eliminar selección	Delete selection	Excluir seleção	Supprimer la sélection	Auswahl löschen
+Dividir subtítulo	Split caption	Dividir legenda	Diviser le sous-titre	Untertitel teilen
+Zoom de la línea de tiempo	Timeline zoom	Zoom da linha do tempo	Zoom de la chronologie	Zeitleistenzoom
+Inicio del clip en el cursor	Set clip start at playhead	Definir início no cursor	Définir le début au curseur	Clipstart am Abspielkopf setzen
+Final del clip en el cursor	Set clip end at playhead	Definir fim no cursor	Définir la fin au curseur	Clipende am Abspielkopf setzen
+Usar el momento del reproductor	Use player position	Usar posição do reprodutor	Utiliser la position du lecteur	Wiedergabeposition verwenden
+También puedes arrastrar la imagen en la vista previa.	You can also drag the picture in the preview.	Você também pode arrastar a imagem na prévia.	Vous pouvez aussi déplacer l’image dans l’aperçu.	Du kannst das Bild auch in der Vorschau ziehen.
+Este idioma no tiene subtítulos.	This language has no captions.	Este idioma não tem legendas.	Cette langue n’a pas de sous-titres.	Diese Sprache hat keine Untertitel.
+Sin traducir: este texto viene de la transcripción original.	Untranslated: this text comes from the original transcript.	Sem tradução: este texto vem da transcrição original.	Non traduit : ce texte vient de la transcription originale.	Nicht übersetzt: Dieser Text stammt aus der Originaltranskription.
+Palabras resaltadas	Highlighted words	Palavras destacadas	Mots surlignés	Hervorgehobene Wörter
+Toca una palabra para pintarla como palabra clave. La palabra que se está diciendo siempre se ilumina sola.	Click a word to mark it as a keyword. The word being spoken is always highlighted automatically.	Clique em uma palavra para marcá-la como palavra-chave. A palavra falada é destacada automaticamente.	Cliquez sur un mot pour le marquer comme mot-clé. Le mot prononcé est automatiquement surligné.	Klicke auf ein Wort, um es als Schlüsselwort zu markieren. Das gerade gesprochene Wort wird automatisch hervorgehoben.
+Shorts/Reels: textos y animaciones se ajustan automáticamente al área útil. Ocultar la guía no desactiva la protección. Las interfaces reales pueden variar.	Shorts/Reels: text and animations automatically stay in the usable area. Hiding the guide does not disable protection. Platform interfaces may vary.	Shorts/Reels: textos e animações ficam na área útil. Ocultar a guia não desativa a proteção. As interfaces podem variar.	Shorts/Reels : textes et animations restent dans la zone utile. Masquer le guide ne désactive pas la protection. Les interfaces peuvent varier.	Shorts/Reels: Texte und Animationen bleiben im nutzbaren Bereich. Das Ausblenden der Hilfslinien deaktiviert den Schutz nicht. Plattformoberflächen können abweichen.
+La vista previa incluye las correcciones de encuadre y zonas seguras. Pulsa Renderizar para actualizar el video anterior.	The preview includes framing and safe-area corrections. Click Render to update the previous video.	A prévia inclui correções de enquadramento e área segura. Clique em Renderizar para atualizar o vídeo anterior.	L’aperçu inclut les corrections de cadrage et de sécurité. Cliquez sur Rendu pour actualiser la vidéo.	Die Vorschau enthält Korrekturen für Bildausschnitt und Sicherheitsbereich. Klicke auf Rendern, um das bisherige Video zu aktualisieren.
+Configuración inicial	Initial setup	Configuração inicial	Configuration initiale	Ersteinrichtung
+Conectar con la IA	Connect AI	Conectar à IA	Connecter l’IA	KI verbinden
+Paso 1 de 2 · Elige dónde guardar tus videos generados.	Step 1 of 2 · Choose where to save generated videos.	Etapa 1 de 2 · Escolha onde salvar os vídeos gerados.	Étape 1 sur 2 · Choisissez où enregistrer les vidéos générées.	Schritt 1 von 2 · Wähle den Speicherort für erstellte Videos.
+Guardar y continuar	Save and continue	Salvar e continuar	Enregistrer et continuer	Speichern und weiter
+Guardar y terminar	Save and finish	Salvar e concluir	Enregistrer et terminer	Speichern und abschließen
+Omitir este paso	Skip this step	Pular esta etapa	Ignorer cette étape	Diesen Schritt überspringen
+Configurar todo después	Set up later	Configurar depois	Configurer plus tard	Später einrichten
+Omitir y configurar después	Skip and set up later	Pular e configurar depois	Ignorer et configurer plus tard	Überspringen und später einrichten
+Los videos que ya tienes conservan su ubicación. Si omites este paso, se usará la carpeta mostrada.	Existing videos keep their location. If you skip this step, the displayed folder is used.	Os vídeos existentes mantêm sua localização. Se pular esta etapa, a pasta exibida será usada.	Les vidéos existantes conservent leur emplacement. Si vous ignorez cette étape, le dossier affiché sera utilisé.	Vorhandene Videos behalten ihren Speicherort. Beim Überspringen wird der angezeigte Ordner verwendet.
+Las herramientas y la transcripción se instalan desde Ajustes cuando las necesites.	Install tools and transcription from Settings when you need them.	Instale ferramentas e transcrição nas Configurações quando precisar.	Installez les outils et la transcription dans les Paramètres lorsque nécessaire.	Installiere Werkzeuge und Transkription bei Bedarf in den Einstellungen.
+Contenido de	Content in	Conteúdo de	Contenu de	Inhalte von
+· Los proyectos se buscan por nombre.	· Search projects by name.	· Busque projetos pelo nome.	· Recherchez les projets par nom.	· Projekte werden nach Namen gesucht.
+Cada proyecto reúne sus videos, generaciones y clips.	Each project brings together its videos, generations and clips.	Cada projeto reúne seus vídeos, gerações e clipes.	Chaque projet rassemble ses vidéos, générations et clips.	Jedes Projekt vereint seine Videos, Generierungen und Clips.
+Sin descripción	No description	Sem descrição	Sans description	Keine Beschreibung
+Por revisar	Needs review	Para revisar	À vérifier	Zu prüfen
+Buscar	Search	Buscar	Rechercher	Suchen
+Resultados de búsqueda	Search results	Resultados da busca	Résultats de recherche	Suchergebnisse
+Busca proyectos, videos, shorts o recursos…	Search projects, videos, shorts or resources…	Busque projetos, vídeos, shorts ou recursos…	Recherchez projets, vidéos, shorts ou ressources…	Projekte, Videos, Shorts oder Ressourcen suchen…
+Sin resultados	No results	Sem resultados	Aucun résultat	Keine Ergebnisse
+Se usarán:	Models to use:	Modelos usados:	Modèles utilisés :	Verwendete Modelle:
+encuentra los momentos	finds the moments	encontra os momentos	trouve les moments	findet die Momente
+edita, subtitula y escribe títulos	edits, captions and writes titles	edita, legenda e escreve títulos	monte, sous-titre et rédige les titres	bearbeitet, untertitelt und schreibt Titel
+para los clips más importantes	for the most important clips	para os clipes mais importantes	pour les clips les plus importants	für die wichtigsten Clips
+guardada en este equipo	saved on this computer	salva neste computador	enregistrée sur cet ordinateur	auf diesem Computer gespeichert
+viene del entorno	from the environment	vem do ambiente	depuis l’environnement	aus der Umgebung
+Key conectada	Key connected	Chave conectada	Clé connectée	Schlüssel verbunden
+Servidor local o compatible	Local or compatible server	Servidor local ou compatível	Serveur local ou compatible	Lokaler oder kompatibler Server
+En uso	Active	Em uso	Actif	Aktiv
+Créala en	Create it at	Crie em	Créez-la sur	Erstellen unter
+Otro compatible con OpenAI	Other OpenAI-compatible	Outro compatível com OpenAI	Autre compatible OpenAI	Anderer OpenAI-kompatibler Anbieter
+Kairos funciona con Claude, OpenAI, Gemini y otros proveedores. Cada persona usa su propia API key: lo que se genera se cobra a su cuenta. Las keys se guardan solo en este equipo y nunca se muestran completas.	Kairos works with Claude, OpenAI, Gemini and other providers. Use your own API key; generations are billed to your account. Keys are stored locally and are never displayed in full.	Kairos funciona com Claude, OpenAI, Gemini e outros provedores. Use sua própria chave; as gerações são cobradas na sua conta. As chaves são armazenadas localmente e nunca exibidas por completo.	Kairos fonctionne avec Claude, OpenAI, Gemini et d’autres fournisseurs. Utilisez votre clé ; les générations sont facturées à votre compte. Les clés sont conservées localement et jamais affichées en entier.	Kairos unterstützt Claude, OpenAI, Gemini und andere Anbieter. Nutze deinen eigenen API-Schlüssel; Generierungen werden deinem Konto berechnet. Schlüssel werden lokal gespeichert und nie vollständig angezeigt.
+Busca un modelo y asígnalo a los niveles que quieras usar. Guarda los cambios para aplicarlos. La disponibilidad de generación depende de los permisos y el saldo de tu cuenta; elige modelos de conversación compatibles con texto e imágenes.	Search for a model and assign it to the tiers you want to use. Save your changes to apply them. Generation depends on account permissions and credit; choose conversational models that support text and images.	Busque um modelo e atribua aos níveis desejados. Salve as alterações para aplicá-las. A geração depende das permissões e do saldo da conta; escolha modelos de conversa com suporte a texto e imagens.	Recherchez un modèle et attribuez-le aux niveaux souhaités. Enregistrez pour appliquer. La génération dépend des permissions et du crédit ; choisissez des modèles de conversation avec texte et images.	Suche ein Modell und ordne es den gewünschten Stufen zu. Speichere die Änderungen. Die Generierung hängt von Berechtigungen und Guthaben ab; wähle Gesprächsmodelle für Text und Bilder.
+Tu proveedor de IA, lo que has gastado y las herramientas de la app.	Your AI provider, spending and app tools.	Seu provedor de IA, gastos e ferramentas do aplicativo.	Votre fournisseur d’IA, vos dépenses et les outils de l’application.	Dein KI-Anbieter, deine Ausgaben und die App-Werkzeuge.
+Tus conexiones de IA, sus modelos y el proveedor que usarás en las próximas generaciones.	Your AI connections, their models and the provider for future generations.	Suas conexões de IA, modelos e provedor para as próximas gerações.	Vos connexions d’IA, leurs modèles et le fournisseur des prochaines générations.	Deine KI-Verbindungen, ihre Modelle und der Anbieter für zukünftige Generierungen.
+Solo aparecen los codificadores que superan una prueba dentro del contenedor. Para utilizar una GPU, debe estar expuesta al contenedor por su configuración de Docker.	Only encoders that pass a test inside the container are shown. To use a GPU, expose it to the container in your Docker configuration.	São exibidos apenas codificadores aprovados no teste do contêiner. Para usar uma GPU, exponha-a ao contêiner na configuração do Docker.	Seuls les encodeurs validés dans le conteneur sont affichés. Pour utiliser un GPU, exposez-le au conteneur dans la configuration Docker.	Nur im Container erfolgreich getestete Encoder werden angezeigt. Um eine GPU zu nutzen, stelle sie dem Container in der Docker-Konfiguration bereit.
+Calculado con las llamadas que hace esta app. Ningún proveedor entrega el saldo de la cuenta por API: el crédito restante es tu estimación, a partir del importe que indiques.	Calculated from this app's calls. Remaining credit is an estimate based on the amount you enter; it is not a live account balance.	Calculado pelas chamadas deste aplicativo. O crédito restante é uma estimativa baseada no valor informado, não um saldo ao vivo.	Calculé à partir des appels de l’application. Le crédit restant est une estimation fondée sur le montant saisi, pas un solde en direct.	Berechnet anhand der Aufrufe dieser App. Das Restguthaben ist eine Schätzung aus deinem eingegebenen Betrag, kein Live-Kontostand.
+Gasto	Spending	Gasto	Dépenses	Ausgaben
+Tokens de entrada	Input tokens	Tokens de entrada	Jetons d’entrée	Eingabe-Tokens
+Tokens de salida	Output tokens	Tokens de saída	Jetons de sortie	Ausgabe-Tokens
+Crédito restante (estimado)	Remaining credit (estimated)	Crédito restante (estimado)	Crédit restant (estimé)	Restguthaben (geschätzt)
+Gastado en este periodo	Spent this period	Gasto neste período	Dépenses sur cette période	Ausgaben in diesem Zeitraum
+Crédito restante · estimado	Remaining credit · estimated	Crédito restante · estimado	Crédit restant · estimé	Restguthaben · geschätzt
+Consumo · últimos 30 días	Usage · last 30 days	Consumo · últimos 30 dias	Consommation · 30 derniers jours	Verbrauch · letzte 30 Tage
+Configura tu crédito en Ajustes	Set your credit in Settings	Defina seu crédito nas Configurações	Définissez votre crédit dans les Paramètres	Guthaben in den Einstellungen festlegen
+Configura tu crédito en Ajustes · IA sin configurar	Set your credit in Settings · AI not configured	Defina seu crédito nas Configurações · IA não configurada	Définissez votre crédit dans les Paramètres · IA non configurée	Guthaben in den Einstellungen festlegen · KI nicht eingerichtet
+Consultar en Ajustes	Check Settings	Consultar Configurações	Consulter les Paramètres	In den Einstellungen prüfen
+Actualizar	Update	Atualizar	Actualiser	Aktualisieren
+Fijar	Set	Definir	Définir	Festlegen
+Rendimiento guardado	Performance settings saved	Desempenho salvo	Performances enregistrées	Leistungseinstellungen gespeichert
+Borrador guardado	Draft saved	Rascunho salvo	Brouillon enregistré	Entwurf gespeichert
+Sin cambios	No changes	Sem alterações	Aucune modification	Keine Änderungen
+Cambios sin guardar	Unsaved changes	Alterações não salvas	Modifications non enregistrées	Ungespeicherte Änderungen
+No se pudo guardar	Could not save	Não foi possível salvar	Impossible d’enregistrer	Speichern fehlgeschlagen
+Deshacer (Ctrl+Z)	Undo (Ctrl+Z)	Desfazer (Ctrl+Z)	Annuler (Ctrl+Z)	Rückgängig (Strg+Z)
+Rehacer (Ctrl+Y)	Redo (Ctrl+Y)	Refazer (Ctrl+Y)	Rétablir (Ctrl+Y)	Wiederholen (Strg+Y)
+Mostrar u ocultar la guía. La protección del render permanece activa.	Show or hide the guide. Render protection remains active.	Mostrar ou ocultar a guia. A proteção do render permanece ativa.	Afficher ou masquer le guide. La protection du rendu reste active.	Hilfslinien ein- oder ausblenden. Der Schutz beim Rendern bleibt aktiv.
+Zonas donde las apps tapan el video	Areas where apps cover the video	Áreas onde os aplicativos cobrem o vídeo	Zones où les applications masquent la vidéo	Bereiche, in denen Apps das Video verdecken
+FFmpeg genera el video final en cada idioma, con subtítulos quemados y audio normalizado. Puedes dejar esta ventana abierta.	FFmpeg generates the final video in each language with burned-in captions and normalized audio. You can leave this window open.	FFmpeg gera o vídeo final em cada idioma com legendas gravadas e áudio normalizado. Pode deixar esta janela aberta.	FFmpeg génère la vidéo finale dans chaque langue avec sous-titres intégrés et audio normalisé. Vous pouvez laisser cette fenêtre ouverte.	FFmpeg erstellt das endgültige Video für jede Sprache mit eingebrannten Untertiteln und normalisiertem Audio. Du kannst dieses Fenster geöffnet lassen.
+Lo que ves en la vista previa es lo que sale en el render: los dos usan la misma matriz de color.	The preview and render use the same color matrix.	A prévia e o render usam a mesma matriz de cores.	L’aperçu et le rendu utilisent la même matrice de couleur.	Vorschau und Rendering verwenden dieselbe Farbmatrix.
+Se ve el video entero, con un fondo desenfocado arriba y abajo.	Shows the entire video with a blurred background above and below.	Mostra o vídeo inteiro com fundo desfocado acima e abaixo.	Affiche toute la vidéo avec un fond flou en haut et en bas.	Zeigt das gesamte Video mit unscharfem Hintergrund oben und unten.
+La IA volverá a editar este momento con ampliaciones de caras visibles, ritmo, sonidos y rótulos animados. Se crea otro clip y se conserva el actual. Reutiliza el análisis y la transcripción; las nuevas llamadas se cobran a tu cuenta del proveedor de IA.	AI will re-edit this moment with face zooms, pacing, sounds and animated titles. A new clip is created and the current one is preserved. Analysis and transcription are reused; new calls are billed to your AI provider account.	A IA reeditará este momento com zooms de rostos, ritmo, sons e títulos animados. Um novo clipe é criado e o atual é preservado. Análise e transcrição são reutilizadas; novas chamadas são cobradas na sua conta.	L’IA remontera ce moment avec zooms, rythme, sons et titres animés. Un nouveau clip est créé et l’actuel conservé. L’analyse et la transcription sont réutilisées ; les nouveaux appels sont facturés à votre compte.	Die KI bearbeitet diesen Moment mit Gesichtszooms, Rhythmus, Sounds und animierten Titeln neu. Ein neuer Clip entsteht, der aktuelle bleibt erhalten. Analyse und Transkription werden wiederverwendet; neue Aufrufe werden deinem Konto berechnet.
+{0} días	{0} days	{0} dias	{0} jours	{0} Tage
+{0} trabajos	{0} jobs	{0} tarefas	{0} tâches	{0} Aufträge
+{0} de {1} trabajos · {2} terminados · {3} requieren atención	{0} of {1} jobs · {2} completed · {3} need attention	{0} de {1} tarefas · {2} concluídas · {3} precisam de atenção	{0} sur {1} tâches · {2} terminées · {3} à vérifier	{0} von {1} Aufträgen · {2} abgeschlossen · {3} erfordern Aufmerksamkeit
+Proyecto actual · {0}	Current project · {0}	Projeto atual · {0}	Projet actuel · {0}	Aktuelles Projekt · {0}
+Proveedor activo: {0}. Administra tus conexiones y elige los modelos para cada nivel.	Active provider: {0}. Manage your connections and choose models for each tier.	Provedor ativo: {0}. Gerencie conexões e escolha modelos por nível.	Fournisseur actif : {0}. Gérez les connexions et les modèles par niveau.	Aktiver Anbieter: {0}. Verwalte deine Verbindungen und wähle Modelle pro Stufe.
+Cargar modelos de {0}	Load models from {0}	Carregar modelos de {0}	Charger les modèles de {0}	Modelle von {0} laden
+Falta la API key de {0}. Añádela en Ajustes.	The API key for {0} is missing. Add it in APIs and models.	Falta a chave de {0}. Adicione em APIs e modelos.	La clé API de {0} manque. Ajoutez-la dans API et modèles.	Der API-Schlüssel für {0} fehlt. Füge ihn unter APIs und Modelle hinzu.
+{0} modelos disponibles en esta conexión	{0} models available on this connection	{0} modelos disponíveis nesta conexão	{0} modèles disponibles sur cette connexion	{0} Modelle für diese Verbindung verfügbar
+Se usarán: {0}	Models to use: {0}	Modelos usados: {0}	Modèles utilisés : {0}	Verwendete Modelle: {0}
+{0} · Contenedor	{0} · Container	{0} · Contêiner	{0} · Conteneur	{0} · Container
+{0} · Escritorio	{0} · Desktop	{0} · Desktop	{0} · Bureau	{0} · Desktop
+{0} · GPU accesible al contenedor	{0} · GPU accessible to container	{0} · GPU acessível ao contêiner	{0} · GPU accessible au conteneur	{0} · GPU für Container verfügbar
+{0}. Si una GPU falla durante el render, se reintenta por CPU.	{0}. If a GPU fails during rendering, CPU rendering is retried.	{0}. Se a GPU falhar durante o render, o processo é repetido na CPU.	{0}. Si le GPU échoue, le rendu est relancé sur CPU.	{0}. Wenn eine GPU beim Rendern ausfällt, wird es mit der CPU erneut versucht.
+{0} gastados de {1} · desde {2}	{0} spent of {1} · since {2}	{0} gastos de {1} · desde {2}	{0} dépensés sur {1} · depuis le {2}	{0} von {1} ausgegeben · seit {2}
+{0} usados de {1}	{0} used of {1}	{0} usados de {1}	{0} utilisés sur {1}	{0} von {1} verwendet
+ · IA sin configurar	 · AI not configured	 · IA não configurada	 · IA non configurée	 · KI nicht eingerichtet
+. Al guardar se hace una llamada mínima de prueba (una fracción de centavo).	. Saving makes a minimal test call (a fraction of a cent).	. Salvar faz uma chamada mínima de teste (uma fração de centavo).	. L’enregistrement effectue un appel de test minimal (une fraction de centime).	. Beim Speichern erfolgt ein minimaler Testaufruf (ein Bruchteil eines Cents).
+. Al guardar se consulta la lista de modelos, sin costo.	. Saving retrieves the model list at no cost.	. Salvar consulta a lista de modelos, sem custo.	. L’enregistrement consulte gratuitement la liste des modèles.	. Beim Speichern wird die Modellliste kostenlos abgerufen.
+ · en uso	 · active	 · em uso	 · actif	 · aktiv
+{0} · en uso	{0} · active	{0} · em uso	{0} · actif	{0} · aktiv
+{0} · En uso	{0} · Active	{0} · Em uso	{0} · Actif	{0} · Aktiv
+{0} · no disponible	{0} · unavailable	{0} · indisponível	{0} · indisponible	{0} · nicht verfügbar
+Precios de {0} por millón de tokens (entrada / salida): {1}. Puedes cambiarlos en «Proveedor de IA». Si tu plan tiene otros precios, el costo mostrado es una aproximación.	{0} pricing per million tokens (input / output): {1}. Change prices in APIs and models. If your plan has different rates, displayed costs are approximate.	Preços de {0} por milhão de tokens (entrada / saída): {1}. Altere em APIs e modelos. Se seu plano tiver outras tarifas, o custo é aproximado.	Tarifs de {0} par million de jetons (entrée / sortie) : {1}. Modifiez-les dans API et modèles. Si votre offre a d’autres tarifs, les coûts sont approximatifs.	Preise von {0} pro Million Tokens (Eingabe / Ausgabe): {1}. Unter APIs und Modelle änderbar. Bei abweichenden Tarifpreisen sind die Kosten nur Näherungswerte.
+Clips terminados que esperan tu decisión.	Completed clips awaiting your decision.	Clipes concluídos aguardando sua decisão.	Clips terminés en attente de votre décision.	Fertige Clips, die auf deine Entscheidung warten.
+La cola está vacía. Los clips aparecen aquí cuando un trabajo termina.	The queue is empty. Clips appear here when a job finishes.	A fila está vazia. Os clipes aparecem quando uma tarefa termina.	La file est vide. Les clips apparaissent à la fin d’une tâche.	Die Warteschlange ist leer. Clips erscheinen hier, wenn ein Auftrag abgeschlossen ist.
+Todo lo que ha salido de tus videos. Abre uno para verlo o editarlo.	Everything created from your videos. Open a clip to watch or edit it.	Tudo que foi criado dos seus vídeos. Abra um clipe para assistir ou editar.	Tout ce qui a été créé à partir de vos vidéos. Ouvrez un clip pour le regarder ou le modifier.	Alles, was aus deinen Videos erstellt wurde. Öffne einen Clip zum Ansehen oder Bearbeiten.
+Aprobados	Approved	Aprovados	Approuvés	Freigegeben
+Rechazados	Rejected	Rejeitados	Rejetés	Abgelehnt
+Con error	With errors	Com erro	En erreur	Mit Fehlern
+{0} revisar	{0} need review	{0} para revisar	{0} à vérifier	{0} zu prüfen
+{0} aprobados	{0} approved	{0} aprovados	{0} approuvés	{0} freigegeben
+{0} en cola	{0} queued	{0} na fila	{0} en attente	{0} in Warteschlange
+{0} en proceso	{0} processing	{0} processando	{0} en cours	{0} in Verarbeitung
+{0} listas para aprobar	{0} ready for approval	{0} prontos para aprovação	{0} prêts à approuver	{0} bereit zur Freigabe
+Aún sin clips	No clips yet	Ainda sem clipes	Pas encore de clips	Noch keine Clips
+¿Quitar la API key de {0} de este equipo?	Remove the API key for {0} from this computer?	Remover a chave de {0} deste computador?	Retirer la clé API de {0} de cet ordinateur ?	API-Schlüssel für {0} von diesem Computer entfernen?
+¿Descartar el borrador y volver a la versión renderizada?	Discard the draft and return to the rendered version?	Descartar o rascunho e voltar à versão renderizada?	Abandonner le brouillon et revenir à la version rendue ?	Entwurf verwerfen und zur gerenderten Version zurückkehren?
+{0} sin configurar	{0} not configured	{0} não configurado	{0} non configuré	{0} nicht eingerichtet
+Sin resultados para esta búsqueda.	No results for this search.	Nenhum resultado para esta busca.	Aucun résultat pour cette recherche.	Keine Ergebnisse für diese Suche.
+Navegación principal	Main navigation	Navegação principal	Navigation principale	Hauptnavigation
+Preferencias	Preferences	Preferências	Préférences	Einstellungen
+Abrir navegación	Open navigation	Abrir navegação	Ouvrir la navigation	Navigation öffnen
+Cerrar navegación	Close navigation	Fechar navegação	Fermer la navigation	Navigation schließen
+Contraer navegación	Collapse navigation	Recolher navegação	Réduire la navigation	Navigation einklappen
+Expandir navegación	Expand navigation	Expandir navegação	Développer la navigation	Navigation ausklappen
+Una sola key para modelos de muchos proveedores.	One key for models from many providers.	Uma chave para modelos de vários provedores.	Une seule clé pour des modèles de nombreux fournisseurs.	Ein Schlüssel für Modelle vieler Anbieter.
+Comprueba que el modelo acepte imágenes: la edición envía fotogramas.	Check that the model supports images: editing sends video frames.	Verifique se o modelo aceita imagens: a edição envia quadros.	Vérifiez que le modèle accepte les images : le montage envoie des images vidéo.	Prüfe, ob das Modell Bilder unterstützt: Die Bearbeitung sendet Einzelbilder.
+Proyecto guardado	Project saved	Projeto salvo	Projet enregistré	Projekt gespeichert
+Video y generaciones movidos	Video and generations moved	Vídeo e gerações movidos	Vidéo et générations déplacés	Video und Generierungen verschoben
+Clip aprobado	Clip approved	Clipe aprovado	Clip approuvé	Clip freigegeben
+Clip rechazado	Clip rejected	Clipe rejeitado	Clip rejeté	Clip abgelehnt
+La conexión funciona	Connection successful	Conexão funcionando	Connexion réussie	Verbindung erfolgreich
+API key guardada y verificada	API key saved and verified	Chave salva e verificada	Clé API enregistrée et vérifiée	API-Schlüssel gespeichert und geprüft
+{0} está listo para usarse	{0} is ready to use	{0} está pronto para usar	{0} est prêt à l’emploi	{0} ist einsatzbereit
+Proveedor activo: {0}	Active provider: {0}	Provedor ativo: {0}	Fournisseur actif : {0}	Aktiver Anbieter: {0}
+Texto ({0})	Text ({0})	Texto ({0})	Texte ({0})	Text ({0})
+Dividir en el cursor	Split at playhead	Dividir no cursor	Diviser au curseur	Am Abspielkopf teilen
+[ Inicio aquí	[ Start here	[ Começar aqui	[ Début ici	[ Hier beginnen
+Fin aquí ]	End here ]	Terminar aqui ]	Fin ici ]	Hier enden ]
+FFmpeg hace el render y yt-dlp descarga videos. La app los usa desde su carpeta o desde el sistema.	FFmpeg renders videos and yt-dlp downloads them. The app uses tools from its folder or the system.	FFmpeg renderiza e yt-dlp baixa vídeos. O aplicativo usa as ferramentas da sua pasta ou do sistema.	FFmpeg effectue les rendus et yt-dlp télécharge les vidéos. L’application utilise les outils de son dossier ou du système.	FFmpeg rendert Videos und yt-dlp lädt sie herunter. Die App nutzt Werkzeuge aus ihrem Ordner oder vom System.
+Guarda imágenes, audio y documentos de referencia. Estos archivos no se añaden automáticamente al video; el catálogo de efectos incorporado sigue disponible en el editor.	Store reference images, audio and documents. These files are not automatically added to videos; the built-in effects catalog remains available in the editor.	Guarde imagens, áudio e documentos de referência. Os arquivos não são adicionados automaticamente aos vídeos; o catálogo de efeitos continua disponível no editor.	Conservez des images, sons et documents de référence. Ils ne sont pas ajoutés automatiquement aux vidéos ; le catalogue d’effets reste accessible dans l’éditeur.	Speichere Referenzbilder, Audio und Dokumente. Diese Dateien werden Videos nicht automatisch hinzugefügt; der Effektkatalog bleibt im Editor verfügbar.
+Negrita	Bold	Negrito	Gras	Fett
+Rebote	Bounce	Salto	Rebond	Springen
+Limpio	Clean	Limpo	Épuré	Schlicht
+Impacto	Impact	Impacto	Impact	Wirkung
+Cómic	Comic	Quadrinhos	BD	Comic
+Neón	Neon	Neon	Néon	Neon
+Suave	Soft	Suave	Doux	Weich
+Vívido	Vivid	Vívido	Vif	Lebendig
+Cine	Cinema	Cinema	Cinéma	Kino
+Cálido	Warm	Quente	Chaud	Warm
+Frío	Cool	Frio	Froid	Kühl
+Mate	Matte	Fosco	Mat	Matt
+B y N	B&W	P&B	N&B	S&W
+Blanco y negro	Black and white	Preto e branco	Noir et blanc	Schwarz-Weiß
+Zoom golpe	Punch-in zoom	Zoom de impacto	Zoom brusque	Stoßzoom
+Zoom lento	Slow zoom	Zoom lento	Zoom lent	Langsamer Zoom
+Temblor	Shake	Tremor	Secousse	Wackeln
+Destello	Flash	Flash	Flash	Blitz
+Desenfoque	Blur	Desfoque	Flou	Unschärfe
+Acerca la imagen de golpe y la suelta.	Quickly zooms in and releases.	Aproxima a imagem rapidamente e solta.	Zoome rapidement puis relâche.	Zoomt schnell heran und wieder zurück.
+Se acerca poco a poco durante el tramo.	Gradually zooms in during the section.	Aproxima gradualmente durante o trecho.	Zoome progressivement pendant le segment.	Zoomt während des Abschnitts langsam heran.
+Sacude la cámara: golpes, sustos, explosiones.	Shakes the camera for impacts, surprises and explosions.	Sacode a câmera para impactos, sustos e explosões.	Secoue la caméra pour impacts, surprises et explosions.	Lässt die Kamera bei Stößen, Schreckmomenten und Explosionen wackeln.
+Fogonazo blanco que se apaga.	A white flash that fades out.	Um clarão branco que desaparece.	Un flash blanc qui s’estompe.	Ein weißer Blitz, der verblasst.
+Separa los colores rojo y azul.	Separates red and blue channels.	Separa os canais vermelho e azul.	Sépare les canaux rouge et bleu.	Trennt den roten und blauen Farbkanal.
+Desenfoca la imagen mientras dura.	Blurs the image for its duration.	Desfoca a imagem durante o efeito.	Floute l’image pendant l’effet.	Macht das Bild während des Effekts unscharf.
+Quita el color mientras dura.	Removes color for its duration.	Remove a cor durante o efeito.	Retire la couleur pendant l’effet.	Entfernt während des Effekts die Farbe.
+Etiqueta	Label	Etiqueta	Étiquette	Beschriftung
+Caja oscura	Dark box	Caixa escura	Encadré sombre	Dunkler Kasten
+Sin animación	No animation	Sem animação	Sans animation	Keine Animation
+Fundido	Fade	Dissolver	Fondu	Überblenden
+Desde abajo	From bottom	De baixo	Depuis le bas	Von unten
+Desde arriba	From top	De cima	Depuis le haut	Von oben
+Desde la izquierda	From left	Da esquerda	Depuis la gauche	Von links
+Desde la derecha	From right	Da direita	Depuis la droite	Von rechts
+Encoger	Shrink	Encolher	Réduire	Schrumpfen
+A negro	To black	Para preto	Vers le noir	Zu Schwarz
+De negro	From black	Do preto	Depuis le noir	Von Schwarz
+De blanco	From white	Do branco	Depuis le blanc	Von Weiß
+A blanco	To white	Para branco	Vers le blanc	Zu Weiß
+Guarda tu API key para empezar.	Save your API key to get started.	Salve sua chave para começar.	Enregistrez votre clé API pour commencer.	Speichere deinen API-Schlüssel, um zu beginnen.
+{0} · Key conectada · {1}/3 niveles	{0} · Key connected · {1}/3 tiers	{0} · Chave conectada · {1}/3 níveis	{0} · Clé connectée · {1}/3 niveaux	{0} · Schlüssel verbunden · {1}/3 Stufen
+Key conectada · {0}/3 niveles	Key connected · {0}/3 tiers	Chave conectada · {0}/3 níveis	Clé connectée · {0}/3 niveaux	Schlüssel verbunden · {0}/3 Stufen
+Sin key · {0}/3 niveles	No key · {0}/3 tiers	Sem chave · {0}/3 níveis	Sans clé · {0}/3 niveaux	Kein Schlüssel · {0}/3 Stufen
+Servidor local o compatible · {0}/3 niveles	Local or compatible server · {0}/3 tiers	Servidor local ou compatível · {0}/3 níveis	Serveur local ou compatible · {0}/3 niveaux	Lokaler oder kompatibler Server · {0}/3 Stufen
+En uso · Por configurar	Active · Needs setup	Em uso · A configurar	Actif · À configurer	Aktiv · Einrichtung nötig
+En uso · Listo para usar	Active · Ready to use	Em uso · Pronto para usar	Actif · Prêt à l’emploi	Aktiv · Einsatzbereit
+Ya tienes un proveedor configurado. Puedes conservarlo o cambiarlo.	You already have a provider configured. Keep it or choose another one.	Você já tem um provedor configurado. Mantenha ou escolha outro.	Un fournisseur est déjà configuré. Conservez-le ou choisissez-en un autre.	Ein Anbieter ist bereits eingerichtet. Behalte ihn oder wähle einen anderen.
+Elige tu proveedor y añade tu API key para analizar y generar clips.	Choose your provider and add your API key to analyze and generate clips.	Escolha o provedor e adicione sua chave para analisar e gerar clipes.	Choisissez votre fournisseur et ajoutez votre clé pour analyser et générer des clips.	Wähle einen Anbieter und füge deinen API-Schlüssel hinzu, um Clips zu analysieren und zu erstellen.
+Paso 2 de 2 · Ya tienes un proveedor configurado. Puedes conservarlo o cambiarlo.	Step 2 of 2 · A provider is already configured. Keep it or choose another one.	Etapa 2 de 2 · Um provedor já está configurado. Mantenha ou escolha outro.	Étape 2 sur 2 · Un fournisseur est déjà configuré. Conservez-le ou choisissez-en un autre.	Schritt 2 von 2 · Ein Anbieter ist bereits eingerichtet. Behalte ihn oder wähle einen anderen.
+Paso 2 de 2 · Elige tu proveedor y añade tu API key para analizar y generar clips.	Step 2 of 2 · Choose a provider and add your API key to analyze and generate clips.	Etapa 2 de 2 · Escolha o provedor e adicione a chave para analisar e gerar clipes.	Étape 2 sur 2 · Choisissez un fournisseur et ajoutez votre clé pour analyser et générer des clips.	Schritt 2 von 2 · Wähle einen Anbieter und füge deinen API-Schlüssel hinzu, um Clips zu analysieren und zu erstellen.
+Ollama, LM Studio y otros servidores locales se configuran en Ajustes. Con un proveedor distinto de Claude, después eliges sus modelos en Ajustes.	Configure Ollama, LM Studio and other local servers in APIs and models. Select models there after connecting a provider.	Configure Ollama, LM Studio e outros servidores locais em APIs e modelos. Depois de conectar um provedor, selecione os modelos lá.	Configurez Ollama, LM Studio et les autres serveurs locaux dans API et modèles. Sélectionnez les modèles après connexion.	Richte Ollama, LM Studio und andere lokale Server unter APIs und Modelle ein. Wähle dort nach der Verbindung die Modelle aus.
+Se guarda cifrada para tu usuario de Windows. Guardar hace una llamada mínima de prueba a tu cuenta. Puedes omitirlo y editar clips manualmente.	The key is encrypted for your Windows user. Saving makes a minimal test call to your account. You can skip this and edit clips manually.	A chave é criptografada para seu usuário do Windows. Salvar faz uma chamada mínima de teste. Você pode pular e editar clipes manualmente.	La clé est chiffrée pour votre utilisateur Windows. L’enregistrement effectue un appel de test minimal. Vous pouvez ignorer et modifier les clips manuellement.	Der Schlüssel wird für deinen Windows-Benutzer verschlüsselt. Beim Speichern erfolgt ein minimaler Testaufruf. Du kannst dies überspringen und Clips manuell bearbeiten.
+Conservar key y terminar	Keep key and finish	Manter chave e concluir	Conserver la clé et terminer	Schlüssel behalten und abschließen
+Pega tu API key o pulsa Omitir.	Paste your API key or click Skip.	Cole sua chave ou clique em Pular.	Collez votre clé API ou cliquez sur Ignorer.	Füge deinen API-Schlüssel ein oder klicke auf Überspringen.
+Pega tu API key	Paste your API key	Cole sua chave	Collez votre clé API	API-Schlüssel einfügen
+Pega tu API key.	Paste your API key.	Cole sua chave.	Collez votre clé API.	Füge deinen API-Schlüssel ein.
+Verificando conexión…	Verifying connection…	Verificando conexão…	Vérification de la connexion…	Verbindung wird geprüft…
+Puedes cambiar estas opciones en Ajustes cuando quieras.	You can change these options in Settings anytime.	Você pode mudar estas opções nas Configurações quando quiser.	Vous pouvez modifier ces options à tout moment dans les Paramètres.	Du kannst diese Optionen jederzeit in den Einstellungen ändern.
+Queda menos del 15 % de tu crédito. Añade saldo en la consola de tu proveedor y actualiza el importe aquí.	Less than 15% of your credit remains. Top up in your provider's console and update the amount here.	Resta menos de 15% do crédito. Recarregue na página do provedor e atualize o valor aqui.	Il reste moins de 15 % de crédit. Rechargez chez votre fournisseur et actualisez le montant ici.	Weniger als 15 % deines Guthabens verbleiben. Lade es beim Anbieter auf und aktualisiere den Betrag hier.
+Proyecto: {0}	Project: {0}	Projeto: {0}	Projet : {0}	Projekt: {0}
+Cambiar proyecto: {0}	Switch project: {0}	Trocar projeto: {0}	Changer de projet : {0}	Projekt wechseln: {0}
+Añadir	Add	Adicionar	Ajouter	Hinzufügen
+Dividir	Split	Dividir	Diviser	Teilen
+Títulos	Titles	Títulos	Titres	Titel
+Zoom nuevo	New zoom	Novo zoom	Nouveau zoom	Neuer Zoom
+Ctrl+rueda	Ctrl+wheel	Ctrl+roda	Ctrl+molette	Strg+Mausrad
+Altura automática	Automatic height	Altura automática	Hauteur automatique	Automatische Höhe
+Subtítulos · {0}	Captions · {0}	Legendas · {0}	Sous-titres · {0}	Untertitel · {0}
+HOLA	HELLO	OLÁ	BONJOUR	HALLO
+Hola	Hello	Olá	Bonjour	Hallo
+MUNDO	WORLD	MUNDO	MONDE	WELT
+mundo	world	mundo	monde	Welt
+Archivos de apoyo exclusivos de este proyecto.	Supporting files exclusive to this project.	Arquivos de apoio exclusivos deste projeto.	Fichiers de référence propres à ce projet.	Referenzdateien nur für dieses Projekt.
+Este proyecto aún no tiene recursos propios.	This project has no resources yet.	Este projeto ainda não tem recursos próprios.	Ce projet n’a pas encore de ressources.	Dieses Projekt hat noch keine Ressourcen.
+Guardar en {0}	Save to {0}	Salvar em {0}	Enregistrer dans {0}	In {0} speichern
+Logo del canal, referencia, audio…	Channel logo, reference, audio…	Logo do canal, referência, áudio…	Logo de chaîne, référence, audio…	Kanallogo, Referenz, Audio…
+Eliminar de la biblioteca	Delete from library?	Excluir da biblioteca?	Supprimer de la bibliothèque ?	Aus der Bibliothek löschen?
+Eliminar proyecto	Delete project	Excluir projeto	Supprimer le projet	Projekt löschen
+Eliminar video	Delete video	Excluir vídeo	Supprimer la vidéo	Video löschen
+Eliminar short	Delete short	Excluir short	Supprimer le short	Short löschen
+Eliminar recurso	Delete resource	Excluir recurso	Supprimer la ressource	Ressource löschen
+Eliminar un proyecto también elimina sus videos, trabajos, shorts y recursos.	Deleting a project also removes its videos, jobs, shorts and resources.	Excluir um projeto também remove seus vídeos, tarefas, shorts e recursos.	Supprimer un projet supprime aussi ses vidéos, tâches, shorts et ressources.	Beim Löschen eines Projekts werden auch seine Videos, Aufträge, Shorts und Ressourcen entfernt.
+Eliminar un video también elimina sus trabajos y shorts.	Deleting a video also removes its jobs and shorts.	Excluir um vídeo também remove suas tarefas e shorts.	Supprimer une vidéo supprime aussi ses tâches et shorts.	Beim Löschen eines Videos werden auch seine Aufträge und Shorts entfernt.
+Se eliminarán este short y su borrador del editor.	This short and its editor draft will be removed.	Este short e seu rascunho serão removidos.	Ce short et son brouillon seront supprimés.	Dieser Short und sein Editorentwurf werden entfernt.
+Este archivo de apoyo se eliminará del proyecto.	This supporting file will be removed from the project.	Este arquivo de apoio será removido do projeto.	Ce fichier sera supprimé du projet.	Diese Referenzdatei wird aus dem Projekt entfernt.
+Los archivos gestionados se mueven a la carpeta local de recuperación. Se conservan los originales externos a Kairos.	Managed files move to the local recovery folder. Originals outside Kairos are kept.	Os arquivos gerenciados vão para a pasta local de recuperação. Originais fora do Kairos são mantidos.	Les fichiers gérés sont déplacés vers le dossier local de récupération. Les originaux externes à Kairos sont conservés.	Verwaltete Dateien werden in den lokalen Wiederherstellungsordner verschoben. Originale außerhalb von Kairos bleiben erhalten.
+Eliminado de la biblioteca. Los archivos gestionados se conservan en la carpeta de recuperación.	Removed from library. Managed files are kept in the recovery folder.	Removido da biblioteca. Os arquivos gerenciados ficam na pasta de recuperação.	Supprimé de la bibliothèque. Les fichiers gérés restent dans le dossier de récupération.	Aus der Bibliothek entfernt. Verwaltete Dateien bleiben im Wiederherstellungsordner.
+Añadir archivos o enlaces de video	Add files or video links	Adicionar arquivos ou links de vídeo	Ajouter des fichiers ou liens vidéo	Dateien oder Videolinks hinzufügen
+Añadir a este proyecto	Add to this project	Adicionar a este projeto	Ajouter à ce projet	Zu diesem Projekt hinzufügen
+Desde el computador	From computer	Do computador	Depuis l’ordinateur	Vom Computer
+Enlace de video	Video link	Link do vídeo	Lien vidéo	Videolink
+Video o archivo de apoyo	Video or supporting file	Vídeo ou arquivo de apoio	Vidéo ou fichier de référence	Video oder Referenzdatei
+Los videos se añaden a tu biblioteca de videos. Las imágenes, audio y documentos van a Recursos.	Videos join your video library. Images, audio and documents join Resources.	Os vídeos vão para sua biblioteca. Imagens, áudio e documentos vão para Recursos.	Les vidéos rejoignent votre bibliothèque. Les images, sons et documents vont dans Ressources.	Videos werden deiner Videobibliothek hinzugefügt. Bilder, Audio und Dokumente kommen zu Ressourcen.
+Estado de derechos	Rights status	Status de direitos	Statut des droits	Rechtestatus
+Selecciona el estado de derechos	Select rights status	Selecione os direitos	Sélectionnez les droits	Rechtestatus auswählen
+Evidencia del permiso	Permission evidence	Evidência de permissão	Preuve d’autorisation	Genehmigungsnachweis
+Añadir al proyecto	Add to project	Adicionar ao projeto	Ajouter au projet	Zum Projekt hinzufügen
+Selecciona primero un archivo.	Choose a file first.	Selecione um arquivo primeiro.	Choisissez d’abord un fichier.	Wähle zuerst eine Datei aus.
+Añadido a tu proyecto.	Added to your project.	Adicionado ao seu projeto.	Ajouté à votre projet.	Zu deinem Projekt hinzugefügt.
+Espera a que terminen los trabajos activos del proyecto antes de eliminar.	Wait for the project's active jobs to finish before deleting.	Aguarde o fim das tarefas ativas do projeto antes de excluir.	Attendez la fin des tâches actives du projet avant de supprimer.	Warte vor dem Löschen auf das Ende der aktiven Projektaufträge.
+El proyecto predeterminado no se puede eliminar. Puedes eliminar su contenido.	The default project cannot be deleted. You can delete its content.	O projeto padrão não pode ser excluído. Você pode excluir seu conteúdo.	Le projet par défaut ne peut pas être supprimé. Vous pouvez supprimer son contenu.	Das Standardprojekt kann nicht gelöscht werden. Du kannst seine Inhalte löschen.
+Usa HTTPS para proteger tu API key. HTTP solo está permitido para servidores locales de loopback.	Use HTTPS to protect your API key. HTTP is allowed only for local loopback servers.	Use HTTPS para proteger sua chave. HTTP só é permitido para servidores locais de loopback.	Utilisez HTTPS pour protéger votre clé API. HTTP est réservé aux serveurs locaux de bouclage.	Verwende HTTPS, um deinen API-Schlüssel zu schützen. HTTP ist nur für lokale Loopback-Server erlaubt.
+Mover	Move	Mover	Déplacer	Verschieben
+Mover a otro proyecto	Move to another project	Mover para outro projeto	Déplacer vers un autre projet	In ein anderes Projekt verschieben
+Crear clip	Create clip	Criar clipe	Créer un clip	Clip erstellen
+Procesar	Process	Processar	Traiter	Verarbeiten
+Registrar video	Add video	Registrar vídeo	Enregistrer la vidéo	Video hinzufügen
+sin crédito	no credit	sem crédito	sans attribution	ohne Quellenangabe
+sin modelo	no model	sem modelo	sans modèle	kein Modell
+sin precio	no price	sem preço	sans tarif	kein Preis
+· sin precio	· no price	· sem preço	· sans tarif	· kein Preis
+propio	own content	conteúdo próprio	contenu personnel	eigene Inhalte
+own	Own content	Conteúdo próprio	Contenu personnel	Eigene Inhalte
+written_permission	Written permission	Permissão por escrito	Autorisation écrite	Schriftliche Genehmigung
+official_press	Official press material	Material de imprensa oficial	Matériel de presse officiel	Offizielles Pressematerial
+cc_licensed	Creative Commons license	Licença Creative Commons	Licence Creative Commons	Creative-Commons-Lizenz
+grabación propia, PS5, 2026-11-19	own recording, PS5, 2026-11-19	gravação própria, PS5, 2026-11-19	enregistrement personnel, PS5, 2026-11-19	eigene Aufnahme, PS5, 2026-11-19
+Arrastra para cambiar el final	Drag to change the end	Arraste para mudar o fim	Glissez pour modifier la fin	Ziehen, um das Ende zu ändern
+Arrastra para cambiar el inicio	Drag to change the start	Arraste para mudar o início	Glissez pour modifier le début	Ziehen, um den Anfang zu ändern
+Añadir en el cursor	Add at playhead	Adicionar no cursor	Ajouter au curseur	Am Abspielkopf hinzufügen
+Escuchar	Listen	Ouvir	Écouter	Anhören
+Silenciar	Mute	Silenciar	Couper le son	Stummschalten
+Paneles del editor	Editor panels	Painéis do editor	Panneaux de l’éditeur	Editorbereiche
+Sugerencias de publicación	Publishing suggestions	Sugestões de publicação	Suggestions de publication	Veröffentlichungsvorschläge
+Videos y transcripción	Videos and transcription	Vídeos e transcrição	Vidéos et transcription	Videos und Transkription
+Ver todo el clip	Fit entire clip	Ajustar clipe inteiro	Afficher tout le clip	Gesamten Clip anzeigen
+Reproducir / pausar (Espacio)	Play / pause (Space)	Reproduzir / pausar (Espaço)	Lecture / pause (Espace)	Wiedergabe / Pause (Leertaste)
+Ir al inicio (Inicio)	Go to start (Home)	Ir ao início (Home)	Aller au début (Début)	Zum Anfang (Pos1)
+Ir al final (Fin)	Go to end (End)	Ir ao fim (End)	Aller à la fin (Fin)	Zum Ende (Ende)
+El clip empieza en el cursor (I)	Set clip start at playhead (I)	Definir início do clipe no cursor (I)	Définir le début du clip au curseur (I)	Clipstart am Abspielkopf setzen (I)
+El clip termina en el cursor (O)	Set clip end at playhead (O)	Definir fim do clipe no cursor (O)	Définir la fin du clip au curseur (O)	Clipende am Abspielkopf setzen (O)
+Dividir el subtítulo en el cursor (S)	Split caption at playhead (S)	Dividir legenda no cursor (S)	Diviser le sous-titre au curseur (S)	Untertitel am Abspielkopf teilen (S)
+Eliminar lo seleccionado (Supr)	Delete selection (Delete)	Excluir seleção (Delete)	Supprimer la sélection (Suppr)	Auswahl löschen (Entf)
+Texto en el cursor (T)	Text at playhead (T)	Texto no cursor (T)	Texte au curseur (T)	Text am Abspielkopf (T)
+Nota en el cursor (N)	Note at playhead (N)	Nota no cursor (N)	Note au curseur (N)	Notiz am Abspielkopf (N)
+Subtítulo en el cursor	Caption at playhead	Legenda no cursor	Sous-titre au curseur	Untertitel am Abspielkopf
+Zoom en el cursor (Z)	Zoom at playhead (Z)	Zoom no cursor (Z)	Zoom au curseur (Z)	Zoom am Abspielkopf (Z)
+Imán: ajustar a palabras, cursor y bordes (Alt lo desactiva)	Snap to words, playhead and edges (Alt disables snapping)	Ajustar a palavras, cursor e bordas (Alt desativa)	Aligner sur les mots, le curseur et les bords (Alt désactive)	An Wörtern, Abspielkopf und Kanten einrasten (Alt deaktiviert)
+Aún no hay videos. Pega un enlace o sube un archivo.	No videos yet. Paste a link or upload a file.	Ainda não há vídeos. Cole um link ou envie um arquivo.	Aucune vidéo. Collez un lien ou importez un fichier.	Noch keine Videos. Füge einen Link ein oder lade eine Datei hoch.
+No hay clips en esta vista.	No clips in this view.	Nenhum clipe nesta visualização.	Aucun clip dans cette vue.	Keine Clips in dieser Ansicht.
+Idea de gancho:	Hook idea:	Ideia de gancho:	Idée d’accroche :	Idee für den Aufhänger:
+(sin voz)	(no speech)	(sem fala)	(sans parole)	(ohne Sprache)
+Ojo:	Note:	Atenção:	Attention :	Hinweis:
+API key (opcional)	API key (optional)	Chave API (opcional)	Clé API (facultative)	API-Schlüssel (optional)
+API key	API key	Chave API	Clé API	API-Schlüssel
+Buscar modelos disponibles	Search available models	Buscar modelos disponíveis	Rechercher les modèles disponibles	Verfügbare Modelle suchen
+Al guardar se consulta la lista de modelos, sin costo.	Saving retrieves the model list at no cost.	Ao salvar, a lista de modelos é consultada sem custo.	L’enregistrement consulte gratuitement les modèles.	Beim Speichern wird die Modellliste kostenlos abgerufen.
+Al guardar se hace una llamada mínima de prueba (una fracción de centavo).	Saving makes a minimal test call (a fraction of a cent).	Ao salvar, uma chamada mínima de teste é feita (fração de centavo).	L’enregistrement effectue un appel de test minimal (une fraction de centime).	Beim Speichern erfolgt ein minimaler Testaufruf (ein Bruchteil eines Cents).
+Consultar crédito y consumo en Ajustes	View credit and usage in Settings	Consultar crédito e consumo nas Configurações	Consulter crédit et consommation dans les Paramètres	Guthaben und Verbrauch in den Einstellungen ansehen
+Crédito fijado	Credit set	Crédito definido	Crédit défini	Guthaben festgelegt
+Crédito quitado	Credit removed	Crédito removido	Crédit supprimé	Guthaben entfernt
+Margen de la API ahora mismo	Current API headroom	Limites atuais da API	Marge actuelle de l’API	Aktuell verfügbarer API-Spielraum
+Peticiones por minuto	Requests per minute	Solicitações por minuto	Requêtes par minute	Anfragen pro Minute
+Tokens de entrada por minuto	Input tokens per minute	Tokens de entrada por minuto	Jetons d’entrée par minute	Eingabe-Tokens pro Minute
+Tokens de salida por minuto	Output tokens per minute	Tokens de saída por minuto	Jetons de sortie par minute	Ausgabe-Tokens pro Minute
+Instalar FFmpeg y yt-dlp	Install FFmpeg and yt-dlp	Instalar FFmpeg e yt-dlp	Installer FFmpeg et yt-dlp	FFmpeg und yt-dlp installieren
+Reinstalar herramientas	Reinstall tools	Reinstalar ferramentas	Réinstaller les outils	Werkzeuge neu installieren
+Herramientas instaladas	Tools installed	Ferramentas instaladas	Outils installés	Werkzeuge installiert
+Instalar transcripción	Install transcription	Instalar transcrição	Installer la transcription	Transkription installieren
+Comprobar transcripción	Check transcription	Verificar transcrição	Vérifier la transcription	Transkription prüfen
+Necesario para renderizar	Required for rendering	Necessário para renderizar	Nécessaire au rendu	Zum Rendern erforderlich
+Descarga desde enlaces	Download from links	Baixar de links	Télécharger depuis des liens	Über Links herunterladen
+Solo para descargar por enlace	Only for downloads from links	Somente para baixar de links	Uniquement pour les téléchargements par lien	Nur für Downloads über Links
+Se renderiza por CPU	Rendering uses CPU	Renderização pela CPU	Rendu sur CPU	Rendering mit CPU
+Necesaria para analizar videos con voz. Descarga whisper.cpp para CPU y un modelo multilingüe; solo se descargan los componentes que faltan.	Required to analyze videos with speech. Downloads whisper.cpp for CPU and a multilingual model; only missing components are downloaded.	Necessária para analisar vídeos com fala. Baixa whisper.cpp para CPU e um modelo multilíngue; apenas os componentes ausentes são baixados.	Nécessaire pour analyser les vidéos parlées. Télécharge whisper.cpp pour CPU et un modèle multilingue ; seuls les composants manquants sont téléchargés.	Zur Analyse von Videos mit Sprache erforderlich. Lädt whisper.cpp für CPU und ein mehrsprachiges Modell herunter; nur fehlende Komponenten werden geladen.
+Preferencias guardadas	Preferences saved	Preferências salvas	Préférences enregistrées	Einstellungen gespeichert
+Recurso guardado en el proyecto	Resource saved to project	Recurso salvo no projeto	Ressource enregistrée dans le projet	Ressource im Projekt gespeichert
+Video registrado en su proyecto	Video added to its project	Vídeo registrado no projeto	Vidéo enregistrée dans son projet	Video zum Projekt hinzugefügt
+Descarga iniciada	Download started	Download iniciado	Téléchargement lancé	Download gestartet
+Iniciando descarga…	Starting download…	Iniciando download…	Démarrage du téléchargement…	Download wird gestartet…
+Subiendo…	Uploading…	Enviando…	Envoi…	Wird hochgeladen…
+Registrando…	Registering…	Registrando…	Enregistrement…	Wird registriert…
+Guardando recurso…	Saving resource…	Salvando recurso…	Enregistrement de la ressource…	Ressource wird gespeichert…
+Pega un enlace.	Paste a link.	Cole um link.	Collez un lien.	Füge einen Link ein.
+Elige un archivo.	Choose a file.	Escolha um arquivo.	Choisissez un fichier.	Wähle eine Datei aus.
+El archivo supera 100 MB.	The file exceeds 100 MB.	O arquivo excede 100 MB.	Le fichier dépasse 100 Mo.	Die Datei ist größer als 100 MB.
+Configura tu proveedor de IA en Ajustes.	Configure your AI provider in Settings.	Configure seu provedor de IA nas Configurações.	Configurez votre fournisseur d’IA dans les Paramètres.	Richte deinen KI-Anbieter in den Einstellungen ein.
+Falta configurar el proveedor de IA.	The AI provider is not configured.	O provedor de IA não está configurado.	Le fournisseur d’IA n’est pas configuré.	Der KI-Anbieter ist nicht eingerichtet.
+Falta configurar la IA	AI setup is incomplete	A configuração da IA está incompleta	La configuration de l’IA est incomplète	Die KI-Einrichtung ist unvollständig
+El panel está en modo sin IA.	The panel is in offline mode.	O painel está em modo sem IA.	Le panneau est en mode sans IA.	Der Bereich ist im Offline-Modus.
+El panel está en modo sin IA. ¿Continuar con heurísticas de prueba?	The panel is in offline mode. Continue with test heuristics?	O painel está em modo sem IA. Continuar com heurísticas de teste?	Le panneau est en mode sans IA. Continuer avec des heuristiques de test ?	Der Bereich ist im Offline-Modus. Mit Testheuristiken fortfahren?
+¿Continuar con heurísticas de prueba?	Continue with test heuristics?	Continuar com heurísticas de teste?	Continuer avec des heuristiques de test ?	Mit Testheuristiken fortfahren?
+Elige al menos un momento	Choose at least one moment	Escolha pelo menos um momento	Choisissez au moins un moment	Wähle mindestens einen Moment
+Los ya generados no se repiten.	Already generated moments are skipped.	Os momentos já gerados não se repetem.	Les moments déjà générés ne sont pas répétés.	Bereits generierte Momente werden übersprungen.
+Todavía no se ha generado nada.	Nothing has been generated yet.	Ainda não foi gerado nada.	Rien n’a encore été généré.	Es wurde noch nichts generiert.
+El análisis sigue en curso. Mira el avance en	Analysis is still running. Track progress in	A análise continua. Veja o progresso em	L’analyse est en cours. Suivez sa progression dans	Die Analyse läuft noch. Verfolge den Fortschritt unter
+No se pudo actualizar el estado. Reintentando…	Could not update status. Retrying…	Não foi possível atualizar o status. Tentando novamente…	Impossible d’actualiser l’état. Nouvelle tentative…	Status konnte nicht aktualisiert werden. Neuer Versuch…
+El render falló.	Rendering failed.	A renderização falhou.	Le rendu a échoué.	Rendering fehlgeschlagen.
+En cola: hay otro trabajo en curso.	Queued: another job is running.	Na fila: outra tarefa está em andamento.	En attente : une autre tâche est en cours.	In Warteschlange: Ein anderer Auftrag läuft.
+Renderizando…	Rendering…	Renderizando…	Rendu en cours…	Wird gerendert…
+Render listo. El clip volvió a la cola de aprobación.	Render ready. The clip is back in the approval queue.	Render concluído. O clipe voltou à fila de aprovação.	Rendu terminé. Le clip est de nouveau dans la file d’approbation.	Rendering abgeschlossen. Der Clip ist wieder in der Freigabewarteschlange.
+Creando una nueva edición. Sigue el registro en Trabajos.	Creating a new edit. Follow progress in Jobs.	Criando uma nova edição. Acompanhe nas Tarefas.	Création d’un nouveau montage. Suivez la progression dans Tâches.	Neue Bearbeitung wird erstellt. Verfolge den Fortschritt unter Aufträge.
+La instalación falló.	Installation failed.	A instalação falhou.	L’installation a échoué.	Installation fehlgeschlagen.
+Este clip todavía no tiene render.	This clip has not been rendered yet.	Este clipe ainda não foi renderizado.	Ce clip n’a pas encore été rendu.	Dieser Clip wurde noch nicht gerendert.
+No hay hueco para un subtítulo aquí.	No room for a caption here.	Não há espaço para uma legenda aqui.	Pas de place pour un sous-titre ici.	Hier ist kein Platz für einen Untertitel.
+No hay hueco para una nota aquí.	No room for a note here.	Não há espaço para uma nota aqui.	Pas de place pour une note ici.	Hier ist kein Platz für eine Notiz.
+Ya hay un subtítulo en el cursor. Muévete a un hueco.	A caption is already at the playhead. Move to a gap.	Já há uma legenda no cursor. Mova para um espaço vazio.	Un sous-titre se trouve déjà au curseur. Déplacez-vous vers un espace libre.	Am Abspielkopf befindet sich bereits ein Untertitel. Wechsle in eine Lücke.
+Pon el cursor sobre un subtítulo de dos o más palabras.	Place the playhead on a caption with at least two words.	Posicione o cursor em uma legenda com pelo menos duas palavras.	Placez le curseur sur un sous-titre d’au moins deux mots.	Setze den Abspielkopf auf einen Untertitel mit mindestens zwei Wörtern.
+Gancho oculto. Deshaz con Ctrl+Z o dale duración en Texto.	Hook hidden. Undo with Ctrl+Z or set its duration in Text.	Gancho oculto. Desfaça com Ctrl+Z ou defina sua duração em Texto.	Accroche masquée. Annulez avec Ctrl+Z ou réglez sa durée dans Texte.	Aufhänger ausgeblendet. Mit Strg+Z rückgängig machen oder die Dauer unter Text festlegen.
+El texto no cabe en la zona segura. Reduce su contenido o rotación.	The text does not fit the safe area. Reduce its content or rotation.	O texto não cabe na área segura. Reduza o conteúdo ou a rotação.	Le texte ne tient pas dans la zone de sécurité. Réduisez son contenu ou sa rotation.	Der Text passt nicht in den Sicherheitsbereich. Reduziere Inhalt oder Drehung.
+El navegador no puede reproducir este video aquí. Puedes elegir igual por el texto.	The browser cannot play this video here. You can still choose using the transcript.	O navegador não pode reproduzir este vídeo aqui. Você ainda pode escolher pelo texto.	Le navigateur ne peut pas lire cette vidéo ici. Vous pouvez choisir à l’aide du texte.	Der Browser kann dieses Video hier nicht abspielen. Du kannst anhand des Textes auswählen.
+Sin resultados en este proyecto.	No results in this project.	Nenhum resultado neste projeto.	Aucun résultat dans ce projet.	Keine Ergebnisse in diesem Projekt.
+Escribe tu comentario	Write your commentary	Escreva seu comentário	Rédigez votre commentaire	Schreibe deinen Kommentar
+Grosor borde	Outline thickness	Espessura do contorno	Épaisseur du contour	Konturstärke
+Opacidad caja	Box opacity	Opacidade da caixa	Opacité de l’encadré	Deckkraft des Kastens
+Elige de dónde sale. En el editor puedes mover el inicio y el final, y añadir textos, efectos, color y sonido.	Choose the source. In the editor you can adjust the start and end and add text, effects, color and sound.	Escolha a fonte. No editor você pode ajustar o início e o fim e adicionar textos, efeitos, cor e som.	Choisissez la source. Dans l’éditeur, réglez le début et la fin et ajoutez textes, effets, couleurs et sons.	Wähle die Quelle. Im Editor kannst du Anfang und Ende anpassen sowie Text, Effekte, Farbe und Ton hinzufügen.
+Escribe el inicio como min:seg, por ejemplo 12:30.	Enter the start as min:sec, for example 12:30.	Digite o início como min:seg, por exemplo 12:30.	Saisissez le début en min:s, par exemple 12:30.	Gib den Anfang als Min:Sek ein, zum Beispiel 12:30.
+Reacción / cara	Reaction / face	Reação / rosto	Réaction / visage	Reaktion / Gesicht
+Amplía una región de la cara en un recuadro animado. Ajusta la región si la persona se mueve.	Enlarges a face region in an animated inset. Adjust the region if the person moves.	Amplia uma região do rosto em uma janela animada. Ajuste se a pessoa se mover.	Agrandit une zone du visage dans un encadré animé. Ajustez la zone si la personne bouge.	Vergrößert einen Gesichtsbereich in einem animierten Ausschnitt. Passe den Bereich an, wenn sich die Person bewegt.
+Rotulador	Marker	Marcador	Feutre	Filzstift
+Cursiva	Italic	Itálico	Italique	Kursiv
+Tu @canal	Your @channel	Seu @canal	Votre @chaîne	Dein @Kanal
+Aparecer	Appear	Aparecer	Apparaître	Einblenden
+Desvanecer	Fade out	Desvanecer	Disparaître	Ausblenden
+Subir	Slide up	Subir	Glisser vers le haut	Nach oben gleiten
+Bajar	Slide down	Descer	Glisser vers le bas	Nach unten gleiten
+Corte	Cut	Corte	Coupe	Schnitt
+Desde negro	From black	Do preto	Depuis le noir	Aus Schwarz
+Instalado	Installed	Instalado	Installé	Installiert
+Instalada	Installed	Instalada	Installée	Installiert
+Falta	Missing	Ausente	Manquant	Fehlt
+Disponible	Available	Disponível	Disponible	Verfügbar
+Equilibrado	Balanced	Equilibrado	Équilibré	Ausgewogen
+Máxima calidad	Highest quality	Qualidade máxima	Qualité maximale	Höchste Qualität
+Rápido y barato	Fast and economical	Rápido e econômico	Rapide et économique	Schnell und kostengünstig
+Borde	Outline	Contorno	Contour	Kontur
+Opacidad	Opacity	Opacidade	Opacité	Deckkraft
+Giro	Rotation	Rotação	Rotation	Drehung
+Sugerencia:	Suggestion:	Sugestão:	Suggestion :	Vorschlag:
+. Sugerencia:	. Suggestion:	. Sugestão:	. Suggestion :	. Vorschlag:
+y	and	e	et	und
+Recomendado	Recommended	Recomendado	Recommandé	Empfohlen
+Modelo {0}	Model {0}	Modelo {0}	Modèle {0}	Modell {0}
+Modelo de {0}	Model from {0}	Modelo de {0}	Modèle de {0}	Modell von {0}
+Precio de entrada {0}	Input price {0}	Preço de entrada {0}	Tarif d’entrée {0}	Eingabepreis {0}
+Precio de salida {0}	Output price {0}	Preço de saída {0}	Tarif de sortie {0}	Ausgabepreis {0}
+Proyecto actual: {0}	Current project: {0}	Projeto atual: {0}	Projet actuel : {0}	Aktuelles Projekt: {0}
+Kairos Studio · Inicio	Kairos Studio · Home	Kairos Studio · Início	Kairos Studio · Accueil	Kairos Studio · Start
+Copiar título de {0}	Copy title for {0}	Copiar título de {0}	Copier le titre pour {0}	Titel für {0} kopieren
+Copiar descripción de {0}	Copy description for {0}	Copiar descrição de {0}	Copier la description pour {0}	Beschreibung für {0} kopieren
+Copiar hashtags de {0}	Copy hashtags for {0}	Copiar hashtags de {0}	Copier les hashtags pour {0}	Hashtags für {0} kopieren
+Transcripción: Falta	Transcription: missing	Transcrição: ausente	Transcription : manquante	Transkription: fehlt
+Transcripción: Instalada	Transcription: installed	Transcrição: instalada	Transcription : installée	Transkription: installiert
+Descarga unos 150 MB desde GitHub (BtbN y yt-dlp) a {0}.	Downloads about 150 MB from GitHub (BtbN and yt-dlp) to {0}.	Baixa cerca de 150 MB do GitHub (BtbN e yt-dlp) em {0}.	Télécharge environ 150 Mo depuis GitHub (BtbN et yt-dlp) vers {0}.	Lädt etwa 150 MB von GitHub (BtbN und yt-dlp) nach {0} herunter.
+Todos {0}	All {0}	Todos {0}	Tous {0}	Alle {0}
+En cola {0}	Queued {0}	Na fila {0}	En attente {0}	In Warteschlange {0}
+Aprobados {0}	Approved {0}	Aprovados {0}	Approuvés {0}	Freigegeben {0}
+Rechazados {0}	Rejected {0}	Rejeitados {0}	Rejetés {0}	Abgelehnt {0}
+Con error {0}	With errors {0}	Com erro {0}	En erreur {0}	Mit Fehlern {0}
+{0}: {1} · {2} llamadas	{0}: {1} · {2} calls	{0}: {1} · {2} chamadas	{0} : {1} · {2} appels	{0}: {1} · {2} Aufrufe
+{0} · {1} por millón de tokens	{0} · {1} per million tokens	{0} · {1} por milhão de tokens	{0} · {1} par million de jetons	{0} · {1} pro Million Tokens
+{0} de {1} seleccionados	{0} of {1} selected	{0} de {1} selecionados	{0} sur {1} sélectionnés	{0} von {1} ausgewählt
+{0} de {1} seleccionados · {2} ya generados	{0} of {1} selected · {2} already generated	{0} de {1} selecionados · {2} já gerados	{0} sur {1} sélectionnés · {2} déjà générés	{0} von {1} ausgewählt · {2} bereits generiert
+Generar {0} clip	Generate {0} clip	Gerar {0} clipe	Générer {0} clip	{0} Clip generieren
+Generar {0} clips	Generate {0} clips	Gerar {0} clipes	Générer {0} clips	{0} Clips generieren
+Generando {0} clip con {1}	Generating {0} clip with {1}	Gerando {0} clipe com {1}	Génération de {0} clip avec {1}	{0} Clip wird mit {1} generiert
+Generando {0} clips con {1}	Generating {0} clips with {1}	Gerando {0} clipes com {1}	Génération de {0} clips avec {1}	{0} Clips werden mit {1} generiert
+Buscando momentos con {0}…	Finding moments with {0}…	Buscando momentos com {0}…	Recherche de moments avec {0}…	Momente werden mit {0} gesucht…
+Ya generado · {0}	Already generated · {0}	Já gerado · {0}	Déjà généré · {0}	Bereits generiert · {0}
+Idioma hablado detectado:	Detected spoken language:	Idioma falado detectado:	Langue parlée détectée :	Erkannte gesprochene Sprache:
+Idioma hablado:	Spoken language:	Idioma falado:	Langue parlée :	Gesprochene Sprache:
+No se pudo detectar el idioma hablado; elige los de salida.	Could not detect the spoken language; choose output languages.	Não foi possível detectar o idioma falado; escolha os idiomas de saída.	Impossible de détecter la langue parlée ; choisissez les langues de sortie.	Die gesprochene Sprache konnte nicht erkannt werden; wähle die Ausgabesprachen.
+· original	· original	· original	· original	· Original
+original y traducción	original and translation	original e tradução	original et traduction	Original und Übersetzung
+{0} · 1 momentos sugeridos · Los ya generados no se repiten.	{0} · 1 suggested moment · Already generated moments are skipped.	{0} · 1 momento sugerido · Os momentos já gerados não se repetem.	{0} · 1 moment suggéré · Les moments déjà générés sont ignorés.	{0} · 1 vorgeschlagener Moment · Bereits generierte Momente werden übersprungen.
+{0} · {1} momentos sugeridos · Los ya generados no se repiten.	{0} · {1} suggested moments · Already generated moments are skipped.	{0} · {1} momentos sugeridos · Os momentos já gerados não se repetem.	{0} · {1} moments suggérés · Les moments déjà générés sont ignorés.	{0} · {1} vorgeschlagene Momente · Bereits generierte Momente werden übersprungen.
+{0} · {1} momentos sugeridos · Todavía no se ha generado nada.	{0} · {1} suggested moments · Nothing generated yet.	{0} · {1} momentos sugeridos · Ainda não foi gerado nada.	{0} · {1} moments suggérés · Rien n’a encore été généré.	{0} · {1} vorgeschlagene Momente · Noch nichts generiert.
+Se usa para la edición, los subtítulos y los títulos y la revisión de cada clip. {0} ya encontró los momentos.	Used for editing, captions, titles and clip review. {0} already found the moments.	Usado na edição, legendas, títulos e revisão. {0} já encontrou os momentos.	Utilisé pour le montage, les sous-titres, les titres et la vérification. {0} a déjà trouvé les moments.	Für Bearbeitung, Untertitel, Titel und Clipprüfung. {0} hat die Momente bereits gefunden.
+Se usa para la edición, los subtítulos y los títulos. Cada clip queda pendiente de revisión humana. {0} ya encontró los momentos.	Used for editing, captions and titles. Each clip awaits human review. {0} already found the moments.	Usado na edição, legendas e títulos. Cada clipe aguarda revisão humana. {0} já encontrou os momentos.	Utilisé pour le montage, les sous-titres et les titres. Chaque clip attend une vérification humaine. {0} a déjà trouvé les moments.	Für Bearbeitung, Untertitel und Titel. Jeder Clip wartet auf menschliche Prüfung. {0} hat die Momente bereits gefunden.
+Duración: {0} s. También puedes arrastrar los bordes blancos del clip en la línea de tiempo, o usar	Duration: {0} s. You can also drag the white clip edges in the timeline, or use	Duração: {0} s. Você também pode arrastar as bordas brancas na linha do tempo, ou usar	Durée : {0} s. Vous pouvez aussi déplacer les bords blancs dans la chronologie, ou utiliser	Dauer: {0} s. Du kannst auch die weißen Clipkanten in der Zeitleiste ziehen oder Folgendes verwenden
+Entre {0} y {1} segundos.	Between {0} and {1} seconds.	Entre {0} e {1} segundos.	Entre {0} et {1} secondes.	Zwischen {0} und {1} Sekunden.
+Rango no válido: entre {0} y {1} s de la fuente, con {2}–{3} s de duración.	Invalid range: between {0} and {1} s of the source, lasting {2}–{3} s.	Intervalo inválido: entre {0} e {1} s da fonte, com duração de {2}–{3} s.	Plage invalide : entre {0} et {1} s de la source, pour une durée de {2}–{3} s.	Ungültiger Bereich: zwischen {0} und {1} s der Quelle, mit einer Dauer von {2}–{3} s.
+pass	Passed	Aprovado	Réussi	Bestanden
+warn	Warning	Aviso	Avertissement	Warnung
+fail	Failed	Falhou	Échec	Fehlgeschlagen
+resolution	Resolution	Resolução	Résolution	Auflösung
+duration	Duration	Duração	Durée	Dauer
+rights	Rights	Direitos	Droits	Rechte
+loudness	Loudness	Volume	Niveau sonore	Lautheit
+caption_timing	Caption timing	Sincronização das legendas	Synchronisation des sous-titres	Untertitel-Timing
+safe_zone	Safe area	Área segura	Zone de sécurité	Sicherheitsbereich
+spoiler_keywords	Spoiler terms	Termos de spoiler	Termes de spoiler	Spoiler-Begriffe
+value_add	Original commentary	Comentário original	Commentaire original	Eigener Kommentar
+variety	Variety	Variedade	Variété	Vielfalt
+claude_review	AI review	Revisão por IA	Vérification par l’IA	KI-Prüfung
+render_es	Spanish render	Render em espanhol	Rendu en espagnol	Spanisches Rendering
+render_en	English render	Render em inglês	Rendu en anglais	Englisches Rendering
+platform_safe_area	Platform safe area	Área segura das plataformas	Zone de sécurité des plateformes	Plattform-Sicherheitsbereich
+comentario propio presente	Original commentary present	Comentário próprio presente	Commentaire original présent	Eigener Kommentar vorhanden
+gancho distinto a los recientes	Hook differs from recent clips	Gancho diferente dos recentes	Accroche différente des clips récents	Aufhänger unterscheidet sich von neueren Clips
+revisión de Claude no ejecutada (modo offline)	AI review was not run (offline mode)	Revisão da IA não executada (modo offline)	Vérification IA non exécutée (mode hors ligne)	KI-Prüfung nicht ausgeführt (Offline-Modus)
+No ejecutado: modo offline. Spoilers y valor propio sin revisar.	Not run: offline mode. Spoilers and original contribution were not reviewed.	Não executado: modo offline. Spoilers e contribuição original não foram revisados.	Non exécuté : mode hors ligne. Les spoilers et la contribution originale n’ont pas été vérifiés.	Nicht ausgeführt: Offline-Modus. Spoiler und eigener Beitrag wurden nicht geprüft.
+{0} términos comprobados	{0} terms checked	{0} termos verificados	{0} termes vérifiés	{0} Begriffe geprüft
+cues dentro del clip, sin solapes, desfase < 150 ms	Captions within the clip, no overlaps, offset < 150 ms	Legendas dentro do clipe, sem sobreposição, desvio < 150 ms	Sous-titres dans le clip, sans chevauchement, décalage < 150 ms	Untertitel innerhalb des Clips, keine Überlappungen, Versatz < 150 ms
+todo el texto dentro de {0}px y de la zona segura vertical	All text within {0}px and the vertical safe area	Todo o texto dentro de {0}px e da área segura vertical	Tous les textes dans {0}px et la zone de sécurité verticale	Alle Texte innerhalb von {0}px und des vertikalen Sicherheitsbereichs
+{0}: la fuente no tiene audio en este tramo; no se normalizó	{0}: source has no audio in this section; normalization skipped	{0}: a fonte não tem áudio neste trecho; normalização ignorada	{0} : la source n’a pas d’audio dans ce segment ; normalisation ignorée	{0}: Die Quelle hat in diesem Abschnitt keinen Ton; Normalisierung übersprungen
+−14 LUFS es lo habitual en YouTube, TikTok e Instagram. La normalización se aplica en el render, no en la vista en vivo.	−14 LUFS is common on YouTube, TikTok and Instagram. Normalization is applied during rendering, not in the live preview.	−14 LUFS é comum no YouTube, TikTok e Instagram. A normalização é aplicada no render, não na prévia ao vivo.	−14 LUFS est courant sur YouTube, TikTok et Instagram. La normalisation s’applique au rendu, pas à l’aperçu en direct.	−14 LUFS ist auf YouTube, TikTok und Instagram üblich. Die Normalisierung erfolgt beim Rendern, nicht in der Live-Vorschau.
+Contenido propio	Own content	Conteúdo próprio	Contenu personnel	Eigene Inhalte
+Permiso por escrito	Written permission	Permissão por escrito	Autorisation écrite	Schriftliche Genehmigung
+Material de prensa oficial	Official press material	Material de imprensa oficial	Matériel de presse officiel	Offizielles Pressematerial
+Licencia Creative Commons	Creative Commons license	Licença Creative Commons	Licence Creative Commons	Creative-Commons-Lizenz
+Correcto	Passed	Aprovado	Réussi	Bestanden
+Advertencia	Warning	Aviso	Avertissement	Warnung
+Resolución	Resolution	Resolução	Résolution	Auflösung
+Normalización de audio	Audio normalization	Normalização de áudio	Normalisation audio	Audionormalisierung
+Sincronización de subtítulos	Caption timing	Sincronização das legendas	Synchronisation des sous-titres	Untertitel-Timing
+Términos de spoiler	Spoiler terms	Termos de spoiler	Termes de spoiler	Spoiler-Begriffe
+Comentario original	Original commentary	Comentário original	Commentaire original	Eigener Kommentar
+Variedad	Variety	Variedade	Variété	Vielfalt
+Revisión con IA	AI review	Revisão com IA	Vérification par l’IA	KI-Prüfung
+Zona segura de plataformas	Platform safe area	Área segura das plataformas	Zone de sécurité des plateformes	Plattform-Sicherheitsbereich
+de {0}	of {0}	de {0}	de {0}	von {0}
+Error {0}	Error {0}	Erro {0}	Erreur {0}	Fehler {0}
+Error en la página: {0}	Page error: {0}	Erro na página: {0}	Erreur de page : {0}	Seitenfehler: {0}
+No se pudo reproducir: {0}	Could not play: {0}	Não foi possível reproduzir: {0}	Lecture impossible : {0}	Wiedergabe fehlgeschlagen: {0}
+Vista previa ligera · {0}	Lightweight preview · {0}	Prévia leve · {0}	Aperçu léger · {0}	Leichte Vorschau · {0}
+{0} resultados	{0} results	{0} resultados	{0} résultats	{0} Ergebnisse
+Vas a generar {0} clips con {1} (el modelo más caro). ¿Continuar?	You are about to generate {0} clips with {1} (the most expensive model). Continue?	Você vai gerar {0} clipes com {1} (o modelo mais caro). Continuar?	Vous allez générer {0} clips avec {1} (le modèle le plus cher). Continuer ?	Du wirst {0} Clips mit {1} (dem teuersten Modell) generieren. Fortfahren?
+Tokens: {0} entrada · {1} salida	Tokens: {0} input · {1} output	Tokens: {0} entrada · {1} saída	Jetons : {0} entrée · {1} sortie	Tokens: {0} Eingabe · {1} Ausgabe
+{0} subtítulo(s) del tramo añadido están sin traducir (en amarillo). Escribe la traducción.	{0} captions in the added section are untranslated (yellow). Enter their translations.	{0} legendas do trecho adicionado não foram traduzidas (amarelo). Digite as traduções.	{0} sous-titres du segment ajouté ne sont pas traduits (en jaune). Saisissez les traductions.	{0} Untertitel im hinzugefügten Abschnitt sind nicht übersetzt (gelb). Gib die Übersetzungen ein.
+al registrar el video indicaste {0}; se usa el detectado.	You selected {0} when adding the video; the detected language is used.	Você informou {0} ao registrar o vídeo; o idioma detectado será usado.	Vous avez indiqué {0} à l’ajout de la vidéo ; la langue détectée est utilisée.	Beim Hinzufügen hast du {0} angegeben; die erkannte Sprache wird verwendet.
+Mientras tanto, solo puedes generar en modo de prueba.	Until then, you can only generate in test mode.	Enquanto isso, só é possível gerar em modo de teste.	En attendant, vous pouvez uniquement générer en mode test.	Bis dahin kannst du nur im Testmodus generieren.
+Puedes escribir la ruta de la carpeta manualmente.	You can enter the folder path manually.	Você pode digitar o caminho da pasta manualmente.	Vous pouvez saisir le chemin du dossier manuellement.	Du kannst den Ordnerpfad manuell eingeben.
+Elige transcripción rápida o precisa.	Choose fast or accurate transcription.	Escolha transcrição rápida ou precisa.	Choisissez une transcription rapide ou précise.	Wähle schnelle oder genaue Transkription.
+Elige una carpeta con una ruta completa.	Choose a folder with an absolute path.	Escolha uma pasta com caminho completo.	Choisissez un dossier avec un chemin absolu.	Wähle einen Ordner mit einem vollständigen Pfad.
+La carpeta no permite escribir: {0}	Cannot write to this folder: {0}	Não é possível gravar nesta pasta: {0}	Impossible d’écrire dans ce dossier : {0}	In diesen Ordner kann nicht geschrieben werden: {0}
+No hay cambios que renderizar.	There are no changes to render.	Não há alterações para renderizar.	Aucune modification à rendre.	Es gibt keine Änderungen zum Rendern.
+Este clip ya se está renderizando.	This clip is already being rendered.	Este clipe já está sendo renderizado.	Le rendu de ce clip est déjà en cours.	Dieser Clip wird bereits gerendert.
+Este trabajo ya está en ejecución.	This job is already running.	Esta tarefa já está em andamento.	Cette tâche est déjà en cours.	Dieser Auftrag läuft bereits.
+Elige al menos un momento.	Choose at least one moment.	Escolha pelo menos um momento.	Choisissez au moins un moment.	Wähle mindestens einen Moment.
+No existe el proyecto.	Project not found.	Projeto não encontrado.	Projet introuvable.	Projekt nicht gefunden.
+No existe el trabajo.	Job not found.	Tarefa não encontrada.	Tâche introuvable.	Auftrag nicht gefunden.
+No existe el clip.	Clip not found.	Clipe não encontrado.	Clip introuvable.	Clip nicht gefunden.
+No existe este recurso en el proyecto.	Resource not found in this project.	Recurso não encontrado neste projeto.	Ressource introuvable dans ce projet.	Ressource in diesem Projekt nicht gefunden.
+No se encuentra el archivo del recurso.	Resource file not found.	Arquivo do recurso não encontrado.	Fichier de ressource introuvable.	Ressourcendatei nicht gefunden.
+El archivo está vacío.	The file is empty.	O arquivo está vazio.	Le fichier est vide.	Die Datei ist leer.
+Usa una imagen, audio, PDF, TXT, Markdown o JSON.	Use an image, audio, PDF, TXT, Markdown or JSON file.	Use uma imagem, áudio, PDF, TXT, Markdown ou JSON.	Utilisez une image, un son, un PDF, TXT, Markdown ou JSON.	Verwende eine Bild-, Audio-, PDF-, TXT-, Markdown- oder JSON-Datei.
+La descripción admite hasta 600 caracteres.	The description allows up to 600 characters.	A descrição permite até 600 caracteres.	La description accepte jusqu’à 600 caractères.	Die Beschreibung darf bis zu 600 Zeichen enthalten.
+Espera a que terminen los trabajos activos del proyecto para mover el video.	Wait for active project jobs to finish before moving the video.	Aguarde o fim das tarefas ativas antes de mover o vídeo.	Attendez la fin des tâches actives avant de déplacer la vidéo.	Warte vor dem Verschieben auf das Ende der aktiven Projektaufträge.
+Usa un nombre de 1–80 caracteres y una descripción de hasta 600.	Use a name of 1–80 characters and a description of up to 600.	Use um nome de 1–80 caracteres e uma descrição de até 600.	Utilisez un nom de 1 à 80 caractères et une description de 600 maximum.	Verwende einen Namen mit 1–80 Zeichen und eine Beschreibung mit höchstens 600 Zeichen.
+Falta la evidencia de derechos (al menos 8 caracteres).	Rights evidence is required (at least 8 characters).	É necessária evidência de direitos (pelo menos 8 caracteres).	Une preuve de droits est requise (au moins 8 caractères).	Ein Rechtenachweis ist erforderlich (mindestens 8 Zeichen).
+Descargar {0}	Download {0}	Baixar {0}	Télécharger {0}	{0} herunterladen
+Analizar {0}	Analyze {0}	Analisar {0}	Analyser {0}	{0} analysieren
+Procesar {0}	Process {0}	Processar {0}	Traiter {0}	{0} verarbeiten
+Generar {0}	Generate {0}	Gerar {0}	Générer {0}	{0} generieren
+Render manual {0}	Manual render {0}	Render manual {0}	Rendu manuel {0}	Manuelles Rendering {0}
+Edición creativa {0}	Creative edit {0}	Edição criativa {0}	Montage créatif {0}	Kreative Bearbeitung {0}
+Comprobando…	Checking…	Verificando…	Vérification…	Wird geprüft…
+Instalando…	Installing…	Instalando…	Installation…	Wird installiert…
+Listo	Ready	Pronto	Prêt	Bereit
+Whoosh: barrido de aire rápido para el gancho o una transición	Whoosh: quick air sweep, for the hook or a fast transition	Whoosh: passagem rápida de ar para o gancho ou transição	Souffle rapide pour l’accroche ou une transition	Kurzer Luftzug für Aufhänger oder schnelle Übergänge
+Swoosh: barrido breve y brillante para texto en movimiento	Swoosh: short bright sweep, for text sliding in	Swoosh: passagem curta e brilhante para texto em movimento	Balayage court et vif pour l’arrivée du texte	Kurzer, heller Wischeffekt für einfliegenden Text
+Pop: clic suave y breve para una nota de texto	Pop: short soft click, for a text note appearing	Pop: clique curto e suave para uma nota de texto	Petit clic doux pour l’apparition d’une note	Kurzer, weicher Klick für eine eingeblendete Notiz
+Click: pequeño acento para elementos de interfaz	Click: tiny tick, for small UI-like accents	Click: pequeno acento para elementos de interface	Petit clic pour les accents d’interface	Kleiner Klick für Akzente an Oberflächenelementen
+Tick: tic de reloj para cuentas regresivas	Tick: clock tick, for countdowns	Tick: tique de relógio para contagens regressivas	Tic d’horloge pour les comptes à rebours	Uhrenticken für Countdowns
+Ding: campana brillante para un dato, acierto o victoria	Ding: bright bell, for a fact, a win or a correct call	Ding: sino claro para um fato, acerto ou vitória	Cloche claire pour une information, une réussite ou une victoire	Heller Glockenton für Fakten, Treffer oder Siege
+Notify: aviso de dos tonos para una pista o revelación	Notify: two-tone chime, for a tip or a reveal	Notify: aviso de dois tons para uma dica ou revelação	Carillon à deux tons pour un conseil ou une révélation	Zweiton-Signal für Tipps oder Enthüllungen
+Coin: sonido retro de moneda, puntos o botín	Coin: retro pickup, for points, loot or money	Coin: som retrô de moeda, pontos ou itens	Son rétro de collecte pour points, butin ou argent	Retro-Sammelton für Punkte, Beute oder Geld
+Level up: arpegio ascendente para una victoria o mejora	Level up: rising arpeggio, for a win or an upgrade	Level up: arpejo ascendente para vitória ou melhoria	Arpège ascendant pour une victoire ou une amélioration	Aufsteigendes Arpeggio für Siege oder Verbesserungen
+Error: doble zumbido para un fallo o error	Error: double buzz, for a fail or a wrong call	Error: zumbido duplo para uma falha ou erro	Double bourdonnement pour un échec ou une erreur	Doppeltes Summen für Fehlschläge oder Fehler
+Boing: rebote elástico para un momento gracioso	Boing: springy bounce, for a funny moment	Boing: salto elástico para um momento engraçado	Rebond élastique pour un moment drôle	Federnder Sprungton für lustige Momente
+Laser: descarga descendente para un disparo o corte rápido	Laser: falling zap, for a shot or a quick cut	Laser: descarga descendente para um disparo ou corte rápido	Décharge descendante pour un tir ou une coupe rapide	Abfallender Laserton für Schüsse oder schnelle Schnitte
+Glitch: tartamudeo digital para el efecto de distorsión	Glitch: digital stutter, to go with the glitch effect	Glitch: falha digital para acompanhar o efeito	Bégaiement numérique pour accompagner l’effet glitch	Digitales Stottern passend zum Glitch-Effekt
+Shutter: clic de cámara para acompañar un destello	Shutter: camera click, to go with a flash	Shutter: clique de câmera para acompanhar um flash	Clic d’obturateur pour accompagner un flash	Kameraklick passend zu einem Blitz
+Impact: golpe grave para un choque, impacto o zoom rápido	Impact: low thud, for a crash, a hit or a punch-in zoom	Impact: batida grave para choque, impacto ou zoom rápido	Coup sourd pour un choc, un impact ou un zoom brusque	Tiefer Schlag für Zusammenstöße, Treffer oder Stoßzooms
+Bass drop: golpe grave descendente para el remate	Bass drop: deep falling boom, for the payoff	Bass drop: impacto grave descendente para o desfecho	Grondement grave descendant pour la chute	Tiefer, abfallender Basston für den Höhepunkt
+Heartbeat: dos latidos graves para crear tensión	Heartbeat: two low thumps, for tension	Heartbeat: duas batidas graves para criar tensão	Deux battements graves pour créer de la tension	Zwei tiefe Herzschläge für Spannung
+Riser: tono ascendente antes del momento clave	Riser: rising tone, to build tension before the key moment	Riser: tom ascendente antes do momento principal	Son ascendant pour préparer le moment clé	Aufsteigender Ton zur Vorbereitung des Schlüsselmoments
+Suspense: zumbido oscuro para un tramo de tensión	Suspense: dark drone, under a tense stretch	Suspense: som grave e escuro para um trecho tenso	Bourdonnement sombre sous une séquence tendue	Dunkler Dauerton für spannende Abschnitte
+Chill: base lo-fi lenta con bombo suave (80 BPM)	Chill: slow lo-fi bed with a soft kick (80 BPM)	Chill: base lo-fi lenta com bumbo suave (80 BPM)	Chill : base lo-fi lente avec grosse caisse douce (80 BPM)	Chill: Langsame Lo-Fi-Unterlage mit sanfter Bassdrum (80 BPM)
+Energy: base electrónica enérgica (128 BPM)	Energy: driving electronic bed (128 BPM)	Energy: base eletrônica energética (128 BPM)	Energy : base électronique énergique (128 BPM)	Energy: Treibende elektronische Unterlage (128 BPM)
+Ambient: fondo tranquilo sin percusión	Ambient: calm pad without drums	Ambient: fundo calmo sem bateria	Ambient : nappe calme sans batterie	Ambient: Ruhige Fläche ohne Schlagzeug
+Chill · base lo-fi lenta con bombo suave (80 BPM)	Chill · slow lo-fi bed with a soft kick (80 BPM)	Chill · base lo-fi lenta com bumbo suave (80 BPM)	Chill · base lo-fi lente avec grosse caisse douce (80 BPM)	Chill · Langsame Lo-Fi-Unterlage mit sanfter Bassdrum (80 BPM)
+Energy · base electrónica enérgica (128 BPM)	Energy · driving electronic bed (128 BPM)	Energy · base eletrônica energética (128 BPM)	Energy · base électronique énergique (128 BPM)	Energy · Treibende elektronische Unterlage (128 BPM)
+Ambient · fondo tranquilo sin percusión	Ambient · calm pad without drums	Ambient · fundo calmo sem bateria	Ambient · nappe calme sans batterie	Ambient · Ruhige Fläche ohne Schlagzeug
+Record scratch clásico: giro inesperado o interrupción cómica; no usar sobre cada frase.	Classic record scratch: unexpected twist or comic interruption; do not use on every sentence.	Record scratch clássico: virada inesperada ou interrupção cômica; não usar em todas as frases.	Scratch classique : retournement inattendu ou interruption comique ; ne pas utiliser à chaque phrase.	Klassischer Plattenkratzer: überraschende Wendung oder komische Unterbrechung; nicht bei jedem Satz verwenden.
+Ba-dum-tss / rimshot: remate de un chiste real. Primer acento del conjunto de percusión.	Ba-dum-tss / rimshot: punchline of a real joke. First accent of the percussion set.	Ba-dum-tss / rimshot: desfecho de uma piada real. Primeiro acento da percussão.	Ba-dum-tss / rimshot : chute d’une vraie blague. Premier accent de percussion.	Ba-dum-tss / Rimshot: Pointe eines echten Witzes. Erster Akzent des Schlagzeugsets.
+Air horn: celebración o logro exagerado; usar brevemente y a volumen bajo.	Air horn: exaggerated celebration or achievement; use briefly at low volume.	Air horn: celebração ou conquista exagerada; usar brevemente e em volume baixo.	Klaxon : célébration ou réussite exagérée ; utiliser brièvement à faible volume.	Drucklufthorn: übertriebene Feier oder Leistung; kurz und leise verwenden.
+Dónde guardar los videos generados	Where to save generated videos	Onde salvar os vídeos gerados	Où enregistrer les vidéos générées	Speicherort für erstellte Videos
+Preparando FFmpeg y la GPU…	Preparing FFmpeg and GPU…	Preparando FFmpeg e GPU…	Préparation de FFmpeg et du GPU…	FFmpeg und GPU werden vorbereitet…
+No se pudo iniciar Kairos Studio.	Could not start Kairos Studio.	Não foi possível iniciar o Kairos Studio.	Impossible de démarrer Kairos Studio.	Kairos Studio konnte nicht gestartet werden.
+Instala «Microsoft Edge WebView2 Runtime» y vuelve a abrir la app.	Install Microsoft Edge WebView2 Runtime and reopen the app.	Instale o Microsoft Edge WebView2 Runtime e reabra o aplicativo.	Installez Microsoft Edge WebView2 Runtime et rouvrez l’application.	Installiere Microsoft Edge WebView2 Runtime und öffne die App erneut.
+Idioma de interfaz no compatible	Unsupported interface language	Idioma da interface não compatível	Langue d’interface non prise en charge	Nicht unterstützte Oberflächensprache
+Video	Video	Vídeo	Vidéo	Video
+clips	clips	clipes	clips	Clips
+TÍTULO	TITLE	TÍTULO	TITRE	TITEL
+ETIQUETA	LABEL	ETIQUETA	ÉTIQUETTE	BESCHRIFTUNG
+Dato clave	Key fact	Dado importante	Fait clé	Wichtige Information
+Momentazo	Great moment	Grande momento	Moment fort	Starker Moment
+NEÓN	NEON	NEON	NÉON	NEON
+¡BOOM!	BOOM!	BOOM!	BOUM !	BUMM!
+@tucanal	@yourchannel	@seucanal	@votrechaine	@deinkanal
+Clip	Clip	Clipe	Clip	Clip
+Italiano	Italian	Italiano	Italien	Italienisch
+Japonés	Japanese	Japonês	Japonais	Japanisch
+Coreano	Korean	Coreano	Coréen	Koreanisch
+Chino	Chinese	Chinês	Chinois	Chinesisch
+Ya generado	Already generated	Já gerado	Déjà généré	Bereits generiert
+Límites de velocidad de tu cuenta, medidos	Account rate limits, checked	Limites de velocidade da conta, verificados	Limites de débit du compte, vérifiées	Geschwindigkeitslimits deines Kontos, geprüft
+. Pulsa «Probar conexión» para actualizarlos.	. Click Test connection to refresh them.	. Clique em Testar conexão para atualizar.	. Cliquez sur Tester la connexion pour les actualiser.	. Klicke zum Aktualisieren auf Verbindung testen.
+Modelos en tu propio equipo: gratis y privados, pueden usar CPU o GPU según el modelo y el equipo. Desde Docker usa http://host.docker.internal:11434/v1.	Models on your computer: free and private, using CPU or GPU depending on your setup. From Docker use http://host.docker.internal:11434/v1.	Modelos no seu computador: gratuitos e privados, usando CPU ou GPU conforme o modelo e o equipamento. No Docker use http://host.docker.internal:11434/v1.	Modèles sur votre ordinateur : gratuits et privés, sur CPU ou GPU selon la configuration. Depuis Docker, utilisez http://host.docker.internal:11434/v1.	Modelle auf deinem Computer: kostenlos und privat, mit CPU oder GPU je nach Modell und Gerät. Verwende in Docker http://host.docker.internal:11434/v1.
+LM Studio, vLLM o cualquier servidor con la API de OpenAI.	LM Studio, vLLM or any server with the OpenAI API.	LM Studio, vLLM ou qualquer servidor com a API da OpenAI.	LM Studio, vLLM ou tout serveur compatible avec l’API OpenAI.	LM Studio, vLLM oder jeder Server mit OpenAI-API.
+{0} · dedicada	{0} · dedicated GPU	{0} · GPU dedicada	{0} · GPU dédié	{0} · dedizierte GPU
+{0} · integrada	{0} · integrated GPU	{0} · GPU integrada	{0} · GPU intégré	{0} · integrierte GPU
+{0} · dedicada · no disponible	{0} · dedicated GPU · unavailable	{0} · GPU dedicada · indisponível	{0} · GPU dédié · indisponible	{0} · dedizierte GPU · nicht verfügbar
+{0} · integrada · no disponible	{0} · integrated GPU · unavailable	{0} · GPU integrada · indisponível	{0} · GPU intégré · indisponible	{0} · integrierte GPU · nicht verfügbar
+Iniciando…	Starting…	Iniciando…	Démarrage…	Wird gestartet…
+Descargando FFmpeg (compilación con NVENC y libass)…	Downloading FFmpeg (build with NVENC and libass)…	Baixando FFmpeg (compilação com NVENC e libass)…	Téléchargement de FFmpeg (version avec NVENC et libass)…	FFmpeg wird heruntergeladen (Version mit NVENC und libass)…
+Extrayendo…	Extracting…	Extraindo…	Extraction…	Wird entpackt…
+Descargando yt-dlp…	Downloading yt-dlp…	Baixando yt-dlp…	Téléchargement de yt-dlp…	yt-dlp wird heruntergeladen…
+Descargando el modelo multilingüe small cuantizado…	Downloading the quantized small multilingual model…	Baixando o modelo multilíngue small quantizado…	Téléchargement du modèle multilingue small quantifié…	Das quantisierte mehrsprachige Small-Modell wird heruntergeladen…
+Descargando whisper.cpp · {0}…	Downloading whisper.cpp · {0}…	Baixando whisper.cpp · {0}…	Téléchargement de whisper.cpp · {0}…	whisper.cpp wird heruntergeladen · {0}…
+Transcripción instalada ({0}). Ya puedes procesar videos con Claude.	Transcription installed ({0}). You can now process videos with AI.	Transcrição instalada ({0}). Agora você pode processar vídeos com IA.	Transcription installée ({0}). Vous pouvez traiter des vidéos avec l’IA.	Transkription installiert ({0}). Du kannst jetzt Videos mit KI verarbeiten.
+Transcripción lista ({0}).	Transcription ready ({0}).	Transcrição pronta ({0}).	Transcription prête ({0}).	Transkription bereit ({0}).
+El render usará la CPU (libx264).	Rendering will use the CPU (libx264).	A renderização usará a CPU (libx264).	Le rendu utilisera le CPU (libx264).	Das Rendering verwendet die CPU (libx264).
+Proyecto:	Project:	Projeto:	Projet :	Projekt:
+. Elige el video que quieres convertir en shorts. Se usará el proveedor configurado en Ajustes y su consumo se registrará en la app.	. Choose the video to turn into shorts. The configured AI provider will be used and usage will be recorded in the app.	. Escolha o vídeo para converter em shorts. O provedor de IA configurado será usado e o consumo será registrado.	. Choisissez la vidéo à convertir en shorts. Le fournisseur d’IA configuré sera utilisé et la consommation enregistrée.	. Wähle das Video für deine Shorts. Der eingerichtete KI-Anbieter wird verwendet und der Verbrauch aufgezeichnet.
+{0} gastados de {1} · desde	{0} spent of {1} · since	{0} gastos de {1} · desde	{0} dépensés sur {1} · depuis le	{0} von {1} ausgegeben · seit
+Restablecer	Reset	Redefinir	Réinitialiser	Zurücksetzen
+@creador	@creator	@criador	@créateur	@ersteller
+mira esto	look at this	olhe isto	regardez ceci	sieh dir das an
+FIN DEL JUEGO	GAME OVER	FIM DE JOGO	FIN DE PARTIE	SPIEL VORBEI
+Ollama · local	Ollama · local	Ollama · local	Ollama · local	Ollama · lokal
+salida	output	saída	sortie	Ausgabe
+ya encontró los momentos.	has already found the moments.	já encontrou os momentos.	a déjà trouvé les moments.	hat die Momente bereits gefunden.
+% del ancho original. Si desaparecen ventanas o el creador, elige Completo + fondo.	% of the original width. If windows or the creator disappear, choose Full + background.	% da largura original. Se as janelas ou o criador desaparecerem, escolha Completo + fundo.	% de la largeur originale. Si les fenêtres ou le créateur disparaissent, choisissez Entier + fond.	% der ursprünglichen Breite. Wenn Fenster oder der Creator verschwinden, wähle Vollständig + Hintergrund.
+s, el máximo configurado para clips. Se puede renderizar, pero el guard de duración lo marcará.	s, the configured clip limit. Rendering is possible, but the duration check will flag it.	s, o limite configurado para clipes. É possível renderizar, mas a verificação de duração irá sinalizá-lo.	s, la limite configurée pour les clips. Le rendu est possible, mais le contrôle de durée le signalera.	s, die eingestellte Clip-Grenze. Rendern ist möglich, aber die Dauerprüfung wird dies melden.
+s. También puedes arrastrar los bordes blancos del clip en la línea de tiempo, o usar	s. You can also drag the clip’s white edges on the timeline, or use	s. Você também pode arrastar as bordas brancas do clipe na linha do tempo ou usar	s. Vous pouvez aussi faire glisser les bords blancs du clip sur la timeline, ou utiliser	s. Du kannst auch die weißen Clip-Ränder in der Zeitleiste ziehen oder diese Tasten verwenden:
+segundos.	seconds.	segundos.	secondes.	Sekunden.
+subtítulo(s) del tramo añadido están sin traducir (en amarillo). Escribe la traducción.	caption(s) in the added segment are untranslated (yellow). Enter the translation.	legenda(s) do trecho adicionado estão sem tradução (em amarelo). Insira a tradução.	sous-titre(s) du segment ajouté ne sont pas traduits (en jaune). Saisissez la traduction.	Untertitel im hinzugefügten Abschnitt sind nicht übersetzt (gelb). Gib die Übersetzung ein.
+subtítulo(s) sin traducir en los tramos añadidos.	untranslated caption(s) in the added segments.	legenda(s) sem tradução nos trechos adicionados.	sous-titre(s) non traduits dans les segments ajoutés.	nicht übersetzte Untertitel in den hinzugefügten Abschnitten.
+proyecto	project	projeto	projet	Projekt
+. Administra tus conexiones y elige los modelos para cada nivel.	. Manage your connections and choose models for each tier.	. Gerencie suas conexões e escolha os modelos para cada nível.	. Gérez vos connexions et choisissez les modèles pour chaque niveau.	. Verwalte deine Verbindungen und wähle Modelle für jede Stufe.
+días	days	dias	jours	Tage
+· desde	· since	· desde	· depuis	· seit
+/3 niveles	/3 tiers	/3 níveis	/3 niveaux	/3 Stufen
+modelos disponibles en esta conexión	models available on this connection	modelos disponíveis nesta conexão	modèles disponibles sur cette connexion	Modelle für diese Verbindung verfügbar
+trabajos	jobs	trabalhos	tâches	Aufträge
