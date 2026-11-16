@@ -13,7 +13,8 @@ if (@('ffmpeg.exe','ffprobe.exe','yt-dlp.exe')|Where-Object {-not(Test-Path -Lit
 $project = Join-Path $PSScriptRoot 'ClipperStudio\ClipperStudio.csproj'
 $version = ([xml](Get-Content -LiteralPath $project -Raw)).Project.PropertyGroup.Version
 $out = Join-Path $PSScriptRoot ('dist\KairosStudio-' + $version)
-$staging = Join-Path $env:TEMP ('KairosStudio-publish-' + [guid]::NewGuid().ToString('N'))
+# Stage inside dist (ignored by Git): TEMP can be an 8.3 short path on CI runners, which breaks path comparisons.
+$staging = Join-Path $PSScriptRoot ('dist\.publish-' + [guid]::NewGuid().ToString('N'))
 & $dotnet publish (Join-Path $PSScriptRoot 'ClipperStudio\ClipperStudio.csproj') -c Release -r win-x64 --self-contained true `
     -p:PublishSingleFile=false -p:DebugType=None -p:DebugSymbols=false -o $staging
 if ($LASTEXITCODE -ne 0) { throw 'dotnet publish failed.' }
@@ -25,8 +26,10 @@ Copy-Item -LiteralPath (Join-Path $PSScriptRoot 'PORTABLE-README.txt') -Destinat
 Copy-Item -LiteralPath (Join-Path $PSScriptRoot 'licenses') -Destination $staging -Recurse
 & (Join-Path $PSScriptRoot 'sign.ps1') -Directory $staging -CertificateThumbprint $CertificateThumbprint -SigningMetadata $SigningMetadata -SigningDlib $SigningDlib -SignTool $SignTool -RequireSignature:$RequireSignature
 # Never ship private configuration, certificates or user libraries.
-$forbidden=Get-ChildItem -LiteralPath $staging -File -Recurse|Where-Object {($_.Name -like '.env*' -and $_.Name -ne '.env.example') -or $_.Name -in @('settings.ai.json','usage.jsonl','ui-language.json') -or ($_.Name -eq 'library.json' -and $_.FullName -ne (Join-Path $staging 'assets\sfx\library.json')) -or $_.Extension -in @('.pfx','.p12','.key','.pem','.db','.sqlite','.sqlite3')}
-if($forbidden){throw 'Private files detected in the package; publishing stopped.'}
+$forbidden=Get-ChildItem -LiteralPath $staging -File -Recurse|Where-Object {
+    $relative=$_.FullName.Substring($staging.Length+1)
+    ($_.Name -like '.env*' -and $_.Name -ne '.env.example') -or $_.Name -in @('settings.ai.json','usage.jsonl','ui-language.json') -or ($_.Name -eq 'library.json' -and $relative -ne 'assets\sfx\library.json') -or $_.Extension -in @('.pfx','.p12','.key','.pem','.db','.sqlite','.sqlite3')}
+if($forbidden){throw ('Private files detected in the package; publishing stopped: '+(($forbidden|ForEach-Object {$_.FullName.Substring($staging.Length+1)}) -join ', '))}
 $hashes=Get-ChildItem -LiteralPath $staging -File -Recurse|Sort-Object FullName|ForEach-Object {((Get-FileHash -LiteralPath $_.FullName -Algorithm SHA256).Hash.ToLower()+'  '+$_.FullName.Substring($staging.Length+1).Replace('\','/'))}
 $hashes|Set-Content -LiteralPath (Join-Path $staging 'SHA256SUMS.txt') -Encoding ASCII
 # Build outputs must never inherit stale files from an earlier build of the same version.

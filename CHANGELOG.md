@@ -7,23 +7,23 @@ the prompts and the style catalog, and always carry the same version number.
 
 ## [Unreleased]
 
-- New home repository: [Zntoff/kairos-studio](https://github.com/Zntoff/kairos-studio), with a `dev` branch for
-  development and `main` for production.
-- Continuous integration on `dev`, `main` and pull requests: version check, Python tests and desktop tests.
-- Releases only from tags on `main`, with the matching changelog section as release notes.
-- Documentation, comments, CLI text and offline-mode placeholders in English.
-- New README in the Kairos identity, with theme-aware graphics and screenshots of the app built from synthetic
-  footage. The graphics are regenerated from `docs/readme/source.html` with `node docs/readme/render.mjs`.
-
 ## [0.10.0]
 
+First public release, from the project's new home at
+[Zntoff/kairos-studio](https://github.com/Zntoff/kairos-studio).
+
 - Three formats: Docker, a per-user EXE installer and a portable ZIP for Windows x64.
+- Prebuilt Docker image on GitHub Packages: `ghcr.io/zntoff/kairos-studio`.
 - Installer in five languages, with shortcuts, upgrades through a stable AppId, and an uninstaller that keeps
   user data.
 - Isolated portable mode through `portable.flag`, with the library and profile beside the executable.
 - The installer checks for WebView2; prerequisite downloads have their signatures validated.
 - A single release process with synchronized versions, hashes, manifests and blocking of private files.
 - Tag-triggered workflow that builds the three packages, runs the tests and prepares a draft release.
+- `dev` branch for development and `main` for production, with continuous integration on both and on every pull
+  request: version check, Python tests and desktop tests.
+- Documentation, comments, CLI text and offline-mode placeholders in English, and a new README in the Kairos
+  identity.
 
 ## [0.9.1]
 
