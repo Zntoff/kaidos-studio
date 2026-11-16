@@ -20,6 +20,13 @@ for name, pattern, replacement in [
     if count != 1:
         raise ValueError(f"Expected exactly one version in {name}")
     updates.append((path, source))
+readme = ROOT / "README.md"
+text = readme.read_text(encoding="utf-8")
+block = re.search(r"(?s)<!-- downloads:start -->.*?<!-- downloads:end -->", text)
+if not block:
+    raise ValueError("README download links block is missing")
+updated = re.sub(r"(?<=/v)\d+\.\d+\.\d+|(?<=KairosStudio-)\d+\.\d+\.\d+", args.version, block[0])
+updates.append((readme, text[:block.start()] + updated + text[block.end():]))
 for path, source in updates:
     path.write_text(source, encoding="utf-8")
 print(f"Desktop and Docker version set to {args.version}")

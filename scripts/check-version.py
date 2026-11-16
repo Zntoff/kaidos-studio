@@ -52,6 +52,13 @@ def main() -> None:
     if not re.fullmatch(r"\d+\.\d+\.\d+", version):
         raise SystemExit(f"{version} is not a stable semantic version (MAJOR.MINOR.PATCH).")
 
+    readme = (ROOT / "README.md").read_text(encoding="utf-8")
+    block = re.search(r"(?s)<!-- downloads:start -->.*?<!-- downloads:end -->", readme)
+    for suffix in ("Setup-win-x64.exe", "Portable-win-x64.zip", "Docker.zip"):
+        expected = f"https://github.com/Zntoff/kairos-studio/releases/download/v{version}/KairosStudio-{version}-{suffix}"
+        if not block or expected not in block[0]:
+            raise SystemExit("README download links must match the version. Run scripts/set-version.py.")
+
     if args.tag is not None and args.tag != f"v{version}":
         raise SystemExit(f"Tag {args.tag} does not match version {version}; expected v{version}.")
 
