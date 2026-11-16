@@ -147,6 +147,15 @@ the CPU. Your library lives in `%LOCALAPPDATA%\ClipperStudio` and API keys are e
 You need [Docker Desktop](https://www.docker.com/products/docker-desktop/) (Windows, macOS) or Docker Engine
 (Linux). Python, FFmpeg and fonts are included in the image.
 
+**Prebuilt image.** The quickest way: no build needed. Your library is saved in `./kairos-data`.
+
+```bash
+docker run -d --name kairos -p 127.0.0.1:8000:8000 -v "$PWD/kairos-data:/data" ghcr.io/zntoff/kairos-studio:latest
+```
+
+Update with `docker pull ghcr.io/zntoff/kairos-studio:latest`, then remove and start the container again; your data
+stays in `./kairos-data`.
+
 **From a release.** Download **`KairosStudio-<version>-Docker.zip`** from the
 [latest release](https://github.com/Zntoff/kairos-studio/releases/latest), extract it and run the start script
 (`Start-Kairos.ps1` on Windows, `start-kairos.sh` on Linux and macOS), or:
